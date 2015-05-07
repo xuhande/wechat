@@ -1,0 +1,576 @@
+[ 2015-04-13T11:23:25+08:00 ] 116.204.86.237 /Cork/index/corklist.html?code=031c3d0f5e98d0708949aad7e1de1fbD&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_cork` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_cork` WHERE `check` = '2' AND `del` = '0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `w_cork` WHERE `check` = '2' AND `del` = '0' ORDER BY `canid` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '101' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '93' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '94' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '96' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '95' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '97' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '102' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '100' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '98' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '104' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '103' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Page /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: show /www/weixin/App/Cork/Controller/IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0005s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.715240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.715388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2015-04-13T11:24:02+08:00 ] 116.204.86.237 /Cork/index/corklist.html?code=01173b404807a33298d8640295dfafeG&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_cork` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_cork` WHERE `check` = '2' AND `del` = '0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `w_cork` WHERE `check` = '2' AND `del` = '0' ORDER BY `canid` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '101' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '93' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '94' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '96' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '95' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '97' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '102' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '100' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '98' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '104' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '103' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Page /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: show /www/weixin/App/Cork/Controller/IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0005s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.713677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.713866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-04-13T11:27:41+08:00 ] 180.153.201.79 /Cork/index/corklist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_cork` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_cork` WHERE `check` = '2' AND `del` = '0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `w_cork` WHERE `check` = '2' AND `del` = '0' ORDER BY `canid` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '101' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '93' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '94' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '96' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '95' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '97' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '102' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '100' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '98' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '104' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '103' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Page /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: show /www/weixin/App/Cork/Controller/IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0006s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: code /www/weixin/Theme/default/Cork/list.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /www/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 6 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe /www/weixin/Theme/default/Cork/list.php 第 212 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 221 行.
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 223 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.665465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.665624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-04-13T11:30:12+08:00 ] 119.147.146.193 /Cork/index/corklist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_cork` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_cork` WHERE `check` = '2' AND `del` = '0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `w_cork` WHERE `check` = '2' AND `del` = '0' ORDER BY `canid` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '101' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '93' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '94' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '96' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '95' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '97' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '102' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '100' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '98' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '104' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '103' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Page /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: show /www/weixin/App/Cork/Controller/IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0004s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: code /www/weixin/Theme/default/Cork/list.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /www/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 6 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe /www/weixin/Theme/default/Cork/list.php 第 212 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 221 行.
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 223 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.076041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.076194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-04-13T11:41:14+08:00 ] 101.226.66.191 /Cork/index/corklist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_cork` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_cork` WHERE `check` = '2' AND `del` = '0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `w_cork` WHERE `check` = '2' AND `del` = '0' ORDER BY `canid` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '101' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '93' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '94' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '96' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '95' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '97' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '102' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '100' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '98' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '104' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '103' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Page /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: show /www/weixin/App/Cork/Controller/IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: code /www/weixin/Theme/default/Cork/list.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /www/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 6 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe /www/weixin/Theme/default/Cork/list.php 第 212 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 221 行.
+NOTIC: [8] Undefined property: stdClass::$openid /www/weixin/Theme/default/Cork/list.php 第 223 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.666894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.667035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-04-13T17:34:11+08:00 ] 121.15.93.137 /Cork/index/corklist.html?code=04172b23535a5b62b7b3b4b42e4a826E&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_cork` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_cork` WHERE `check` = '2' AND `del` = '0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `w_cork` WHERE `check` = '2' AND `del` = '0' ORDER BY `canid` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '101' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '93' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '94' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '96' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '95' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '97' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '102' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '100' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '98' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '104' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '103' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Page /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: show /www/weixin/App/Cork/Controller/IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0004s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.693416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.693550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2015-04-13T17:34:22+08:00 ] 121.15.93.137 /Cork/index/corklist.html?code=0410dd95bc3a8ee49b056beb104d205E&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_cork` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_cork` WHERE `check` = '2' AND `del` = '0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `w_cork` WHERE `check` = '2' AND `del` = '0' ORDER BY `canid` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '101' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '93' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '94' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '96' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '95' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '97' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '102' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '100' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '98' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '104' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `corkid` = '103' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: Page /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Trying to get property of non-object /www/weixin/App/Cork/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: totalpage /www/weixin/App/Cork/Controller/IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: show /www/weixin/App/Cork/Controller/IndexController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0005s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /www/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.688581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.688747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2015-04-13T17:35:23+08:00 ] 121.15.93.137 /?m=Cork&a=vote&corkid=96&voteopenid=ou9X8tmOeh79WgEt8RBkXPxU5VkM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `voteopenid` = 'ou9X8tmOeh79WgEt8RBkXPxU5VkM' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Home/Controller/RedpackController.class.php 第 11 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Home/Controller/RedpackController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: CA /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 201 行.
+NOTIC: [8] Undefined variable: CA /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 211 行.
+NOTIC: [8] Undefined variable: curl /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 226 行.
+NOTIC: [2] curl_error() expects parameter 1 to be resource, null given /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 226 行.
+SQL: INSERT INTO `w_vote` (`voteopenid`,`corkid`,`created`) VALUES ('ou9X8tmOeh79WgEt8RBkXPxU5VkM','96','1428917723') [ RunTime:0.0213s ]
+NOTIC: [8] Constant ROOT_PATH already defined /www/weixin/App/Cork/Controller/IndexController.class.php 第 116 行.
+NOTIC: [8] Constant DS already defined /www/weixin/App/Cork/Controller/IndexController.class.php 第 117 行.
+NOTIC: [8] Constant APPID already defined /www/weixin/App/Cork/Controller/IndexController.class.php 第 123 行.
+NOTIC: [8] Constant SIGNTYPE already defined /www/weixin/App/Cork/Controller/IndexController.class.php 第 127 行.
+NOTIC: [8] Constant PARTNERKEY already defined /www/weixin/App/Cork/Controller/IndexController.class.php 第 129 行.
+NOTIC: [8] Constant APPSERCERT already defined /www/weixin/App/Cork/Controller/IndexController.class.php 第 132 行.
+NOTIC: [8] Constant MCHID already defined /www/weixin/App/Cork/Controller/IndexController.class.php 第 134 行.
+
+[ 2015-04-13T17:35:33+08:00 ] 121.15.93.137 /?m=Cork&a=vote&corkid=96&voteopenid=ou9X8tmOeh79WgEt8RBkXPxU5VkM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `voteopenid` = 'ou9X8tmOeh79WgEt8RBkXPxU5VkM' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Home/Controller/RedpackController.class.php 第 11 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Home/Controller/RedpackController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: CA /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 201 行.
+NOTIC: [8] Undefined variable: CA /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 211 行.
+NOTIC: [8] Undefined variable: curl /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 226 行.
+NOTIC: [2] curl_error() expects parameter 1 to be resource, null given /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 226 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-04-13T17:35:42+08:00 ] 121.15.93.137 /?m=Cork&a=vote&corkid=96&voteopenid=ou9X8tmOeh79WgEt8RBkXPxU5VkM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2048] Declaration of Cork\Controller\IndexController::success() should be compatible with that of Think\Controller::success() /www/weixin/App/Cork/Controller/IndexController.class.php 第 427 行.
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Cork/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_vote` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_vote` WHERE `voteopenid` = 'ou9X8tmOeh79WgEt8RBkXPxU5VkM' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /www/weixin/App/Home/Controller/RedpackController.class.php 第 11 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /www/weixin/App/Home/Controller/RedpackController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: CA /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 201 行.
+NOTIC: [8] Undefined variable: CA /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 211 行.
+NOTIC: [8] Undefined variable: curl /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 226 行.
+NOTIC: [2] curl_error() expects parameter 1 to be resource, null given /www/weixin/App/Home/Controller/pay/WxHongBaoHelper.php 第 226 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
