@@ -1,0 +1,12 @@
+[ 2015-05-14T04:53:17+08:00 ] 115.239.248.2 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-05-14T11:15:26+08:00 ] 178.19.107.117 /wiki/Special:Search?search=&go=Go
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Wiki
+

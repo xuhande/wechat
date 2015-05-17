@@ -1,0 +1,12 @@
+[ 2015-05-13T01:47:39+08:00 ] 178.19.107.117 /wiki/Special:Search?search=&go=Go
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Wiki
+
+[ 2015-05-13T10:00:17+08:00 ] 178.19.107.117 /wiki/Special:Search?search=&go=Go
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Wiki
+

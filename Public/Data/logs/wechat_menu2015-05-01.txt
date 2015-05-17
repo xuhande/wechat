@@ -1,0 +1,2886 @@
+
+2015-05-01 00:02:38:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tqdYwD-A9DY2v0BfHBW5mYc","CreateTime":"1430409758","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 00:02:38:openid menuss: ou9X8tqdYwD-A9DY2v0BfHBW5mYc
+2015-05-01 00:02:38:R Fha3YMoArqxYHauO8kd-qBF-ghDawT8Fkv3eg1I7zcI7Mzg4Cp3JRBX0nGKCMM_DDfYGay6LQUzFVgisrhJmNqbqpbEl-df1YPqgdWJBym8
+2015-05-01 00:02:38:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 00:02:51:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tqdYwD-A9DY2v0BfHBW5mYc","CreateTime":"1430409771","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 00:02:51:openid menuss: ou9X8tqdYwD-A9DY2v0BfHBW5mYc
+2015-05-01 00:02:51:R Fha3YMoArqxYHauO8kd-qBF-ghDawT8Fkv3eg1I7zcLQeeykMWQSpN9xDEN3UcaSeJEFY4W-wcT6xTNQvq-0ai5R_eK23GSkRxdF4MpNSOc
+2015-05-01 00:02:51:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 00:04:12:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tqdYwD-A9DY2v0BfHBW5mYc","CreateTime":"1430409852","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 00:04:12:openid menuss: ou9X8tqdYwD-A9DY2v0BfHBW5mYc
+2015-05-01 00:04:12:R g6z7SAGNvH-kf1ANL0kg_qwdsyCwlqjdDzzY06ttxkrl4xNTu_KJVjUSLbstBrouyZSpgHTgn8OKeHfAucz_0QeKn4HhklG6mv1y9fFRBhU
+2015-05-01 00:04:12:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 00:09:34:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tlB2sWikjNXXEmlQFtr1S7w","CreateTime":"1430410174","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 00:09:34:openid menuss: ou9X8tlB2sWikjNXXEmlQFtr1S7w
+2015-05-01 00:09:34:R h7h3I7D71Pk19RGQEOdsWi8xab9h0IFFl_BdUexgfNmNLKMAg4doT9vfegsDDR7j4fAE9XiJ7R2dVv0VoycVjXzbEgtdz_R3xCP6WfQvuGI
+2015-05-01 00:09:34:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 00:31:08:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8thAQcsk25NyQP_-SrEtTqW8","CreateTime":"1430411468","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 00:31:08:openid menuss: ou9X8thAQcsk25NyQP_-SrEtTqW8
+2015-05-01 00:31:09:R 5jnT5EUMAcZW2aBFW0msHR2tDKeZpdbkRP8ggFB0vNmi1rTCBJtKdVur8efNgeN8Ebm0aic4u_VuwKMPfJsvUkeSXaWz3UQresM7oh2Nksw
+2015-05-01 00:31:09:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 01:16:10:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tvLAFuv3BXET8HExZ4n6QOc","CreateTime":"1430414170","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 01:16:10:openid menuss: ou9X8tvLAFuv3BXET8HExZ4n6QOc
+2015-05-01 01:16:10:R _iTr4ux_QThniFI-RBsykTdC5WPHdc3ir6QKjeixq-4KVOSgMEyYjOIxLlmDE89Pgf1VHZI4xF7yUec6BLufvNE2mctE_yK44NNjjA5Gr58
+2015-05-01 01:16:10:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 01:19:51:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tqVVuI3T9OJ2RSrB0iQhSCs","CreateTime":"1430414391","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 01:19:51:openid menuss: ou9X8tqVVuI3T9OJ2RSrB0iQhSCs
+2015-05-01 01:19:51:R 2jt0aQrPn9sduhmHL0KIDFd8WsIKQwul_-9nNnFjbM-c0Mc2W4HQenQ9rfMOKg5qRVgiLyKVSd0UoKfxTyQeYIMbBT2sugmqDNYO5NnTprM
+2015-05-01 01:19:51:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 01:56:25:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tlu3EPGFujU4ZdRpwGm6oHw","CreateTime":"1430416585","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 01:56:25:openid menuss: ou9X8tlu3EPGFujU4ZdRpwGm6oHw
+2015-05-01 01:56:25:R tWPXhfs-8S5GKITICEd_cBg02FpLDsMiTJ9NtCcKpSrJnUHouOWrIXnbaIaz0uh8ycPTIPZqyYxL6l1Eq_if7jma6In7-9Y6UmdLjQubzWc
+2015-05-01 01:56:25:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 05:08:07:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl5LrGTLIJ0ZceDjFn-pfkI","CreateTime":"1430428087","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 05:08:07:openid menuss: ou9X8tl5LrGTLIJ0ZceDjFn-pfkI
+2015-05-01 05:08:07:R uBFQOyyUhaGZLQVboJLLyRiury1yAbrD4UKinJbRpMe_JDy-NwsbsrCxti4MW3fLp-7G12sr3UsyE51srQq-ic0hREP4Qs5ANkhxflcuIL0
+2015-05-01 05:08:07:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 06:30:13:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tqSjDq4pOYl3GaakvVUjENk","CreateTime":"1430433013","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 06:30:13:openid menuss: ou9X8tqSjDq4pOYl3GaakvVUjENk
+2015-05-01 06:30:14:R m76Kn-XO5NBr6Y3m6C3s9U0T95NXlTbQbvWc2y0hcWeRLOBCXeAU6otvpn5ZjZDD1ZjGjKiZP-FMeAGt31ZQxLlehDjn6DT8n1YNcxSlsqs
+2015-05-01 06:30:14:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 07:46:31:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tu1-FhuB4XCh0JTpkC1kekM","CreateTime":"1430437591","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 07:46:31:openid menuss: ou9X8tu1-FhuB4XCh0JTpkC1kekM
+2015-05-01 07:46:31:R uBFQOyyUhaGZLQVboJLLya85txG8CBd0MelCMcAU2DuRACmoBnhdOaTC_aIzRTFUvXFUP5yX7A5CHWW8gnxrzNhG5I5qEXf6kx5U48DNim4
+2015-05-01 07:46:31:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 08:06:02:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tu1-FhuB4XCh0JTpkC1kekM","CreateTime":"1430438762","MsgType":"text","Content":"\u7ea2\u5305","MsgId":"6143687701939333388"}
+2015-05-01 08:06:02:openid menuss: ou9X8tu1-FhuB4XCh0JTpkC1kekM
+2015-05-01 08:06:03:R B8OfgqjcV7HxEhwHhuScdK2j3w1PG15vXsxNlw-GWDQI9jjl6D0JfDJmaxAEtfJ0UPUmtIxjXyX_Qy04uu1uz_LXda-vFB-OJY3_MlD1WwY
+2015-05-01 08:06:03:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 08:50:21:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tvTOtbbYcmuzoTghxrr2pro","CreateTime":"1430441421","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 08:50:21:openid menuss: ou9X8tvTOtbbYcmuzoTghxrr2pro
+2015-05-01 08:50:21:R GQP3_Dx2I-v7RxP32aBTAwl5StYGMrPHVsRVB5SAxtPWrptV_MWTIjnj9I1-BiX3GpdpY0eYeWkVid1UMRLpmPDzGTGg2Zb9qlX8ofyL2Jw
+2015-05-01 08:50:21:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 08:55:02:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8trGxTv4-2sqWoKSLSKNCW4U","CreateTime":"1430441701","MsgType":"text","Content":"\u7ea2\u5305","MsgId":"6143700324848226210"}
+2015-05-01 08:55:02:openid menuss: ou9X8trGxTv4-2sqWoKSLSKNCW4U
+2015-05-01 08:55:02:R fH3_Lorrb3ak5l5ppgZTVwCwl98vEFhmTj1wktla7TygmawgIT5K_chVHMkdGpNJ1vJRwf4an7_YEPJw-bZ8o-VViK1-U987oGsO7yZVNik
+2015-05-01 08:55:02:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 08:56:38:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tt-vigC_GVe9pE1-z-tHgRo","CreateTime":"1430441798","MsgType":"text","Content":"\u6bcf\u59299\u70b9","MsgId":"6143700741460054256"}
+2015-05-01 08:56:38:openid menuss: ou9X8tt-vigC_GVe9pE1-z-tHgRo
+2015-05-01 08:56:38:R e3V4VPLIPMsWAmYMcPXxBJHoodzjrNLgMoiAgE75rDqKcixNQCzziTgcrYGiOhgUmS1VSJWDyELRnqwFtnKuTIY3kdV2A0UorjgRimIjSLo
+2015-05-01 08:56:38:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 08:57:25:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8ttPChOZ-2XaLzq__F3fqiZQ","CreateTime":"1430441845","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 08:57:25:openid menuss: ou9X8ttPChOZ-2XaLzq__F3fqiZQ
+2015-05-01 08:57:26:R cLXs4j8UR0CXYfb23uRL6zXaN16ywqa7LVnyzbIhvMrUgJoyX77Plv71pwyjpEMgYttjL5Pos5PXKinvH-JHOmGjCnvX0yzBfN50YjGJGwU
+2015-05-01 08:57:26:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 08:58:00:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tjOOCtOvNaTu_BocqKJ07IM","CreateTime":"1430441880","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 08:58:00:openid menuss: ou9X8tjOOCtOvNaTu_BocqKJ07IM
+2015-05-01 08:58:00:R qaR1od1krat7n405srNNMTnjBS6KltReafsJxOENmB-9D5JU2CUdzBTsgMQxVrrKpjlzEyA8eDlidfPN071EBHHRUq-9LV2sIJxPdycLUFI
+2015-05-01 08:58:00:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 08:58:28:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8ttPChOZ-2XaLzq__F3fqiZQ","CreateTime":"1430441908","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 08:58:28:openid menuss: ou9X8ttPChOZ-2XaLzq__F3fqiZQ
+2015-05-01 08:58:28:R iSENwjIyKxQB6WqpDqoFV2Bxp9o-ukhevqw2fQ2uJRoU4Vi4aUCXPV-p36uebhAxUXWDEcwPWe6by_z7YXwmsqcQUru7WDRIroQvaXk9Rq4
+2015-05-01 08:58:28:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 08:59:24:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsQNuRu06ypCbArXthCh_Ws","CreateTime":"1430441964","MsgType":"text","Content":"\u7ea2\u5305","MsgId":"6143701454424625992"}
+2015-05-01 08:59:24:openid menuss: ou9X8tsQNuRu06ypCbArXthCh_Ws
+2015-05-01 08:59:24:R wsjei-yau_YH3rqWk2NGS8fCLePjo091LIRQlCWLux4GJzGUl9BnhPRtrvGyJIB0ymObut2X8Otj-0nCXFNnVCgedoo1YMrHfIpb4Z6qb5c
+2015-05-01 08:59:24:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:01:53:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tlu3EPGFujU4ZdRpwGm6oHw","CreateTime":"1430442113","MsgType":"text","Content":"\u7ea2\u5305","MsgId":"6143702094374753622"}
+2015-05-01 09:01:53:openid menuss: ou9X8tlu3EPGFujU4ZdRpwGm6oHw
+2015-05-01 09:01:53:R iSENwjIyKxQB6WqpDqoFV8LvlEtB9Is7ZaVhzk4TLniH5qrJmlU60Hb_YRuHKNV6WbF1oOY0qAs0GjPNvzeAgsnybMadehUYiqxkpcHDnYw
+2015-05-01 09:01:53:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:02:38:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tjPkXJuUFb5pAm01aZ4gr30","CreateTime":"1430442158","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 09:02:38:openid menuss: ou9X8tjPkXJuUFb5pAm01aZ4gr30
+2015-05-01 09:02:38:R NgwAIlmvkCQ6xqghAi2UEccwN3B_jnGQZ4WY3aSapxCz_3RyVjhnmNFStuW_2ODJGE1wf2W9mLed3ff92J88n_wazxhfXrRJKMgDiyimYqM
+2015-05-01 09:02:38:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:02:51:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tvyBsnkzSqm9Us442hUbpzs","CreateTime":"1430442170","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 09:02:51:openid menuss: ou9X8tvyBsnkzSqm9Us442hUbpzs
+2015-05-01 09:02:52:R LbpsVfq7ZPSjLfd5BT7Bq5pwhlpPUXjeW9zetPsfqMDli0RNnM8RsZoJ0aD8tSXqadDrDRcbz2besRuHY3-Ig4WRk33g3MSjQ0ImujvW28U
+2015-05-01 09:02:52:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:03:12:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tuVArRstpQm48CGakTrOzc4","CreateTime":"1430442192","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 09:03:12:openid menuss: ou9X8tuVArRstpQm48CGakTrOzc4
+2015-05-01 09:03:12:R uBFQOyyUhaGZLQVboJLLyWBTIQe6T5gbTpWl2Yvi4NWuLxHfa0uppELxUtPSax0Z8Qxmcwf2SxhDIDxZLQtMe8l37PNGEuv_Fy0OPLvDmjA
+2015-05-01 09:03:12:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:07:38:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tlu3EPGFujU4ZdRpwGm6oHw","CreateTime":"1430442457","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 09:07:38:openid menuss: ou9X8tlu3EPGFujU4ZdRpwGm6oHw
+2015-05-01 09:07:38:R eALGZOqVq3gLX0Y0YE8ZdUBQBfU8GTaBS_IQpIRUiicPb6Y0DtTOiNyHyTYJGfNSMLlsKI_3zSw1HWDRUhxP2VyfFYie5VSxewX30CMrLmo
+2015-05-01 09:07:38:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:14:17:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tgVJJfVvZbhQ8-lyVu-SxOc","CreateTime":"1430442857","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 09:14:17:openid menuss: ou9X8tgVJJfVvZbhQ8-lyVu-SxOc
+2015-05-01 09:14:17:R Q3bbA5wMyKENJ_fvoo37TF0m-197NnUpHCdt1FPJHnTlR2vW0ItTggFDlDuzFBt7fLSAB28sfjU7KiniZ4Jv2yxrmzk-cmJZkQQiAWt3pOI
+2015-05-01 09:14:17:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:14:57:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tvhAr392jK0YzZgwM-bLwHE","CreateTime":"1430442897","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 09:14:57:openid menuss: ou9X8tvhAr392jK0YzZgwM-bLwHE
+2015-05-01 09:14:57:R xY6D-9UtmF4zSmpUir-0EPTUdQmMLbYt9ZbytAJprUSWzO3OEdVW4a-hXaEiBCby-awUMDD3r_hTGlix6J4S8EBL-nyDuFkWqskSZH8sQKI
+2015-05-01 09:14:57:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:15:02:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tvhAr392jK0YzZgwM-bLwHE","CreateTime":"1430442902","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 09:15:02:openid menuss: ou9X8tvhAr392jK0YzZgwM-bLwHE
+2015-05-01 09:15:02:R xY6D-9UtmF4zSmpUir-0EPTUdQmMLbYt9ZbytAJprUS5qGJFdPlznSxLlKxDWEiFdkvMi9-jZvvg0rq3jEf2eysXfBBiHm8_Wl0lgCMsoYI
+2015-05-01 09:15:02:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:15:09:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tgVJJfVvZbhQ8-lyVu-SxOc","CreateTime":"1430442909","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 09:15:09:openid menuss: ou9X8tgVJJfVvZbhQ8-lyVu-SxOc
+2015-05-01 09:15:09:R dmQUgzMcARcRThK8MEZsf2ithuIiWN-GqulFm1h6eeXc6CVh5uosvHsPR0yX2bb8GjsGVcbZPl9JKjoEYocXUemxPyKdrztJ6lrA6j4tG4g
+2015-05-01 09:15:09:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:16:10:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tiF3Ghp3cxF5yCWBKpc2Deg","CreateTime":"1430442970","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 09:16:10:openid menuss: ou9X8tiF3Ghp3cxF5yCWBKpc2Deg
+2015-05-01 09:16:10:R -AR8Agqevlg_EjnxrO8nIqB-9yIllsKzL5n5kwyoP2mUzkFLqFxjz1q3l0_FAuM747dIJwMQaEHV1avPSQdX9DN-Xm6BineJHvsxlNGucwA
+2015-05-01 09:16:10:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:25:24:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsfPcvMkI5ZQO3sF7C6Rqfk","CreateTime":"1430443524","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/mp.weixin.qq.com\/bizmall\/mallshelf?id=&t=mall\/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect"}
+2015-05-01 09:25:24:openid menuss: ou9X8tsfPcvMkI5ZQO3sF7C6Rqfk
+2015-05-01 09:25:25:R uBFQOyyUhaGZLQVboJLLyWiJq-xQzOEctezv0tODUD7iP0pEJFfik1iRa4cfmz6HJXG4VJKIcNdKzoNQX1nGo6dKmkdZJ2flSL3Ff0aDgr0
+2015-05-01 09:25:25:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:32:02:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tnU56dnpSHsU609ucw6BCwI","CreateTime":"1430443922","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 09:32:02:openid menuss: ou9X8tnU56dnpSHsU609ucw6BCwI
+2015-05-01 09:32:02:R J7BG-53KCB1fF0g81DNXQQKSIPB-ZEPzOagIPE1iS2ixdPz81qHjvI0DTyS3Bg0UZ_QhaFzZcj8vs9Z341ojPYfg2uNlLCnfLHPxwym5Fkc
+2015-05-01 09:32:02:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 09:43:35:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8ti2QUOUa4Wq2_zxId_Z2HN4","CreateTime":"1430444614","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 09:43:35:openid menuss: ou9X8ti2QUOUa4Wq2_zxId_Z2HN4
+2015-05-01 09:43:35:R tWPXhfs-8S5GKITICEd_cJHkP0fixA1rj7tZwtuK_ywWTKUUFLmEkhUmQ9oErX_xSyxEGm-J30xCzGTxJQ0l3x8OjadO3MZtwIuoj0nKmRw
+2015-05-01 09:43:35:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 10:10:51:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8ttNY1SEZVkAY3SVIrN4lRv8","CreateTime":"1430446251","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 10:10:51:openid menuss: ou9X8ttNY1SEZVkAY3SVIrN4lRv8
+2015-05-01 10:10:51:R LxQ2Ptz1giSY_FszOrZ_hbmgEsffI3hhVDVe6PSXQaoLuK7fr-hDmTzv7Dt-UG-6X_tSEhqluFsZyK0qJhTpmPNUnCdl4wuvC8UrYumoTak
+2015-05-01 10:10:51:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 10:14:46:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tnDLUqbRPeXatq4yy-3akfo","CreateTime":"1430446486","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 10:14:46:openid menuss: ou9X8tnDLUqbRPeXatq4yy-3akfo
+2015-05-01 10:14:46:R e_cSmXIwAgxQoKgvIGNsz7YyuqOy5Ymha8Zp50v-SQGItiTQCONHnZPAMb1OwBlYJ6UUckkRQCz_OajRolnbUEKhxBqJG7ArKWFSkYDbFWU
+2015-05-01 10:14:46:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 13:08:04:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsJwtQPxW0IF-0kZ2caBM0I","CreateTime":"1430456884","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 13:08:04:openid menuss: ou9X8tsJwtQPxW0IF-0kZ2caBM0I
+2015-05-01 13:08:04:R gYzJBkBKrTS48gZkKxrQkepmTIyw--bs9EYnFImVmE_rs10sGOivZdaznbYydz6Aush76IsEwhhAMfF_IzuVThMlZIhVb0qpOimN4HbtTic
+2015-05-01 13:08:04:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 13:45:45:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tpZydboBXt8TBmESj0TedrE","CreateTime":"1430459145","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-05-01 13:45:45:openid menuss: ou9X8tpZydboBXt8TBmESj0TedrE
+2015-05-01 13:45:46:R y5YDNu1Sbp8WsWrlukDt3aCJU-DW9DCQ_kFutITiZtXxbo-ZKPgKaiVN6DuZJ9FQGhlrKjB0rVl1_UKKaMz05udw-6DVMvVG_c6ITXR6NjI
+2015-05-01 13:45:46:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 16:18:58:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1430468338","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 16:18:58:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-05-01 16:18:58:R 3Pkt_3mu5GiU8aptKaSIewkGhaeeZGJHckNfBJ1r4THP3eVv1zpD9mpIGpSK5bJgk7HU2JGjMTz1dsXun95QVerwO0IvMQWHhQ3ezNFGkE8
+2015-05-01 16:18:58:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 16:38:56:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8thkWvTASxJQez8LOBnwQFxA","CreateTime":"1430469536","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/?s=\/Home\/Oauth2\/index\/type\/index"}
+2015-05-01 16:38:56:openid menuss: ou9X8thkWvTASxJQez8LOBnwQFxA
+2015-05-01 16:38:56:R 3Pkt_3mu5GiU8aptKaSIe-XIC4kMbNp84mjhD2oxdD8dndKog7l3Br9lRJRm8U8ORLGn0RHpVWUjqW50P6okKuIsgZvLAvWfc0_Wf4-DTlE
+2015-05-01 16:38:56:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}
+
+2015-05-01 19:36:51:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1430480211","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/Home\/Suggestion\/index"}
+2015-05-01 19:36:51:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-05-01 19:36:51:R Fha3YMoArqxYHauO8kd-qLpM5NnxreEytzt3E9Kgorn6QIGnRMyD0w883wY7wonKIzqbupXFveo9NLVSTL_ZyXkdsDWWX37kJSz_dNtGigM
+2015-05-01 19:36:51:post menu
+{
+    "button": [  
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": ""
+                }, 
+                {
+                  "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                }, 
+                {
+                         "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                },
+                 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                } 
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                },
+                 {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+        {
+            "name": "活动", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "橡木塞", 
+                    "url": "http://wx.mynow.net/?m=Home&c=Oauth2&a=index&type=corklist"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+
+2015-02-18 11:58:18:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1424231898</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>210760517</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>77</TotalCount>
+<FilterCount>77</FilterCount>
+<SentCount>77</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1424231898</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>210760517</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>77</TotalCount>
+<FilterCount>77</FilterCount>
+<SentCount>77</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml>
+2015-02-18 11:58:18:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1424231898</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>210760517</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>77</TotalCount>
+<FilterCount>77</FilterCount>
+<SentCount>77</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml>
+2015-02-18 11:58:18:OPenid ou9X8trkyERru6wR0VlVtblPI5sk
+2015-02-18 11:58:18:R <xml>
+<ToUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1424231898</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: MASSSENDJOBFINISH]]></Content>
+</xml>
+2015-02-18 12:08:05: 
+2015-02-18 12:08:05: 
+2015-02-18 12:36:18: 
+2015-02-18 12:36:18: 
+2015-02-18 12:53:40: 
+2015-02-18 13:05:34: 
+2015-02-18 13:06:39: 
+2015-02-18 14:04:00: 
+2015-02-18 14:04:00: 
+2015-02-18 14:35:36:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tqMLckhxOQ7FBaawxyc9gBc]]></FromUserName>
+<CreateTime>1424241336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tqMLckhxOQ7FBaawxyc9gBc]]></FromUserName>
+<CreateTime>1424241336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-02-18 14:35:36:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tqMLckhxOQ7FBaawxyc9gBc]]></FromUserName>
+<CreateTime>1424241336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-02-18 14:35:36:OPenid ou9X8tqMLckhxOQ7FBaawxyc9gBc
+2015-02-18 14:35:36:userou9X8tqMLckhxOQ7FBaawxyc9gBc
+2015-02-18 14:35:36:R <xml>
+<ToUserName><![CDATA[ou9X8tqMLckhxOQ7FBaawxyc9gBc]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1424241336</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+1：查看维尼菲尔德酒庄介绍回复“VYNFIELDS”；
+2：查看维尼菲尔德葡萄酒请回复“葡萄酒”；
+3：查看Vynfields品鉴会请回复 :“品鉴会”;
+4：转入人工客服咨询请回复 ：“客服”；]]></Content>
+</xml>
+2015-02-18 18:42:42: 
+2015-02-18 18:42:42: 
