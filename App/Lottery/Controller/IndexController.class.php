@@ -31,38 +31,41 @@ class IndexController extends Controller {
             $lottery = I("param.lottery"); //中奖信息
             $map['openid'] = $openid;
 
-            $count = M('lottery')->where($map)->count(); // 查询满足要求的总记录数 $map表示查询条件
+            $count = 0;//M('lottery')->where($map)->count(); // 查询满足要求的总记录数 $map表示查询条件
             if ($count <= 0) {
                 $coupon = new \Home\Controller\CouponController();
                 $map['nickname'] = $nickname;
                 $map['lotteryinfo'] = $lottery;
                 $map['created'] = time();
-                switch ($lottery) {
-                    case '10元':
-//                        $msg = $coupon->index($openid, "79679"); 
-                        echo "201";
-                        break;
-                    case '50元': 
-                        $msg = $coupon->index($openid, "151109");
-                        break;
-                    case '60元': 
-                        $msg = $coupon->index($openid, "151110");
-                        break;
-                    case '70元': 
-                        $msg = $coupon->index($openid, "156090");
-                        break;
-                    case '80元': 
-                        $msg = $coupon->index($openid, "150877");
-                        break;
-                    case '100': 
-                        $msg = $coupon->index($openid, "150878");
-                        break;
-                    default :
-                        echo "200";
-                        break;
+//                switch ($lottery) {
+//                    case '10元':
+////                        $msg = $coupon->index($openid, "79679"); 
+//                        echo "201";
+//                        break;
+//                    case '50元': 
+//                        $msg = $coupon->index($openid, "151109");
+//                        break;
+//                    case '60元': 
+//                        $msg = $coupon->index($openid, "151110");
+//                        break;
+//                    case '70元': 
+//                        $msg = $coupon->index($openid, "156090");
+//                        break;
+//                    case '80元': 
+//                        $msg = $coupon->index($openid, "150877");
+//                        break;
+//                    case '100': 
+//                        $msg = $coupon->index($openid, "150878");
+//                        break;
+//                    default :
+//                        echo "200";
+//                        break;
+//                }
+//                $d = M('lottery')->data($map)->add();                
+//                echo "200";
+                if($lottery){
+                    echo "202";
                 }
-                $d = M('lottery')->data($map)->add();                
-                echo "200";
             } else {
                 echo "201";
             }

@@ -216,7 +216,10 @@ $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
                 } else if (data == "201") {
                     $('#myModal').modal('show');
                     $(".modal-body").html("您已抽奖，请前往微信卡包查看代金券");
-                } else if (data == '303') {
+                } else if (data == "202") {
+                    $('#myModal').modal('show');
+                    $(".modal-body").html("感谢您的参加，活动已结束了哦！");
+                }else if (data == '303') {
                     $('#myModal').modal('show');
                     $(".modal-body").html("需要关注才能参与哦");
                 }
