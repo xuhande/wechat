@@ -1,0 +1,87 @@
+[ 2015-05-17T11:28:04+08:00 ] 192.168.2.43 /Lottery/index?code=041d848f0c783f84e2a1a5238731b53h&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0006s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.876372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.876502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-05-17T11:28:32+08:00 ] 192.168.2.43 /Lottery/index?code=041d848f0c783f84e2a1a5238731b53h&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [8] Undefined property: stdClass::$openid /web/weixin/Theme/default/Lottery/index.php 第 6 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known /web/weixin/App/Home/Common/Common.class.php 第 53 行.
+NOTIC: [2] file_get_contents(https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=wx9a34fd34e14f1103&amp;secret=c778c49ab795b7ebdb7a4bcd7156730b): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /web/weixin/App/Home/Common/Common.class.php 第 53 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe /web/weixin/Theme/default/Lottery/index.php 第 187 行.
+NOTIC: [8] Undefined property: stdClass::$openid /web/weixin/Theme/default/Lottery/index.php 第 200 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe /web/weixin/Theme/default/Lottery/index.php 第 200 行.
+NOTIC: [8] Undefined property: stdClass::$nickname /web/weixin/Theme/default/Lottery/index.php 第 200 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-25.594835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-25.594942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+

@@ -1,0 +1,1656 @@
+
+2015-03-12 09:27:12:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1426123632","MsgType":"event","Event":"CLICK","EventKey":"Orders"}
+2015-03-12 09:27:12:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-03-12 09:27:12:R g6z7SAGNvH-kf1ANL0kg_pQj9QDUOAUG3BO1deunWIpq5KHuxPja7HZJi_vPBUBBrR0phQql0tyCIxLgj9c9l-OTxFrggQpudGKJIEaqGoM
+2015-03-12 09:27:12:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 09:42:56:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1426124576","MsgType":"event","Event":"CLICK","EventKey":"Orders"}
+2015-03-12 09:42:56:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-03-12 09:42:56:R pG8ZZm5SRrdFQFFA8e9wN7mjaLj49Xzvzp_jxKFQiNjaJrwxFXOZVYaYB1txFFmnshC0OJfCM9IZI8Zd5RANCNS1zHVGiR_RfXxayvdvY4s
+2015-03-12 09:42:56:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 11:21:04:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1426130463","MsgType":"event","Event":"merchant_order","OrderId":"13185648808381777070","OrderStatus":"2","ProductId":"pu9X8tj9hPKq74UqdUgHpcw4WxLU","SkuInfo":{}}
+2015-03-12 11:21:04:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-03-12 11:21:04:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1426130464","MsgType":"event","Event":"TEMPLATESENDJOBFINISH","MsgID":"212206784","Status":"success"}
+2015-03-12 11:21:04:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-03-12 11:21:04:R tXcBDFBSTSH9-IohIbH79Fs04JjsdFv0AbeVhP0NydYWRaOGRrNIU8kXuo04fnzswqKZXnVfaw7Q7Wrd250SBed8UGAIAK8ToTbAf1Q_XUk
+2015-03-12 11:21:04:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 11:21:04:R tXcBDFBSTSH9-IohIbH79Fs04JjsdFv0AbeVhP0NydbGCiIQk7tygjcyS7IG7gazoFv7zJ9Jl8MMhbvUKUTG6t-OTkg4lu6B5sxijpKaWRo
+2015-03-12 11:21:04:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 11:26:15:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tu0XbdM4eg_x4T_fBKCFqB4","CreateTime":"1426130775","MsgType":"event","Event":"CLICK","EventKey":"WINE"}
+2015-03-12 11:26:15:openid menuss: ou9X8tu0XbdM4eg_x4T_fBKCFqB4
+2015-03-12 11:26:15:R QJmBz-my0nBx9lazhS0W_CAidAy0m7Zif8kPdLJY6Lty2BQd1Ua1qkyBMyShkd5qYJ4NEFIYn_VKFUILpM_bq3uOJoZMnrN1fZ9SMjpxuAs
+2015-03-12 11:26:15:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:18:59:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426155538","MsgType":"event","Event":"VIEW","EventKey":"https:\/\/mp.weixin.qq.com\/payfb\/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"}
+2015-03-12 18:18:59:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:18:59:R 6IB1yUhn0uIo56UqgsLqCje7JMA0lT__lyGVzozMMPQR704iEewxErJCXXOIDNg7PRSA5hnrnydc-hgSPG-ekDG1IsuBS-b1WzyAYflbpUw
+2015-03-12 18:18:59:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:19:06:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426155546","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wx.mynow.net\/Home\/Suggestion\/index"}
+2015-03-12 18:19:06:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:19:06:R 6IB1yUhn0uIo56UqgsLqCje7JMA0lT__lyGVzozMMPRtVmkVt2DJklavpLziL6J-JXhDEey6zGFbBzmtR0jSbBMNEMSN7BwrEO69lRThF5s
+2015-03-12 18:19:06:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:19:56:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426155596","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-03-12 18:19:56:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:19:56:R BO02LhhU0yHX_0LlGTSU20m8Ga8t2GANIBdwJkAlixPwDAyshuZMbm3jFdYaYNLjyau1oPIvdmH1AE0t-9KipMY9LcEI9-UQsJSYwcvxupY
+2015-03-12 18:19:56:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:21:44:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426155704","MsgType":"text","Content":"1357","MsgId":"6125292107896099668"}
+2015-03-12 18:21:44:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:21:44:R A-lADazOLvQ6F4igHO_WfOIRxZP3lSysOMqks4U4dsBYW_udIoRazPV3Pxqnb08q5hMPe64vcgqGhoGrXP9KSX-itYT4W-miNYWGnY_ekB8
+2015-03-12 18:21:44:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:25:44:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426155944","MsgType":"text","Content":"1357","MsgId":"6125293138688251107"}
+2015-03-12 18:25:44:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:25:44:R 0sItKC1xbulmB58z7UsWy-rmrO39PrREvd1mOOJX12mFVzoX_8aBEmeN9vqBdB-ZSQfnMzEQCLSHQUsRUNoNbdCbKoap3_hY4_jzF_aY3Tw
+2015-03-12 18:25:44:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:27:04:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156024","MsgType":"text","Content":"1357","MsgId":"6125293482285634942"}
+2015-03-12 18:27:04:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:27:05:R uBFQOyyUhaGZLQVboJLLyRwtztnVqN0nHD4Q9l9im3745asE_ZglUW6AEkeH2pSTSrHZusYC8CD81K0LzMWLcZeDGzblAbRojSUgfvIprM8
+2015-03-12 18:27:05:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:27:51:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156071","MsgType":"text","Content":"https:\/\/open.weixin.qq.com\/connect\/oauth2\/authorize?appid=wx9a34fd34e14f1103&redirect_uri=http:\/\/wx.mynow.net\/Cork\/index\/index&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect","MsgId":"6125293684149097946"}
+2015-03-12 18:27:51:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:27:51:R xGgzPoTt7Ay7adnQHF1kpVzYNAKSbB9HEkGSGjCVYfvylFNGmcc2ciJxMKQ7pNlv8NJ1DIMfaMiZgAS9rcSs4X1V_Lp39JuPDl3fD6Ktk_Q
+2015-03-12 18:27:51:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:29:08:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156148","MsgType":"text","Content":"1357","MsgId":"6125294014861579862"}
+2015-03-12 18:29:08:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:29:08:R _eiaPX-dAyL6JWVfk8aeoA2Ikz1XrstWS5ia-LCR8wDIL0_FhO8iTLP9C4VxtLu8Dyb-m3oyEEdVVzPLLwAF_naxnbGRxXkIkD4Ga7qzfWs
+2015-03-12 18:29:08:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:29:21:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156161","MsgType":"text","Content":"https:\/\/open.weixin.qq.com\/connect\/oauth2\/authorize?appid=wx9a34fd34e14f1103&redirect_uri=http%3A%2F%2Fwx.mynow.net%2FCork%2Findex%2Findex&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect","MsgId":"6125294070696154727"}
+2015-03-12 18:29:21:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:29:21:R _eiaPX-dAyL6JWVfk8aeoA2Ikz1XrstWS5ia-LCR8wDfkqNZ_HX-tQs_RVhsMiSgnyrYoce0CV-t3ixdiAiMxdBY8V3fGAM5I6MzeVtO-MU
+2015-03-12 18:29:21:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:30:30:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156230","MsgType":"text","Content":"1357","MsgId":"6125294367048898281"}
+2015-03-12 18:30:30:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:30:31:R nc5OsZaJtsz7ZHu9DqHgU6lsS91Oql8GB6xol9LPbP4gP58-u4YfyUV9sZzmpMtrX8_YE3UY6NTpCZ2Dq88c1251BOcLYcCUxM4mak9QwRI
+2015-03-12 18:30:31:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:33:52:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156432","MsgType":"text","Content":"https:\/\/open.weixin.qq.com\/connect\/oauth2\/authorize?apx%2Findex&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect","MsgId":"6125295234632292362"}
+2015-03-12 18:33:52:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:33:52:R AYFOLsmGloh7WHPGS72mY80gUezop4a8BGNqk9wD2f0uwVir3N7wP6xh0X-I0AHe6Vat_FQucf43X_7t2D_SkRnJSVjsbbRszGHc6O83vpM
+2015-03-12 18:33:52:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:37:30:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156650","MsgType":"text","Content":"1357","MsgId":"6125296170935163213"}
+2015-03-12 18:37:30:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:37:31:R tD59qMnTq-MvlHylT-sKkivlmYaF8cNraStRXl9ohLZ1bBnFJD8naEvt3g3_xs6auWRRHUmDfIFajYXi2tQJsYdIDSB4xD0k7mAK9irjFYs
+2015-03-12 18:37:31:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:38:24:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156704","MsgType":"text","Content":" 1357","MsgId":"6125296402863397272"}
+2015-03-12 18:38:24:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:38:25:R uYC3Fnxmib-nGET46oB22Uoavd6a1EnwAIBX4_NoCNAakpS0NPE4E60A9rEB_mE9PB1en7PW1yR4pEaQTaHcAGybVKGHqZYDko2DdCcfAjU
+2015-03-12 18:38:25:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:40:34:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426156834","MsgType":"text","Content":"1357","MsgId":"6125296961209145945"}
+2015-03-12 18:40:34:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:40:34:R W3CkpMkTULLp0NeJg-6uD_EWnlQg6PK7fX6fiFgw7bDO_xv0prymTRAgnFoPXBa1YL29WXu_ERmFIT6SOFN8v8wpMyu50fmomWZOd0I_R0k
+2015-03-12 18:40:34:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:44:45:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426157085","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-03-12 18:44:45:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:44:45:R zfUdVHXjSBcYbNrSPt4sC_fTsuRQH7Jyx-844jzzk_ZyrnBwWxcP_viqrntOmpSTYPhv05Aht_FMnuwkzBnerqgArM-ydD4ic8jUT88TDKA
+2015-03-12 18:44:45:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:44:50:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426157090","MsgType":"text","Content":"http:\/\/wx.mynow.net\/Cork\/index\/index.html?code=001d71794eb613b0ee740c40908d9235&state=123","MsgId":"6125298060720774103"}
+2015-03-12 18:44:50:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:44:50:R zfUdVHXjSBcYbNrSPt4sC_fTsuRQH7Jyx-844jzzk_YgrpRUoFztuLu4JMpqkGn1AtOr14x8X0_PoProWogGpl41JBkX-HslQB6l8AE-fXY
+2015-03-12 18:44:50:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 18:44:58:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1426157098","MsgType":"text","Content":"1357","MsgId":"6125298095080512484"}
+2015-03-12 18:44:58:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2015-03-12 18:44:58:R zfUdVHXjSBcYbNrSPt4sC_fTsuRQH7Jyx-844jzzk_ZtyGnMWFpJMzQ1krJUKm0OyX4DSUpSdDq7ZPzNuAHpHS-fc6CPgElaeUh-z82yxjw
+2015-03-12 18:44:58:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 22:37:33:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8ttmmQuBycsbD8bIkFXkHGWw","CreateTime":"1426171053","MsgType":"event","Event":"CLICK","EventKey":"WINE"}
+2015-03-12 22:37:33:openid menuss: ou9X8ttmmQuBycsbD8bIkFXkHGWw
+2015-03-12 22:37:33:R FKv1WFq577l_41O1a3M41ISf-vwv3eCepUJGnbeSrR3hQ42x0CeKdtNAMClfOuNMiQcCnHR1r9LqGw38zAEWH14cfWPUrzCjeDX0mM1PeWY
+2015-03-12 22:37:33:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}
+
+2015-03-12 22:38:50:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8ttmmQuBycsbD8bIkFXkHGWw","CreateTime":"1426171130","MsgType":"event","Event":"CLICK","EventKey":"VINEYARD"}
+2015-03-12 22:38:50:openid menuss: ou9X8ttmmQuBycsbD8bIkFXkHGWw
+2015-03-12 22:38:50:R Kf-mU-u0Pel3E822EB9vfzw8rDMVx2A92xogS0qxxkym6_1-d_zbqxmntmxwS_Fe38Czoad2tR9himmZTMZvsLYhV18nKdSij5Bar9sapDU
+2015-03-12 22:38:50:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}

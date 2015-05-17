@@ -1,0 +1,562 @@
+[ 2015-05-15T05:39:50+08:00 ] 192.168.2.43 /Lottery/index?code=001b80cbe2c1291a1cfa57b80e7f438n&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0006s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.835696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.835793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-05-15T17:36:47+08:00 ] 192.168.2.43 /Lottery/index?code=03130c646034cb9802e2ee616276f56M&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.834343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.834460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-05-15T17:36:52+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/getLottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2015-05-15T17:36:53+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/savelottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_lottery` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_lottery` WHERE `openid` = 'ou9X8ttfLvs8r7hQX-eElK_cBRgc' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] include_once(App/Home/pay/WxCouponHelper.php): failed to open stream: No such file or directory /web/weixin/App/Home/Controller/CouponController.class.php 第 11 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxCouponHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Home/Controller/CouponController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: CA /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 107 行.
+NOTIC: [8] Undefined variable: CA /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 113 行.
+NOTIC: [8] Undefined variable: curl /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 128 行.
+NOTIC: [2] curl_error() expects parameter 1 to be resource, null given /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 128 行.
+SQL: INSERT INTO `w_lottery` (`openid`,`nickname`,`lotteryinfo`,`created`) VALUES ('ou9X8ttfLvs8r7hQX-eElK_cBRgc','玉色无瑕今妆点','50元','1431682612') [ RunTime:0.1273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2015-05-15T17:54:33+08:00 ] 192.168.2.43 /Lottery/index?code=041969dbb2a6e22f2c2e7cb5584a25cO&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.044832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.044937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-05-15T17:54:34+08:00 ] 192.168.2.43 /Lottery/index?code=021859ff2f21f79515c12187d0c9a9ai&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.023886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.023983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-05-15T17:54:36+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/getLottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-05-15T17:54:39+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/savelottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_lottery` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_lottery` WHERE `openid` = 'ou9X8toD6WDW_JY5GVQMH4W-FdK8' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] include_once(App/Home/pay/WxCouponHelper.php): failed to open stream: No such file or directory /web/weixin/App/Home/Controller/CouponController.class.php 第 11 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxCouponHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Home/Controller/CouponController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: CA /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 107 行.
+NOTIC: [8] Undefined variable: CA /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 113 行.
+NOTIC: [8] Undefined variable: curl /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 128 行.
+NOTIC: [2] curl_error() expects parameter 1 to be resource, null given /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 128 行.
+SQL: INSERT INTO `w_lottery` (`openid`,`nickname`,`lotteryinfo`,`created`) VALUES ('ou9X8toD6WDW_JY5GVQMH4W-FdK8','追梦在路上','60元','1431683676') [ RunTime:0.0891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-05-15T18:08:06+08:00 ] 192.168.2.43 /Lottery/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: code /web/weixin/Theme/default/Lottery/index.php 第 4 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [8] Undefined property: stdClass::$openid /web/weixin/Theme/default/Lottery/index.php 第 6 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: stdClass::$subscribe /web/weixin/Theme/default/Lottery/index.php 第 187 行.
+NOTIC: [8] Undefined property: stdClass::$openid /web/weixin/Theme/default/Lottery/index.php 第 200 行.
+NOTIC: [8] Undefined property: stdClass::$subscribe /web/weixin/Theme/default/Lottery/index.php 第 200 行.
+NOTIC: [8] Undefined property: stdClass::$nickname /web/weixin/Theme/default/Lottery/index.php 第 200 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.218000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.218099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2015-05-15T18:24:58+08:00 ] 192.168.2.43 /Lottery/index?code=03165aab7cf8a2430fb37df78ad0f4cc&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.240971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.241069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2015-05-15T18:25:01+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/getLottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2015-05-15T18:25:02+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/savelottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_lottery` [ RunTime:0.0915s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_lottery` WHERE `openid` = 'ou9X8tg5ZA6mjTo53bqCD6wBt-O4' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] include_once(App/Home/pay/WxCouponHelper.php): failed to open stream: No such file or directory /web/weixin/App/Home/Controller/CouponController.class.php 第 11 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxCouponHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Home/Controller/CouponController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: CA /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 107 行.
+NOTIC: [8] Undefined variable: CA /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 113 行.
+NOTIC: [8] Undefined variable: curl /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 128 行.
+NOTIC: [2] curl_error() expects parameter 1 to be resource, null given /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 128 行.
+SQL: INSERT INTO `w_lottery` (`openid`,`nickname`,`lotteryinfo`,`created`) VALUES ('ou9X8tg5ZA6mjTo53bqCD6wBt-O4','洪 Mr.','50元','1431685501') [ RunTime:0.0922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-05-15T19:09:34+08:00 ] 192.168.2.43 /Lottery/index?code=041080061e4fa2c83828475113b1c1ak&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.063097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.063198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-05-15T19:09:41+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/getLottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-05-15T19:09:41+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/savelottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_lottery` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_lottery` WHERE `openid` = 'ou9X8tsfPcvMkI5ZQO3sF7C6Rqfk' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-05-15T19:11:26+08:00 ] 192.168.2.43 /Lottery/index?code=0217e5b9a37f0577c0bb4f3a0e72a5eL&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0006s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.269807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.269907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-05-15T19:11:34+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/getLottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-05-15T19:11:36+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/savelottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_lottery` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_lottery` WHERE `openid` = 'ou9X8thSKOphoh07AxDxJN_kbzq8' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] include_once(App/Home/pay/WxCouponHelper.php): failed to open stream: No such file or directory /web/weixin/App/Home/Controller/CouponController.class.php 第 11 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxCouponHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Home/Controller/CouponController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: CA /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 107 行.
+NOTIC: [8] Undefined variable: CA /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 113 行.
+NOTIC: [8] Undefined variable: curl /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 128 行.
+NOTIC: [2] curl_error() expects parameter 1 to be resource, null given /web/weixin/App/Home/Controller/pay/WxCouponHelper.php 第 128 行.
+SQL: INSERT INTO `w_lottery` (`openid`,`nickname`,`lotteryinfo`,`created`) VALUES ('ou9X8thSKOphoh07AxDxJN_kbzq8','衫薄色','60元','1431688295') [ RunTime:0.1096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-05-15T19:11:42+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/getLottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-05-15T19:11:42+08:00 ] 192.168.2.43 /index.php?s=/Lottery/index/savelottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_lottery` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_lottery` WHERE `openid` = 'ou9X8thSKOphoh07AxDxJN_kbzq8' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-05-15T20:33:38+08:00 ] 192.168.2.43 /Lottery/index?code=021c621b506b996eea405ffbba06d0dG&state=state
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') /web/weixin/App/Lottery/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0006s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Common/Common.class.php 第 10 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 44 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Common/Common.class.php 第 63 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /web/weixin/App/Home/Controller/Oauth2Controller.class.php 第 51 行.
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.129668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.129792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+

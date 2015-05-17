@@ -1,0 +1,373 @@
+
+2015-03-28 03:07:38: 
+2015-03-28 15:36:46:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528206</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528206</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-03-28 15:36:46:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528206</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-03-28 15:36:46:OPenid ou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:36:46:object->order: 
+
+
+
+
+
+
+2015-03-28 15:36:46:userou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:36:46:R <xml>
+<ToUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427528206</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+请回复以下数字：
+【1】：查看维尼菲尔德酒庄介绍;
+【2】：查看维尼菲尔德葡萄酒;
+【3】：查看微商城;
+【4】：转入人工客服咨询;]]></Content>
+</xml>
+2015-03-28 15:36:49:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528209</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528209</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect]]></EventKey>
+</xml>
+2015-03-28 15:36:49:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528209</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect]]></EventKey>
+</xml>
+2015-03-28 15:36:49:OPenid ou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:36:49:object->order: 
+
+
+
+
+
+
+2015-03-28 15:36:49:R <xml>
+<ToUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427528209</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect]]></Content>
+</xml>
+2015-03-28 15:36:55:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[VINEYARD]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[VINEYARD]]></EventKey>
+</xml>
+2015-03-28 15:36:55:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[VINEYARD]]></EventKey>
+</xml>
+2015-03-28 15:36:55:OPenid ou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:36:55:object->order: 
+
+
+
+
+
+
+2015-03-28 15:36:55:R <xml>
+<ToUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427528215</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<Content><![CDATA[]]></Content>
+<ArticleCount>1</ArticleCount>
+<Articles>
+		    <item>
+        <Title><![CDATA[维尼菲尔德（VYNFIELDS）酒庄]]></Title>
+        <Description><![CDATA[维尼菲尔德酒庄坐落于马尔堡的梯田上,拥有5.3公顷有机葡萄园，园区内古老的碎石土壤表层覆盖着薄薄一层粉砂壤土，具有良好的排水性。气候适宜，降雨少，夏季炎热干燥，秋季夜间凉爽，这为黑皮诺和雷司令的生长创造了理想的条件。]]></Description>
+        <PicUrl><![CDATA[https://mmbiz.qlogo.cn/mmbiz/cNQxibw2z3wRebFKV8CObsmC4lYA9A9KEleUWicF6X4iblEMkovkOxns6bTf8mfVwvqgx64Ll9pcshbCMXTw9Cuzg/0]]></PicUrl>
+        <Url><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=203156234&idx=1&sn=0e564ec19e82cebd4b50873883fcd07d#rd]]></Url>
+    </item>
+</Articles>
+</xml>
+2015-03-28 15:36:58:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528218</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/?s=/Home/Oauth2/index/type/index]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528218</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/?s=/Home/Oauth2/index/type/index]]></EventKey>
+</xml>
+2015-03-28 15:36:58:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528218</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/?s=/Home/Oauth2/index/type/index]]></EventKey>
+</xml>
+2015-03-28 15:36:58:OPenid ou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:36:58:object->order: 
+
+
+
+
+
+
+2015-03-28 15:36:58:R <xml>
+<ToUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427528218</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wx.mynow.net/?s=/Home/Oauth2/index/type/index]]></Content>
+</xml>
+2015-03-28 15:37:14:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528234</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/?s=/Home/Oauth2/index/type/index]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528234</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/?s=/Home/Oauth2/index/type/index]]></EventKey>
+</xml>
+2015-03-28 15:37:14:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528234</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/?s=/Home/Oauth2/index/type/index]]></EventKey>
+</xml>
+2015-03-28 15:37:14:OPenid ou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:37:14:object->order: 
+
+
+
+
+
+
+2015-03-28 15:37:14:R <xml>
+<ToUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427528234</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wx.mynow.net/?s=/Home/Oauth2/index/type/index]]></Content>
+</xml>
+2015-03-28 15:37:18:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528238</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Contact]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528238</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Contact]]></EventKey>
+</xml>
+2015-03-28 15:37:18:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528238</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Contact]]></EventKey>
+</xml>
+2015-03-28 15:37:18:OPenid ou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:37:18:object->order: 
+
+
+
+
+
+
+2015-03-28 15:37:18:R <xml>
+<ToUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427528238</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[欢迎推荐，投诉，合作，咨询。
+邮箱：
+ info@vynfields.cn 
+联系号码：
+400-888-2232
+感谢您对维尼菲尔德【Vynfields】的关注和支持！]]></Content>
+</xml>
+2015-03-28 15:40:57:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528457</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好！公司专业为企业量身定制微信推广方案，现在已给深圳多个品牌深圳银泰百货、东海集团、华侨城、海雅宝安百货、多乐士、深圳野生动物园等 ！如有需求，请与我联系 13043497615]]></Content>
+<MsgId>6131188037138034361</MsgId>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528457</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好！公司专业为企业量身定制微信推广方案，现在已给深圳多个品牌深圳银泰百货、东海集团、华侨城、海雅宝安百货、多乐士、深圳野生动物园等 ！如有需求，请与我联系 13043497615]]></Content>
+<MsgId>6131188037138034361</MsgId>
+</xml>
+2015-03-28 15:40:57:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528457</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你好！公司专业为企业量身定制微信推广方案，现在已给深圳多个品牌深圳银泰百货、东海集团、华侨城、海雅宝安百货、多乐士、深圳野生动物园等 ！如有需求，请与我联系 13043497615]]></Content>
+<MsgId>6131188037138034361</MsgId>
+</xml>
+2015-03-28 15:40:57:OPenid ou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:40:57:R <xml>
+<ToUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427528457</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[]]></Content>
+</xml>
+2015-03-28 15:41:10:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528470</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[微信生意宝 推广合作]]></Title>
+<Description><![CDATA[现已给多个知名品牌银泰百货、东海集团、华侨城旅行社、多乐士等品牌提供微信推广活动方案!详情咨询 胡生：13043497615 微信号\QQ :1062545083]]></Description>
+<Url><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA3ODQ1MTAwOQ==&mid=205220926&idx=1&sn=09facd57f781092e8d5d3071d67bc0e2#rd]]></Url>
+<MsgId>6131188092972609234</MsgId>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528470</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[微信生意宝 推广合作]]></Title>
+<Description><![CDATA[现已给多个知名品牌银泰百货、东海集团、华侨城旅行社、多乐士等品牌提供微信推广活动方案!详情咨询 胡生：13043497615 微信号\QQ :1062545083]]></Description>
+<Url><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA3ODQ1MTAwOQ==&mid=205220926&idx=1&sn=09facd57f781092e8d5d3071d67bc0e2#rd]]></Url>
+<MsgId>6131188092972609234</MsgId>
+</xml>
+2015-03-28 15:41:10:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></FromUserName>
+<CreateTime>1427528470</CreateTime>
+<MsgType><![CDATA[link]]></MsgType>
+<Title><![CDATA[微信生意宝 推广合作]]></Title>
+<Description><![CDATA[现已给多个知名品牌银泰百货、东海集团、华侨城旅行社、多乐士等品牌提供微信推广活动方案!详情咨询 胡生：13043497615 微信号\QQ :1062545083]]></Description>
+<Url><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA3ODQ1MTAwOQ==&mid=205220926&idx=1&sn=09facd57f781092e8d5d3071d67bc0e2#rd]]></Url>
+<MsgId>6131188092972609234</MsgId>
+</xml>
+2015-03-28 15:41:10:OPenid ou9X8tmmC0Wm3XPxE9HGd9v-moB0
+2015-03-28 15:41:10:R <xml>
+<ToUserName><![CDATA[ou9X8tmmC0Wm3XPxE9HGd9v-moB0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427528470</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你发送的是链接，标题为：微信生意宝 推广合作；内容为：现已给多个知名品牌银泰百货、东海集团、华侨城旅行社、多乐士等品牌提供微信推广活动方案!详情咨询 胡生：13043497615 微信号\QQ :1062545083；链接地址为：http://mp.weixin.qq.com/s?__biz=MzA3ODQ1MTAwOQ==&mid=205220926&idx=1&sn=09facd57f781092e8d5d3071d67bc0e2#rd]]></Content>
+</xml>
+2015-03-28 20:32:54:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1427545974</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Orders]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1427545974</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Orders]]></EventKey>
+</xml>
+2015-03-28 20:32:54:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1427545974</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Orders]]></EventKey>
+</xml>
+2015-03-28 20:32:54:OPenid ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-03-28 20:32:54:object->order: 
+
+
+
+
+
+
+2015-03-28 20:32:54:R <xml>
+<ToUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427545974</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<Content><![CDATA[]]></Content>
+<ArticleCount>1</ArticleCount>
+<Articles>
+		    <item>
+        <Title><![CDATA[Vynfields商城订单查询]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[https://mmbiz.qlogo.cn/mmbiz/cNQxibw2z3wQOpSx9cia1ib4DDNEpmWJWUA7d286ENzq81BDOjwtrl6ibibDmhXPKAFD4e2NA0xA9HLeUSshvgZxlGw/0]]></PicUrl>
+        <Url><![CDATA[http://wx.mynow.net/Home/GetByfilter/index/openId/ou9X8tl0p-rfJcmRriSrj2QP144s]]></Url>
+    </item>
+</Articles>
+</xml>
+2015-03-28 20:51:47:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tp2L5mzCHZsVYgYil6WC8B8]]></FromUserName>
+<CreateTime>1427547107</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tp2L5mzCHZsVYgYil6WC8B8]]></FromUserName>
+<CreateTime>1427547107</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect]]></EventKey>
+</xml>
+2015-03-28 20:51:47:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tp2L5mzCHZsVYgYil6WC8B8]]></FromUserName>
+<CreateTime>1427547107</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect]]></EventKey>
+</xml>
+2015-03-28 20:51:47:OPenid ou9X8tp2L5mzCHZsVYgYil6WC8B8
+2015-03-28 20:51:47:object->order: 
+
+
+
+
+
+
+2015-03-28 20:51:47:R <xml>
+<ToUserName><![CDATA[ou9X8tp2L5mzCHZsVYgYil6WC8B8]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1427547107</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1&scene=18#wechat_redirect]]></Content>
+</xml>

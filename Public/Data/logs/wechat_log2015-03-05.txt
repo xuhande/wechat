@@ -1,0 +1,36 @@
+
+2015-03-05 00:19:42:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tuKBrMlDu6jNAQL55NAC9mg]]></FromUserName>
+<CreateTime>1425485982</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tuKBrMlDu6jNAQL55NAC9mg]]></FromUserName>
+<CreateTime>1425485982</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-03-05 00:19:42:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tuKBrMlDu6jNAQL55NAC9mg]]></FromUserName>
+<CreateTime>1425485982</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-03-05 00:19:42:OPenid ou9X8tuKBrMlDu6jNAQL55NAC9mg
+2015-03-05 00:19:42:userou9X8tuKBrMlDu6jNAQL55NAC9mg
+2015-03-05 00:19:42:R <xml>
+<ToUserName><![CDATA[ou9X8tuKBrMlDu6jNAQL55NAC9mg]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1425485982</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+1：查看维尼菲尔德酒庄介绍回复“VYNFIELDS”；
+2：查看维尼菲尔德葡萄酒请回复“葡萄酒”；
+3：查看Vynfields品鉴会请回复 :“品鉴会”;
+4：转入人工客服咨询请回复 ：“客服”；]]></Content>
+</xml>
+2015-03-05 00:19:43: 
+2015-03-05 00:19:43: 

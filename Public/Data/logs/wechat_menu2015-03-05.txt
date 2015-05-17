@@ -1,0 +1,69 @@
+
+2015-03-05 00:19:42:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tuKBrMlDu6jNAQL55NAC9mg","CreateTime":"1425485982","MsgType":"event","Event":"subscribe","EventKey":{}}
+2015-03-05 00:19:42:openid menuss: ou9X8tuKBrMlDu6jNAQL55NAC9mg
+2015-03-05 00:19:42:R eALGZOqVq3gLX0Y0YE8ZdcnGgJ8-XLLLCl903UEJUFnXN5EDSUteInfuyQGYvMqFAG9jF-Ju8IztPbJHJhOdrU87hQJ8kF0C6HbXeDJKzrM
+2015-03-05 00:19:42:post menu
+{
+    "button": [
+        {
+            "name": "酒庄", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "酒窖", 
+                    "key": "jiujiao"
+                }, 
+                      {
+                         "type": "click", 
+                    "name": "订单查询", 
+                    "key": "Orders"
+                     },
+                     {
+                     "type": "view", 
+                     "name": "维权",  
+                     "url": "https://mp.weixin.qq.com/payfb/payfeedbackindex?appid=wx9a34fd34e14f1103#wechat_webview_type=1&wechat_redirect"
+                       }, 
+		 {
+                    "type": "view", 
+                    "name": "快递", 
+                    "url": "http://m.kuaidi100.com/index_all.html"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }
+            ]
+        }, 
+        {
+            "name": "服务", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://wx.mynow.net/Home/Suggestion/index"
+                },  
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "Contact"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+
+2015-03-04 11:33:37:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttmmQuBycsbD8bIkFXkHGWw]]></FromUserName>
+<CreateTime>1425440017</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[WINE]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttmmQuBycsbD8bIkFXkHGWw]]></FromUserName>
+<CreateTime>1425440017</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[WINE]]></EventKey>
+</xml>
+2015-03-04 11:33:37:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttmmQuBycsbD8bIkFXkHGWw]]></FromUserName>
+<CreateTime>1425440017</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[WINE]]></EventKey>
+</xml>
+2015-03-04 11:33:37:OPenid ou9X8ttmmQuBycsbD8bIkFXkHGWw
+2015-03-04 11:33:37:R <xml>
+<ToUserName><![CDATA[ou9X8ttmmQuBycsbD8bIkFXkHGWw]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1425440017</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<Content><![CDATA[]]></Content>
+<ArticleCount>1</ArticleCount>
+<Articles>
+		    <item>
+        <Title><![CDATA[维尼菲尔德（VYNFIELDS）葡萄酒]]></Title>
+        <Description><![CDATA[维尼菲尔德酒庄精心酿造的2003 Pinot Noir及2004 Classic Riesling蜚声国际]]></Description>
+        <PicUrl><![CDATA[https://mmbiz.qlogo.cn/mmbiz/cNQxibw2z3wQIVfMACB4WT2uatjWh1n4iaTvftmicBmQCmvjicXxONShcnM9FtIZ8ugoeayRlcIURXFa4ohl3ByLIw/0]]></PicUrl>
+        <Url><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=203156559&idx=1&sn=99f1c22cb4357bb9811a151af3b44ae6#rd]]></Url>
+    </item>
+</Articles>
+</xml>
+2015-03-04 11:33:55:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttmmQuBycsbD8bIkFXkHGWw]]></FromUserName>
+<CreateTime>1425440035</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://m.kuaidi100.com/index_all.html]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttmmQuBycsbD8bIkFXkHGWw]]></FromUserName>
+<CreateTime>1425440035</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://m.kuaidi100.com/index_all.html]]></EventKey>
+</xml>
+2015-03-04 11:33:55:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttmmQuBycsbD8bIkFXkHGWw]]></FromUserName>
+<CreateTime>1425440035</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://m.kuaidi100.com/index_all.html]]></EventKey>
+</xml>
+2015-03-04 11:33:55:OPenid ou9X8ttmmQuBycsbD8bIkFXkHGWw
+2015-03-04 11:33:55:R <xml>
+<ToUserName><![CDATA[ou9X8ttmmQuBycsbD8bIkFXkHGWw]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1425440035</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://m.kuaidi100.com/index_all.html]]></Content>
+</xml>
+2015-03-04 18:39:33:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1425465573</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>211586327</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>80</TotalCount>
+<FilterCount>80</FilterCount>
+<SentCount>80</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1425465573</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>211586327</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>80</TotalCount>
+<FilterCount>80</FilterCount>
+<SentCount>80</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml>
+2015-03-04 18:39:33:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1425465573</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>211586327</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>80</TotalCount>
+<FilterCount>80</FilterCount>
+<SentCount>80</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml>
+2015-03-04 18:39:33:OPenid ou9X8trkyERru6wR0VlVtblPI5sk
+2015-03-04 18:39:33:R <xml>
+<ToUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1425465573</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: MASSSENDJOBFINISH]]></Content>
+</xml>
+2015-03-04 23:21:43:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482503</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Orders]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482503</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Orders]]></EventKey>
+</xml>
+2015-03-04 23:21:43:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482503</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[Orders]]></EventKey>
+</xml>
+2015-03-04 23:21:43:OPenid ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-03-04 23:21:43:R <xml>
+<ToUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1425482503</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<Content><![CDATA[]]></Content>
+<ArticleCount>1</ArticleCount>
+<Articles>
+		    <item>
+        <Title><![CDATA[Vynfields商城订单查询]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[https://mmbiz.qlogo.cn/mmbiz/cNQxibw2z3wQOpSx9cia1ib4DDNEpmWJWUA7d286ENzq81BDOjwtrl6ibibDmhXPKAFD4e2NA0xA9HLeUSshvgZxlGw/0]]></PicUrl>
+        <Url><![CDATA[http://wx.mynow.net/Home/GetByfilter/index/openId/ou9X8tl0p-rfJcmRriSrj2QP144s]]></Url>
+    </item>
+</Articles>
+</xml>
+2015-03-04 23:24:49:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482689</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[jiujiao]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482689</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[jiujiao]]></EventKey>
+</xml>
+2015-03-04 23:24:49:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482689</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[jiujiao]]></EventKey>
+</xml>
+2015-03-04 23:24:49:OPenid ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-03-04 23:24:49:R <xml>
+<ToUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1425482689</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[]]></Content>
+</xml>
+2015-03-04 23:24:57:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482697</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/Home/Suggestion/index]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482697</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/Home/Suggestion/index]]></EventKey>
+</xml>
+2015-03-04 23:24:57:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></FromUserName>
+<CreateTime>1425482697</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.mynow.net/Home/Suggestion/index]]></EventKey>
+</xml>
+2015-03-04 23:24:57:OPenid ou9X8tl0p-rfJcmRriSrj2QP144s
+2015-03-04 23:24:57:R <xml>
+<ToUserName><![CDATA[ou9X8tl0p-rfJcmRriSrj2QP144s]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1425482697</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wx.mynow.net/Home/Suggestion/index]]></Content>
+</xml>
