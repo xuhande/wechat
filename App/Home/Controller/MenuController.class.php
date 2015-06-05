@@ -89,7 +89,7 @@ class MenuController {
                 }, 
                 {
                     "type": "click", 
-                    "name": "联系我们", 
+                    "name": "合作洽谈", 
                     "key": "Contact"
                 }
             ]

@@ -135,7 +135,7 @@ class WechatController {
                 }
                 break;
             case "merchant_order" :
-                $arr = array('ou9X8tl0p-rfJcmRriSrj2QP144s', 'ou9X8tmgcfDo8PRv_kOQlaXsTE1U', 'ou9X8tsAIKJfcy86ynM9tXUKorbg', 'ou9X8tvqWzg16EhbYeBDJGyYLPU0', 'ou9X8tsB-9LyL1grx7-M1nR5YR5A','ou9X8trvxCTbI8_vNImSPaUOi3C4','ou9X8tu0XbdM4eg_x4T_fBKCFqB4', 'ou9X8tt6rj9WwwlR_OLpXFLH9F4M', 'ou9X8thCGmOBe6GTJBU3IbzKRWJs');
+                $arr = array('ou9X8tl0p-rfJcmRriSrj2QP144s', 'ou9X8tmgcfDo8PRv_kOQlaXsTE1U', 'ou9X8tsAIKJfcy86ynM9tXUKorbg', 'ou9X8tvqWzg16EhbYeBDJGyYLPU0', 'ou9X8tsB-9LyL1grx7-M1nR5YR5A', 'ou9X8trvxCTbI8_vNImSPaUOi3C4', 'ou9X8tu0XbdM4eg_x4T_fBKCFqB4', 'ou9X8tt6rj9WwwlR_OLpXFLH9F4M', 'ou9X8thCGmOBe6GTJBU3IbzKRWJs');
                 $this->setrep();
                 $url = "http://weixin.vynfields.cn/Home/GetByfilter/index/openId/$object->FromUserName";
                 $jsonData = $this->orderData($_SESSION['token'], $object->OrderId);
@@ -186,7 +186,10 @@ class WechatController {
                         $this->logger("object->contents: " . $_SESSION['token']);
                         break;
                     case "Contact":
-                        $content = "欢迎推荐，投诉，合作，咨询。\n邮箱：\n info@vynfields.cn \n联系号码：\n400-888-2232\n感谢您对维尼菲尔德【Vynfields】的关注和支持！";
+                        $content = "维尼菲尔德葡萄酒代理请点击：http://m.9928.tv/vip8_yzrc/\n
+热线：400-888-2232\n
+邮箱：info@vynfields.cn\n
+维尼菲尔德期待与您的合作！ ";
                         break;
                     case "Orders":
                         $content = array();
@@ -288,22 +291,24 @@ class WechatController {
                         $content[] = array("Title" => "维尼菲尔德（VYNFIELDS）葡萄酒购买教程", "Description" => "号外号外！今日起，维尼菲尔德微商城完美上线啦！小伙伴们久等了，赶紧猛戳原文看看具体详情吧！", "PicUrl" => "https://mmbiz.qlogo.cn/mmbiz/cNQxibw2z3wS9FhdeFEOsHf3h2QzO719pSzgJtCDhuHwFWKOBKrlonwwEoicreFeBkbVlWEcfR8PTCykJ6zjpGQg/0", "Url" => "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd");
                     }
                 }
+            } else if (strstr($keyword, "5") || strstr($keyword, "招商") || strstr($keyword, "加盟") || strstr($keyword, "合作")) {
+                $content = "维尼菲尔德葡萄酒代理请点击：\n "
+                        . "http://m.9928.tv/vip8_yzrc/";
             } else if (strstr($keyword, "1357")) {
-                 $oauth = new Oauth2Controller();
+                $oauth = new Oauth2Controller();
                 $content = $oauth->getCode(urlencode("http://weixin.vynfields.cn/Lottery/index/index.html"));
             } else if (strstr($keyword, "2468")) {
                 $oauth = new Oauth2Controller();
 
                 $content = $oauth->getCode(urlencode("http://weixin.vynfields.cn/Lottery/index/index.html"));
-            }  else if (strstr($keyword, "投票")) {
+            } else if (strstr($keyword, "投票")) {
                 $oauth = new Oauth2Controller();
 
-                $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～";//.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
-            }
-             else if (strstr($keyword, "红包")) {
+                $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～"; //.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
+            } else if (strstr($keyword, "红包")) {
                 $oauth = new Oauth2Controller();
 
-                $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～";//.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
+                $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～"; //.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
             } else if (strstr($keyword, "789")) {
                 $red = new RedpackController();
                 $red->index($openid, '79679');
@@ -538,6 +543,7 @@ class WechatController {
 //        $content .= "【3】：查看Vynfields品鉴会;\n";
         $content .= "【3】：查看微商城;\n";
         $content .= "【4】：转入人工客服咨询;";
+        $content .= "【5】：代理合作咨询;";
         return $content;
     }
 
