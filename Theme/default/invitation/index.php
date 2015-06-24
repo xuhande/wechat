@@ -91,7 +91,7 @@
             opacity:1;
             filter: alpha(opacity=1);
         }
-        .player-button{position:fixed;z-index:10000;display:block;top:10px;left:10px;width:30px;height:30px;background:url(<?php echo v_theme_url() ?>/img/invitation/player-button.png) -30px 0;background-size:60px 30px;cursor:pointer;/*background-position: center;*/background-repeat: no-repeat;}
+        .player-button{position:fixed;z-index:10000;display:block;top:10px;left:10px;width:90px;height:90px;background:url(<?php echo v_theme_url() ?>/img/invitation/player-button.png) -30px 0;background-size:100% 100%;cursor:pointer;/*background-position: center;*/background-repeat: no-repeat;}
         .player-button-stop{background:url(<?php echo v_theme_url() ?>/img/invitation/player-button.png) 0 0;background-size:60px 30px;}
         .player-tip{position:absolute;top:5px;left:-140px;width:120px;background:rgba(59,89,114,.6);border-radius:4px 0 0 4px;font-size:10px;color:#ccc;line-height:20px;text-align:center}
         .player-tip:after{content:"";position:absolute;right:-32px;width:0;height:0;border-left:16px solid rgba(59,89,114,.6);border-top:10px solid transparent;border-right:16px solid transparent;border-bottom:10px solid transparent;}
@@ -104,7 +104,7 @@
             -ms-animation-duration:5s;
             -ms-animation-iteration-count:100000;
             -ms-animation-timing-function:linear;
-            -moz-animation-name: rotate;
+            -moz-animation-name: rotate;    
             -moz-animation-duration:5s;
             -moz-animation-iteration-count:100000;
             -moz-animation-timing-function:linear;
@@ -134,13 +134,13 @@
                     <img src="<?php echo v_theme_url() ?>/img/invitation/yao1.jpg" height="100%" width="100%"/>
                 </div>
                 <div>
+                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao4.jpg" height="100%" width="100%"/>
+                </div>
+                <div>
                     <img src="<?php echo v_theme_url() ?>/img/invitation/yao2.jpg"  height="100%" width="100%"/>
                 </div>
                 <div >
                     <img src="<?php echo v_theme_url() ?>/img/invitation/yao3.jpg"  height="100%" width="100%"/>
-                </div>
-                <div>
-                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao4.jpg" height="100%" width="100%"/>
                 </div>
                 <div>
                     <img src="<?php echo v_theme_url() ?>/img/invitation/yao5.jpg" height="100%" width="100%"/>
