@@ -1,10 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <title>“纯净之酩”品酒会</title>   
         <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-        <meta name="keywords" content="JS代码,图片特效,JS广告代码,JS特效代码" />
-        <meta name="description" content="此代码内容为iSlider手机平台JS滑动组件，属于站长常用代码，更多图片特效代码请访问懒人图库JS代码频道。" />
-        <title>iSlider手机平台JS滑动组件_懒人图库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+        <meta name="format-detection"content="telephone=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="stylesheet" href="<?php echo v_theme_url() ?>/js/invitation/lrtk.css" />
         <script src="<?php echo v_theme_url() ?>/js/invitation/jquery-1.10.1.min.js"></script>
         <script>
