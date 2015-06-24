@@ -300,7 +300,8 @@ class WechatController {
             } else if (strstr($keyword, "2468")) {
                 $oauth = new Oauth2Controller();
 
-                $content = $oauth->getCode(urlencode("http://weixin.vynfields.cn/Home/Invitation/index"));
+                $content ="http://weixin.vynfields.cn/Home/Invitation/index";
+//                $content = $oauth->getCode(urlencode("http://weixin.vynfields.cn/Home/Invitation/index"));
             } else if (strstr($keyword, "投票")) {
                 $oauth = new Oauth2Controller();
 
