@@ -30,9 +30,9 @@
 
 
 
-        <script src="<?php echo v_theme_url()?>/js/invitation/jquery-1.10.1.min.js"></script>
-        <script src="<?php echo v_theme_url()?>/js/invitation/jquery.eraser.js"></script>
-        <script src="<?php echo v_theme_url()?>/js/invitation/turn.js"></script>
+        <script src="<?php echo v_theme_url() ?>/js/invitation/jquery-1.10.1.min.js"></script>
+        <script src="<?php echo v_theme_url() ?>/js/invitation/jquery.eraser.js"></script>
+        <script src="<?php echo v_theme_url() ?>/js/invitation/turn.js"></script>
     </head>
     <style>
         *{
@@ -91,41 +91,64 @@
             opacity:1;
             filter: alpha(opacity=1);
         }
-        .player-button{position:fixed;z-index:10000;display:block;top:10px;left:10px;width:30px;height:30px;background:url(<?php echo v_theme_url()?>/img/invitation/player-button.png) -30px 0;background-size:60px 30px;cursor:pointer;/*background-position: center;*/background-repeat: no-repeat;}
-        .player-button-stop{background-position:0 0}
+        .player-button{position:fixed;z-index:10000;display:block;top:10px;left:10px;width:30px;height:30px;background:url(<?php echo v_theme_url() ?>/img/invitation/player-button.png) -30px 0;background-size:60px 30px;cursor:pointer;/*background-position: center;*/background-repeat: no-repeat;}
+        .player-button-stop{background:url(<?php echo v_theme_url() ?>/img/invitation/player-button.png) 0 0;background-size:60px 30px;}
         .player-tip{position:absolute;top:5px;left:-140px;width:120px;background:rgba(59,89,114,.6);border-radius:4px 0 0 4px;font-size:10px;color:#ccc;line-height:20px;text-align:center}
         .player-tip:after{content:"";position:absolute;right:-32px;width:0;height:0;border-left:16px solid rgba(59,89,114,.6);border-top:10px solid transparent;border-right:16px solid transparent;border-bottom:10px solid transparent;}
-
+        .player-rotate { 
+            -webkit-animation-name: rotate;
+            -webkit-animation-duration:5s;
+            -webkit-animation-iteration-count:100000;
+            -webkit-animation-timing-function:linear;
+            -ms-animation-name: rotate;
+            -ms-animation-duration:5s;
+            -ms-animation-iteration-count:100000;
+            -ms-animation-timing-function:linear;
+            -moz-animation-name: rotate;
+            -moz-animation-duration:5s;
+            -moz-animation-iteration-count:100000;
+            -moz-animation-timing-function:linear;
+        }
+        @-webkit-keyframes rotate {
+            from {-webkit-transform: rotate(0deg);}
+            to {-webkit-transform: rotate(360deg);}
+        } 
+        @-ms-keyframes rotate {
+            from {-ms-transform: rotate(0deg);}
+            to {-ms-transform: rotate(360deg);}
+        }
+        @-moz-keyframes rotate {
+            from {-moz-transform: rotate(0deg);}
+            to {-moz-transform: rotate(360deg);}
+        }
     </style>
-    <body>
+    <body> 
         <section  style="position:relative;overflow: visible;width:100%;height:100%;">
             <div class="eraser" id="ers"> 
-                <img id="robot"src="<?php echo v_theme_url()?>/img/invitation/yao1.jpg"  /> 
-                <img id="redux" src="<?php echo v_theme_url()?>/img/invitation/yao1_.jpg" /> 
+                <img id="robot"src="<?php echo v_theme_url() ?>/img/invitation/yao1.jpg"  /> 
+                <img id="redux" src="<?php echo v_theme_url() ?>/img/invitation/yao1_.jpg" /> 
             </div>
             <div class="flipbook" > 
 
                 <div>
-                    <img src="<?php echo v_theme_url()?>/img/invitation/yao1.jpg" height="100%" width="100%"/>
+                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao1.jpg" height="100%" width="100%"/>
                 </div>
                 <div>
-                    <img src="<?php echo v_theme_url()?>/img/invitation/yao2.jpg"  height="100%" width="100%"/>
+                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao2.jpg"  height="100%" width="100%"/>
                 </div>
                 <div >
-                    <img src="<?php echo v_theme_url()?>/img/invitation/yao3.jpg"  height="100%" width="100%"/>
+                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao3.jpg"  height="100%" width="100%"/>
                 </div>
                 <div>
-                    <img src="<?php echo v_theme_url()?>/img/invitation/yao4.jpg" height="100%" width="100%"/>
+                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao4.jpg" height="100%" width="100%"/>
                 </div>
 
             </div> 
 
 
         </section>
-        <a href="javascript:;" class="player-button" id="audio-img"> <span class="player-tip" style="display: none; ">点击开启/关闭音乐</span> </a>
-        <audio>
-            <source src="play2.mp3" type="audio/mp3" />
-        </audio>  
+        <div class="player-button player-rotate" id="audio-img"> <span class="player-tip" style="display: none; ">点击开启/关闭音乐</span> </div>
+        <audio src="<?php echo v_theme_url() ?>/img/invitation/audio/20150623.mp3" autoplay="true" id="audioMedia" controls> 你的浏览器不支持HTML5播放器 </audio> 
     </body>
 </html>
 
@@ -185,17 +208,17 @@
                     }
                 });
                 var status_bool = false;
-
-                $(".player-button").on("click", function () {
+                $("#audio-img").click(function () {
+                    Media = document.getElementById("audioMedia");
                     if (status_bool == true) {
-//                        musicPlayer.stop();
-                        $('audio').trigger('stop');
-                        $(this).addClass('.player-button-stop');
+                        Media.pause();
+                        $(this).addClass('player-button-stop');
+                        $(this).removeClass('player-rotate');
                         status_bool = false;
                     } else {
-//                        musicPlayer.play();
-                        $('audio').trigger('play');
-                        $(this).removeClass('.player-button-stop');
+                        Media.play();
+                        $(this).removeClass('player-button-stop');
+                        $(this).addClass('player-rotate');
                         status_bool = true;
                     }
                 });
