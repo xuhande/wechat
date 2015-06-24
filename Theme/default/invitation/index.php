@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>VYNFIELDS邀请函</title>    
+        <title>“纯净之酩”品酒会</title>    
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
         <meta name="format-detection"content="telephone=no">
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -134,19 +134,19 @@
             <div class="flipbook" > 
 
                 <div style="background: url(<?php echo v_theme_url() ?>/img/invitation/yao1.jpg);background-size:100% 100%;">
-                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao1.jpg" height="100%" width="100%"/>
+                    <!--<img src="<?php echo v_theme_url() ?>/img/invitation/yao1.jpg" height="100%" width="100%"/>-->
                 </div>
                 <div style="background: url(<?php echo v_theme_url() ?>/img/invitation/yao4.jpg);background-size:100% 100%;">
-                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao4.jpg" height="100%" width="100%"/>
+                    <!--<img src="<?php echo v_theme_url() ?>/img/invitation/yao4.jpg" height="100%" width="100%"/>-->
                 </div>
                 <div style="background: url(<?php echo v_theme_url() ?>/img/invitation/yao2.jpg);background-size:100% 100%;">
-                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao2.jpg"  height="100%" width="100%"/>
+                    <!--<img src="<?php echo v_theme_url() ?>/img/invitation/yao2.jpg"  height="100%" width="100%"/>-->
                 </div>
                 <div style="background: url(<?php echo v_theme_url() ?>/img/invitation/yao3.jpg);background-size:100% 100%;">
-                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao3.jpg"  height="100%" width="100%"/>
+                    <!--<img src="<?php echo v_theme_url() ?>/img/invitation/yao3.jpg"  height="100%" width="100%"/>-->
                 </div>
                 <div style="background: url(<?php echo v_theme_url() ?>/img/invitation/yao5.jpg);background-size:100% 100%;">
-                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao5.jpg" height="100%" width="100%"/>
+                    <!--<img src="<?php echo v_theme_url() ?>/img/invitation/yao5.jpg" height="100%" width="100%"/>-->
                 </div>
 
             </div> 
@@ -154,7 +154,7 @@
 
         </section>
         <div class="player-button player-rotate" id="audio-img"> <span class="player-tip" style="display: none; ">点击开启/关闭音乐</span> </div>
-        <audio src="<?php echo v_theme_url() ?>/img/invitation/audio/20150623.mp3" autoplay="true" id="audioMedia" controls> 你的浏览器不支持HTML5播放器 </audio> 
+        <audio src="<?php echo v_theme_url() ?>/img/invitation/audio/20150623.mp3" autoplay="true" id="audioMedia" controls> </audio> 
     </body>
 </html>
 
