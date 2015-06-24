@@ -126,7 +126,7 @@
         <section  style="position:relative;overflow: visible;width:100%;height:100%;">
             <div class="eraser" id="ers"> 
                 <img id="robot"src="<?php echo v_theme_url() ?>/img/invitation/yao1.jpg"  /> 
-                <img id="redux" src="<?php echo v_theme_url() ?>/img/invitation/yao1_.jpg" /> 
+                <img id="redux" src="<?php echo v_theme_url() ?>/img/invitation/yao.jpg" /> 
             </div>
             <div class="flipbook" > 
 
@@ -141,6 +141,9 @@
                 </div>
                 <div>
                     <img src="<?php echo v_theme_url() ?>/img/invitation/yao4.jpg" height="100%" width="100%"/>
+                </div>
+                <div>
+                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao5.jpg" height="100%" width="100%"/>
                 </div>
 
             </div> 
