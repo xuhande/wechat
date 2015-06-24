@@ -10,5 +10,8 @@ class InvitationController extends Controller {
 
         $this->theme("default")->display("invitation/index");
     }  
+ public function testing() {       
 
+        $this->theme("default")->display("invitation/testing");
+    }  
 }
