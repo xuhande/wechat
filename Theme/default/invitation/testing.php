@@ -5,31 +5,32 @@
         <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
         <meta name="format-detection"content="telephone=no">
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="stylesheet" href="<?php echo v_theme_url() ?>/js/invitation/lrtk.css" />
-        <script src="<?php echo v_theme_url() ?>/js/invitation/jquery-1.10.1.min.js"></script>
-        <script>
-            $(function () {
-                var status_bool = false;
-                $("#players").click(function () {
-                    Media = document.getElementById("audioMedia");
-                    if (status_bool == true) {
-                        Media.pause();
-                        $(this).addClass('player-button-stop');
-                        $(this).removeClass('player-rotate');
-                        status_bool = false;
-                    } else {
-                        Media.play();
-                        $(this).removeClass('player-button-stop');
-                        $(this).addClass('player-rotate');
-                        status_bool = true;
-                    }
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+            <link rel="stylesheet" href="<?php echo v_theme_url() ?>/js/invitation/lrtk.css" />
+            <script src="<?php echo v_theme_url() ?>/js/invitation/jquery-1.10.1.min.js"></script>
+            <script>
+                $(function () { 
+
+                    var status_bool = false;
+                    $("#players").click(function () {
+                        Media = document.getElementById("audioMedia");
+                        if (status_bool == true) {
+                            Media.pause();
+                            $(this).addClass('player-button-stop');
+                            $(this).removeClass('player-rotate');
+                            status_bool = false;
+                        } else {
+                            Media.play();
+                            $(this).removeClass('player-button-stop');
+                            $(this).addClass('player-rotate');
+                            status_bool = true;
+                        }
+                    });
                 });
-            });
-        </script>
-        <script src="<?php echo v_theme_url() ?>/js/invitation/islider.js"></script>
-        <script src="<?php echo v_theme_url() ?>/js/invitation/plugins/islider_desktop.js"></script>
+            </script>
+            <script src="<?php echo v_theme_url() ?>/js/invitation/islider.js"></script>
+            <script src="<?php echo v_theme_url() ?>/js/invitation/plugins/islider_desktop.js"></script>
     </head>
     <body>
         <!-- 代码 开始 --> 
@@ -44,8 +45,10 @@
         </div>-->
 
         <div class="player-button player-rotate" id="players"> <span class="player-tip" style="display: none; ">点击开启/关闭音乐</span> </div>
-        <audio src="<?php echo v_theme_url() ?>/img/invitation/audio/20150623.mp3" autoplay="true" id="audioMedia" controls> </audio> 
-
+        <audio src="<?php echo v_theme_url() ?>/img/invitation/audio/20150623.mp3" autoplay="true" id="audioMedia" controls> </audio>  
+        <div class="prompts">
+            <<向左移动
+        </div>
         <script>
             var picList = [
 //                {
@@ -61,17 +64,17 @@
                 {
                     width: 150,
                     height: 207,
+                    content: "<?php echo v_theme_url() ?>/img/invitation/yao4.jpg"
+                },
+                {
+                    width: 150,
+                    height: 207,
                     content: "<?php echo v_theme_url() ?>/img/invitation/yao2.jpg",
                 },
                 {
                     width: 150,
                     height: 207,
                     content: "<?php echo v_theme_url() ?>/img/invitation/yao3.jpg"
-                },
-                {
-                    width: 150,
-                    height: 207,
-                    content: "<?php echo v_theme_url() ?>/img/invitation/yao4.jpg"
                 },
                 {
                     width: 300,
@@ -107,7 +110,7 @@
                 duration: 2000,
                 animateType: 'flip',
                 isAutoplay: false,
-                isLooping: true,
+                isLooping: false,
                 // isVertical: true, 是否垂直滚动
             });
             islider1.bindMouse();

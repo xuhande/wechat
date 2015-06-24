@@ -462,7 +462,7 @@ footer {
     list-style: none;
 }
 .iSlider-effect ul li img{
-position: absolute;
+    position: absolute;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -511,7 +511,7 @@ position: absolute;
 audio{
     display:none;
 }
-.player-button{position:fixed;z-index:10000;display:block;top:10px;right:10px;width:61px;height:61px;background:url(../../img/invitation/player-button.png) -60px 0;cursor:pointer;/*background-position: center;*/background-repeat: no-repeat;}
+.player-button{position:fixed;z-index:10000;display:block;top:50px;right:10px;width:61px;height:61px;background:url(../../img/invitation/player-button.png) -60px 0;cursor:pointer;/*background-position: center;*/background-repeat: no-repeat;}
 .player-button-stop{background:url(../../img/invitation/player-button.png) 0px 0;}
 .player-tip{position:absolute;top:5px;left:-140px;width:120px;background:rgba(59,89,114,.6);border-radius:4px 0 0 4px;font-size:10px;color:#ccc;line-height:20px;text-align:center}
 .player-tip:after{content:"";position:absolute;right:-32px;width:0;height:0;border-left:16px solid rgba(59,89,114,.6);border-top:10px solid transparent;border-right:16px solid transparent;border-bottom:10px solid transparent;}
@@ -540,4 +540,23 @@ audio{
 @-moz-keyframes rotate {
     from {-moz-transform: rotate(0deg);}
     to {-moz-transform: rotate(360deg);}
+} 
+@-webkit-keyframes twinkling{	/*透明度由0到1*/
+	0%{
+		opacity:0.3;				/*透明度为0*/
+	}
+	100%{
+		opacity:1;				/*透明度为1*/
+	}
+}
+.prompts{    
+    position: absolute; 
+    width: 100px;
+    height: 50px;
+    top: 93%; 
+    left: 45%;
+    right: 0;
+    color: #444; 
+    z-index: 999;
+	-webkit-animation: twinkling 3s infinite ease-in-out;
 }

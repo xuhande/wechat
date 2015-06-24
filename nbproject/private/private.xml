@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/handexu/php-pro/weixin/Theme/default/invitation/testing.php</file>
+            <file>file:/home/handexu/php-pro/weixin/Theme/default/js/invitation/lrtk.css</file>
             <file>file:/home/handexu/php-pro/weixin/App/Home/Controller/InvitationController.class.php</file>
             <file>file:/home/handexu/php-pro/weixin/Theme/default/invitation/index.php</file>
             <file>file:/home/handexu/php-pro/weixin/App/Common/Conf/db.php</file>
+            <file>file:/home/handexu/php-pro/weixin/App/Home/Controller/WechatController.class.php</file>
             <file>file:/home/handexu/php-pro/weixin/App/Lottery/Controller/IndexController.class.php</file>
         </group>
     </open-files>
