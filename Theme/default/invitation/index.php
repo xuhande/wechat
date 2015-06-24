@@ -140,8 +140,8 @@
                     <img src="<?php echo v_theme_url() ?>/img/invitation/yao4.jpg" height="100%" width="100%"/>
                 </div>
                 <div style="background: url(<?php echo v_theme_url() ?>/img/invitation/yao2.jpg);background-size:100% 100%;">
-                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao3.jpg"  height="100%" width="100%"/>
-                </div>
+                    <img src="<?php echo v_theme_url() ?>/img/invitation/yao2.jpg"  height="100%" width="100%"/>
+                </div> 
                 <div style="background: url(<?php echo v_theme_url() ?>/img/invitation/yao3.jpg);background-size:100% 100%;">
                     <img src="<?php echo v_theme_url() ?>/img/invitation/yao3.jpg"  height="100%" width="100%"/>
                 </div>
