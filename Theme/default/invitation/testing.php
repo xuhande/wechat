@@ -86,12 +86,12 @@
                     {
                         width: 300,
                         height: 414,
-                        content: "<?php echo v_theme_url() ?>/img/invitation/yao6.jpg"
+                        content: "<?php echo v_theme_url() ?>/img/invitation/yao4.jpg"
                     },
                     {
                         width: 300,
                         height: 414,
-                        content: "<?php echo v_theme_url() ?>/img/invitation/yao4.jpg"
+                        content: "<?php echo v_theme_url() ?>/img/invitation/yao6.jpg"
                     },
                     {
                         width: 300,
