@@ -79,23 +79,43 @@
 //                    content: "<?php echo v_theme_url() ?>/img/invitation/yao.jpg",
 //                },
                     {
-                        width: 150,
-                        height: 207,
+                        width: 300,
+                        height: 414,
                         content: "<?php echo v_theme_url() ?>/img/invitation/yao1.jpg",
                     },
                     {
-                        width: 150,
-                        height: 207,
+                        width: 300,
+                        height: 414,
+                        content: "<?php echo v_theme_url() ?>/img/invitation/yao6.jpg"
+                    },
+                    {
+                        width: 300,
+                        height: 414,
                         content: "<?php echo v_theme_url() ?>/img/invitation/yao4.jpg"
                     },
                     {
-                        width: 150,
+                        width: 300,
+                        height: 414,
+                        content: "<?php echo v_theme_url() ?>/img/invitation/yao7.jpg"
+                    },
+                    {
+                        width: 300,
+                        height: 414,
+                        content: "<?php echo v_theme_url() ?>/img/invitation/yao8.jpg"
+                    },
+                    {
+                        width: 300,
+                        height: 414,
+                        content: "<?php echo v_theme_url() ?>/img/invitation/yao9.jpg"
+                    },
+                    {
+                        width: 300,
                         height: 207,
                         content: "<?php echo v_theme_url() ?>/img/invitation/yao2.jpg",
                     },
                     {
-                        width: 150,
-                        height: 207,
+                        width: 300,
+                        height: 414,
                         content: "<?php echo v_theme_url() ?>/img/invitation/yao3.jpg"
                     },
                     {
