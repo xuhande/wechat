@@ -135,7 +135,7 @@ class WechatController {
                 }
                 break;
             case "merchant_order" :
-                $arr = array('ou9X8tl0p-rfJcmRriSrj2QP144s', 'ou9X8tmgcfDo8PRv_kOQlaXsTE1U', 'ou9X8tsAIKJfcy86ynM9tXUKorbg', 'ou9X8tvqWzg16EhbYeBDJGyYLPU0', 'ou9X8tsB-9LyL1grx7-M1nR5YR5A', 'ou9X8trvxCTbI8_vNImSPaUOi3C4', 'ou9X8tu0XbdM4eg_x4T_fBKCFqB4', 'ou9X8tt6rj9WwwlR_OLpXFLH9F4M', 'ou9X8thCGmOBe6GTJBU3IbzKRWJs');
+                $arr = array('ou9X8tl0p-rfJcmRriSrj2QP144s', 'ou9X8tsfPcvMkI5ZQO3sF7C6Rqfk', 'ou9X8tmgcfDo8PRv_kOQlaXsTE1U', 'ou9X8tu0XbdM4eg_x4T_fBKCFqB4', 'ou9X8tpSlTLlRDrn3poEBV2lOc6o', 'ou9X8trvxCTbI8_vNImSPaUOi3C4', 'ou9X8ti7n_EM55j9zY1aekeRRPsw', 'ou9X8tvqWzg16EhbYeBDJGyYLPU0');
                 $this->setrep();
                 $url = "http://weixin.vynfields.cn/Home/GetByfilter/index/openId/$object->FromUserName";
                 $jsonData = $this->orderData($_SESSION['token'], $object->OrderId);

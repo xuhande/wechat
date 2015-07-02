@@ -13,18 +13,33 @@ class ByfilterController extends Controller {
         $data = $this->VData($url); //通过自定义函数getCurl得到https的内容
         $resultArr = json_decode($data, true); //转为数组
         $this->logger($resultArr["access_token"]);
-    
+
         return $resultArr["access_token"]; //获取access_token
     }
 
-    private function getUser($access_token) {
-         
+    private function getUser($access_token) { //获取单用户数据
         $url = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=$access_token";
 //        $result = https_request($url);
         $result = $this->getSslPage($url);
         $jsoninfo = json_decode($result, true);
-        var_dump($result);
+//        var_dump($result);
+        return $jsoninfo;
+//        print_r("<pre>");
+//        print_r($jsoninfo['data']['openid']);
+//        print_r("</pre>");
     }
+
+    private function getAllUser($access_token, $openId = '') {//获取多用户数据
+        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=$access_token&openid=$openId&lang=zh_CN";
+        $result = $this->VData($url, $xjson);
+//        $jsoninfo = $resul;
+        $jsoninfo = json_decode($result, true);
+        return $jsoninfo;
+//        print_r("<pre>");
+//        print_r($jsoninfo);
+//        print_r("</pre>");
+    } 
+
     private function getSslPage($url) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
@@ -42,17 +57,26 @@ class ByfilterController extends Controller {
 
 //        $beintime = date('Y-m-d H:i:s', $_POST['begintime']);
 //        $endtime = date('Y-m-d H:i:s', $_POST['endtime']); 
-        $accessToken = $this->getAccessTokens(); //获取access_token   
-        $this->getUser($accessToken);
-        $xjson = '
-       { 
-             
+        $accessToken = $this->getAccessTokens(); //获取access_token 
+        $v = $this->getUser($accessToken);
+        foreach ($v['data']['openid'] as $value) {
+
+            $d = $this->getAllUser($accessToken, $value);
+
+            print_r("<pre>");
+            print_r($d);
+            print_r("</pre>");
         }
-         ';
-        $PostUrl = "https://api.weixin.qq.com/merchant/order/getbyfilter?access_token=" . $accessToken; //POST的url  
-        $result = $this->VData($PostUrl, $xjson);
-//        echo $result;
-        return $result;
+
+//        $xjson = '
+//       { 
+//             
+//        }
+//         ';
+//        $PostUrl = "https://api.weixin.qq.com/merchant/order/getbyfilter?access_token=" . $accessToken; //POST的url  
+//        $result = $this->VData($PostUrl, $xjson);
+////        echo $result;
+//        return $result;
     }
 
     private function VData($url, $data = null) { // get and post模拟提交数据函数 

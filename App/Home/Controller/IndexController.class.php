@@ -26,11 +26,12 @@ class IndexController extends Controller {
         fwrite($k, "\n" . date("Y-m-d H:i:s") . ":" . $log_content);
         fclose($k);
     }
-//        public function getbyfilter() {
-////                 $getByfilter = new getByfilterController();
-////                 $getByfilter->index();
-//        GetByfilterController::index(); 
-//    }
+        public function getbyfilter() {
+//                 $getByfilter = new ByfilterController();
+//                 $getByfilter->index();
+
+//        ByfilterController::getUser(); 
+    }
 //     public function redTest() {
 //
 //        $red = new RedpackController();
