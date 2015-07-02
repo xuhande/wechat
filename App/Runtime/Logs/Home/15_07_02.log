@@ -13821,3 +13821,180 @@ NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-07-02.txt): failed to open stre
 NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/handexu/php-pro/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
 NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/handexu/php-pro/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
 
+[ 2015-07-02T10:53:34+08:00 ] 127.0.0.1 /Home/Invitation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-07-02T10:53:38+08:00 ] 127.0.0.1 /Home/Invitation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-07-02T10:53:41+08:00 ] 127.0.0.1 /Home/Invitation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-07-02T10:54:08+08:00 ] 127.0.0.1 /Home/Invitation/testing.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-07-02T10:54:08+08:00 ] 127.0.0.1 /Home/Invitation/%3C!DOCTYPE%20html%20PUBLIC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+ERR: 非法操作:
+
+[ 2015-07-02T10:54:45+08:00 ] 127.0.0.1 /Home/Invitation/testing.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0004s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2015-07-02T10:54:53+08:00 ] 127.0.0.1 /Home/Invitation/testing.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0005s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2015-07-02T10:55:44+08:00 ] 127.0.0.1 /Home/Invitation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-07-02T10:55:44+08:00 ] 127.0.0.1 /Home/Invitation/%3C!DOCTYPE%20html%20PUBLIC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+ERR: 非法操作:
+
+[ 2015-07-02T10:55:57+08:00 ] 127.0.0.1 /Home/Invitation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0005s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2015-07-02T10:56:14+08:00 ] 127.0.0.1 /Home/Invitation/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-07-02T10:56:14+08:00 ] 127.0.0.1 /Home/Invitation/%3C!DOCTYPE%20html%20PUBLIC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+ERR: 非法操作:
+
