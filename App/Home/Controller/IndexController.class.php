@@ -40,5 +40,8 @@ class IndexController extends Controller {
 ////        $red = new RedController();
 ////        $red -> index();
 //    }
-
+    public function store(){
+        
+        $this->theme("default")->display("store/index");
+    }
 }

@@ -40,7 +40,16 @@ class MenuController {
 //                         "name": "订单查询", 
 //                        "url": "http://wx.mynow.net/Home/GetByfilter/index/openId/'.$postObj->FromUserName. '"
 //                     }, 
-        //$_SESSION['openid'] = $openId; 
+        //$_SESSION['openid'] = $openId; //        {
+//            "name": "活动", 
+//            "sub_button": [
+//                {
+//                    "type": "view", 
+//                    "name": "母亲节", 
+//                    "url": "http://weixin.vynfields.cn/?m=Home&c=Oauth2&a=index&type=lottery"
+//                }
+//            ]
+//        }
         $menuPostString = '
 {
     "button": [
@@ -94,15 +103,10 @@ class MenuController {
                 }
             ]
         }, 
-        {
-            "name": "活动", 
-            "sub_button": [
-                {
-                    "type": "view", 
-                    "name": "母亲节", 
-                    "url": "http://weixin.vynfields.cn/?m=Home&c=Oauth2&a=index&type=lottery"
-                }
-            ]
+         {
+            "type": "view",
+            "name": "实体店", 
+            "url": "http://weixin.vynfields.cn/Home/index/store"
         }
     ]
 }
