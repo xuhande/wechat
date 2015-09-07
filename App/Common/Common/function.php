@@ -31,7 +31,7 @@ function v_site_url() {
 }
 //title
 function v_title() {
-    $title ="";
+    $title =  M('option')->where("meta_key='site_name' AND type='public'")->getField('meta_value');
     //MODULE_NAME get HOME
     //CONTROLLER_NAME get controler
     //ACTION_NAME get action name
