@@ -6,16 +6,16 @@ use Think\Controller;
 
 class IndexController extends Controller {
 
-    public function index() {
+    public function index() { 
         $wechatObj = new WechatController();
         if (!isset($_GET['echostr'])) {
-            //echo "responseMsg";
+            echo "responseMsg";
             $wechatObj->responseMsg(); 
         } else {
-            //echo "valid";
+            echo "valid";
             $wechatObj->valid();
         }
-        
+         
         $Menus = new MenuController();//实例化微信类$ 
         $creatMenu = $Menus->creatMenu();//创建菜单
         $this->logger("index:".  time());
@@ -26,11 +26,12 @@ class IndexController extends Controller {
         fwrite($k, "\n" . date("Y-m-d H:i:s") . ":" . $log_content);
         fclose($k);
     }
-//        public function getbyfilter() {
-////                 $getByfilter = new getByfilterController();
-////                 $getByfilter->index();
-//        GetByfilterController::index(); 
-//    }
+        public function getbyfilter() {
+//                 $getByfilter = new ByfilterController();
+//                 $getByfilter->index();
+
+//        ByfilterController::getUser(); 
+    }
 //     public function redTest() {
 //
 //        $red = new RedpackController();
@@ -39,5 +40,8 @@ class IndexController extends Controller {
 ////        $red = new RedController();
 ////        $red -> index();
 //    }
-
+    public function store(){
+        
+        $this->theme("default")->display("store/index");
+    }
 }
