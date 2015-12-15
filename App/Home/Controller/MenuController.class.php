@@ -164,7 +164,7 @@ class MenuController {
          {
             "type": "view",
             "name": "销售链", 
-            "url": "http://weixin.vynfields.cn/Home/index/store"
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
         }
     ]
 }
