@@ -27,7 +27,8 @@ class MenuController {
         };
         $this->logger("postObj: " . json_encode($postObj));
         $this->logger("openid menuss: " . $openId);
-        $accessToken = $this->getAccessTokens(); //获取access_token        "url": "http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect"
+        $accessToken = $this->getAccessTokens(); //获取access_token       
+//                    "url": "http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect"
 //             {
 //                    "type": "view", 
 //                    "name": "维权", 
@@ -49,7 +50,69 @@ class MenuController {
 //                    "url": "http://weixin.vynfields.cn/?m=Home&c=Oauth2&a=index&type=lottery"
 //                }
 //            ]
+////        }
+//        $menuPostString = '
+//{
+//    "button": [
+//        {
+//            "name": "商城", 
+//            "sub_button": [
+//                {
+//                    "type": "view", 
+//                    "name": "小店", 
+//                    "url": "http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect"
+//                }, 
+//                {
+//                    "type": "click", 
+//                    "name": "订单查询", 
+//                    "key": "Orders"
+//                }, 
+//                {
+//                    "type": "view", 
+//                    "name": "教程", 
+//                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+//                }
+//            ]
+//        }, 
+//        {
+//            "name": "Vynfields", 
+//            "sub_button": [
+//                {
+//                    "type": "click", 
+//                    "name": "品牌介绍", 
+//                    "key": "VINEYARD"
+//                }, 
+//                {
+//                    "type": "click", 
+//                    "name": "产品介绍", 
+//                    "key": "WINE"
+//                }, 
+//                {
+//                    "type": "view", 
+//                    "name": "往期资讯", 
+//                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+//                }, 
+//                {
+//                    "type": "view", 
+//                    "name": "反馈建议", 
+//                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+//                }, 
+//                {
+//                    "type": "click", 
+//                    "name": "合作洽谈", 
+//                    "key": "Contact"
+//                }
+//            ]
+//        }, 
+//         {
+//            "type": "view",
+//            "name": "实体店", 
+//            "url": "http://weixin.vynfields.cn/Home/index/store"
 //        }
+//    ]
+//}
+//';
+
         $menuPostString = '
 {
     "button": [
@@ -59,13 +122,8 @@ class MenuController {
                 {
                     "type": "view", 
                     "name": "小店", 
-                    "url": "http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzA3MDAyMzA5OQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect"
-                }, 
-                {
-                    "type": "click", 
-                    "name": "订单查询", 
-                    "key": "Orders"
-                }, 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
                 {
                     "type": "view", 
                     "name": "教程", 
@@ -105,13 +163,12 @@ class MenuController {
         }, 
          {
             "type": "view",
-            "name": "实体店", 
+            "name": "销售链", 
             "url": "http://weixin.vynfields.cn/Home/index/store"
         }
     ]
 }
 ';
-
         $this->logger("post menu" . $menuPostString);
         $menuPostUrl = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" . $accessToken; //POST的url
         $menu = $this->dataPost($menuPostString, $menuPostUrl); //将菜单结构体POST给微信服务器
