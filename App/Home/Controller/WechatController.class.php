@@ -236,6 +236,7 @@ class WechatController {
         $keyword = trim($object->Content);
         //多客服人工回复模式
         if ($keyword == '4' || strstr($keyword, "客服")) {
+                $this->logger("array->contents: " . $object);
             $result = $this->transmitService($object);
         }
 
@@ -396,6 +397,8 @@ class WechatController {
 <MsgType><![CDATA[transfer_customer_service]]></MsgType>
 </xml>";
         $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
+        
+                $this->logger("array->transmitService: " . $result);
         return $result;
     }
 
