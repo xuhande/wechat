@@ -26,6 +26,7 @@ class ActivityController extends Controller {
         $mobile = I("param.mobile");
         if ($mobile != "") {  
            $data['num'] = "1";
+           $data['created'] = time();
             $result = M("activity")->where(array("mobile"=>$mobile))->save($data);
             $this->ajaxReturn(array("code" => "200"));
         }else{

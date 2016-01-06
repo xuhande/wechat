@@ -6,7 +6,8 @@
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-        <title>数字滚动抽奖</title>
+        <link href="<?php echo v_site_url() ?>/favicon.ico" rel="shortcut icon" />
+        <title>维菲品鉴会手机抽奖活动</title>
 
         <script type="text/javascript" src="http://www.jq22.com/demo/jquery-lhj-150421204139/js/jquery-1.7.2-min.js"></script> 
 
@@ -46,7 +47,7 @@
 
                 <div class="num_box"> 
                     <h1 id="result" style="height: 224px;line-height: 224px;padding: 20px 0;font-size: 129px;margin: 0">
-                        xxxxxxxxxxx
+                        00000000000
                     </h1> 
                     <div class="btn" onclick="btn()"></div>
                     <input type="hidden" value="1" id="btnVal" />
@@ -93,7 +94,7 @@
             document.getElementById("result").innerHTML = mobile[y][0].replace(re, "$1xxxx");
             document.getElementById("mobileVal").value = mobile[y];
         } else {
-            document.getElementById("result").innerHTML = "xxxxxxxxxxx";
+            document.getElementById("result").innerHTML = "00000000000";
             document.getElementById("mobileVal").value = "";
             pause();
             pause2();

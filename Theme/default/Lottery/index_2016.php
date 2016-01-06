@@ -35,6 +35,10 @@
         margin-top: -144px;
         z-index: 8;
     }
+
+    .turntable-bg .pointer:hover{ 
+        cursor: pointer;
+    }
     .turntable-bg .rotate {
         width: 310px;
         max-width: 310px;
@@ -67,7 +71,9 @@
         text-align: center;
         margin-top: 20px;
     }
-
+    #t-hd:hover{
+        cursor: pointer;
+    }
 </style>
 <script>
     $(function () {
@@ -86,8 +92,8 @@
             bRotate = !bRotate;
 
 
-            var ang = angles + 1800;
-
+            var ang = parseInt(obj.angles) + 1800;
+            console.log(ang);
             $('#rotate').stopRotate();
             $('#rotate').rotate({
                 angle: 0,
@@ -113,7 +119,6 @@
 
                 },
                 success: function (data) {
-
                     var obj = $.parseJSON(data);
                     rotateFn(255, obj);
                 },
@@ -167,26 +172,25 @@
         <div class="pointer"><img src="<?php echo v_theme_url(); ?>/image/lottery/activity-lottery-2.png" alt="pointer" width="80"/></div>
         <div class="rotate" ><img id="rotate" src="<?php echo v_theme_url(); ?>/image/lottery/turntable.png" alt="turntable" width="310"/></div>
     </div>
-</div> 
-您的中奖信息为：
-<?php
-if ($lottery['id'] != "") {
-    echo "中了：" . $lottery['lottery']['prize'];
-    echo "<br />收获地址：";
+<div class="" style="color: #fff;text-align: center;"> 
+    <?php 
+    
+    if ($lottery['id'] != "") {
+        echo "您的中奖获得：". $lottery['lottery']['prize']; 
+    } else {
+        echo "您当前未中奖！<button id=''>112</button>";
+    }
     ?>
-    <form id="saveaddress" action="<?php echo U("Home/Lottery/saveAddress"); ?>">
-        <input type="hidden" name="id" value="<?php echo $lottery['id'] ?>" />
-        <input type="hidden" name="openid" value="<?php echo $lottery['openid'] ?>" /><br />
-        真实姓名<input type="text" name="realname" value="<?php echo $lottery['realname'] ?>" /><br />
-        手机号  <input type="text" name="mobile" value="<?php echo $lottery['mobile'] ?>" /><br />
-        地址   <input type="text" name="address" value="<?php echo $lottery['address'] ?>" /><br />
-        <input type="button" id="submitform" value="提交" />
-    </form>
-    <?php
-} else {
-    echo "您当前未中奖";
-}
-?>
+</div>
+</div> 
+<!--<div class="turntable-bg">
+    <div class="turntable-cont">
+        <div class="turntable-login  text-center"><img src="http://localhost:8009/Theme/default/image/lottery/logo-1.png" alt="pointer" width="200"></div>
+        <div class="turntable-tit text-center"></div> 
+        <div class="pointer"><img src="http://localhost:8009/Theme/default/image/lottery/activity-lottery-2.png" alt="pointer" width="80"></div>
+        <div class="rotate"><img id="rotate" src="http://localhost:8009/Theme/default/image/lottery/turntable.png" alt="turntable" width="310" style="-webkit-transform: rotate(337deg);"></div>
+    </div>
+</div>-->
 
 <div class="turntable-hd" id="t-hd"  data-toggle="modal" data-target="#myModal"><img src="<?php echo v_theme_url(); ?>/image/lottery/hd.png" alt="pointer" /></div>
 
@@ -207,6 +211,24 @@ if ($lottery['id'] != "") {
     </div>
 </div>
 
+    <?php
+//    if ($lottery['id'] != "") {
+//        echo  $lottery['lottery']['prize'];
+////        echo "<br />收获地址：";
+//        ?>
+<!--        <form id="saveaddress" action="//<?php echo U("Home/Lottery/saveAddress"); ?>">
+            <input type="hidden" name="id" value="//<?php echo $lottery['id'] ?>" />
+            <input type="hidden" name="openid" value="//<?php echo $lottery['openid'] ?>" /><br />
+            真实姓名<input type="text" name="realname" value="//<?php echo $lottery['realname'] ?>" /><br />
+            手机号  <input type="text" name="mobile" value="//<?php echo $lottery['mobile'] ?>" /><br />
+            地址   <input type="text" name="address" value="//<?php echo $lottery['address'] ?>" /><br />
+            <input type="button" id="submitform" value="提交" />
+        </form>-->
+        <?php
+//    } else {
+//        echo "您当前未中奖";
+//    }
+    ?>
 
 
 
@@ -238,32 +260,32 @@ if ($lottery['id'] != "") {
             beforeSend: function () {
             },
             //成功返回之后调用的函数             
-            success: function (data) { 
-                if (data == "200") {
-                    if (lottery.id == "7") {
-                        $('#myModal').modal('show');
-                        $(".modal-body").html("谢谢参与");
-                    } else {
-                        $('#myModal').modal('show');
-                        $(".modal-body").html("恭喜您中了“" + lottery.prize + "”，请查看您的中奖信息。填写您的收获或地址");
-                    }
-
-                } else if (data == "201") {
-                    $('#myModal').modal('show');
-                    $(".modal-body").html("您已抽奖，不能在抽奖了");
-                } else if (data == "202") {
-                    $('#myModal').modal('show');
-                    $(".modal-body").html("感谢您的参加，活动已结束了哦！");
-                } else if (data == "203") {
-                    $('#myModal').modal('show');
-                    $(".modal-body").html("数据处理异常，请重新参与");
-                } else if (data == "303") {
-                    $('#myModal').modal('show');
-                    $(".modal-body").html("需要关注才能参与哦");
-                } else if (data == "500") {
-                    $('#myModal').modal('show');
-                    $(".modal-body").html("数据异常:获取用户数据失败，重新打开此页面试试？");
-                }
+            success: function (data) {
+//                if (data == "200") {
+//                    if (lottery.id == "7") {
+//                        $('#myModal').modal('show');
+//                        $(".modal-body").html("谢谢参与");
+//                    } else {
+//                        $('#myModal').modal('show');
+//                        $(".modal-body").html("恭喜您中了“" + lottery.prize + "”，请查看您的中奖信息。填写您的收获或地址");
+//                    }
+//
+//                } else if (data == "201") {
+//                    $('#myModal').modal('show');
+//                    $(".modal-body").html("您已抽奖，不能在抽奖了");
+//                } else if (data == "202") {
+//                    $('#myModal').modal('show');
+//                    $(".modal-body").html("感谢您的参加，活动已结束了哦！");
+//                } else if (data == "203") {
+//                    $('#myModal').modal('show');
+//                    $(".modal-body").html("数据处理异常，请重新参与");
+//                } else if (data == "303") {
+//                    $('#myModal').modal('show');
+//                    $(".modal-body").html("需要关注才能参与哦");
+//                } else if (data == "500") {
+//                    $('#myModal').modal('show');
+//                    $(".modal-body").html("数据异常:获取用户数据失败，重新打开此页面试试？");
+//                }
 
             },
             //调用执行后调用的函数
