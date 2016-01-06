@@ -69,10 +69,24 @@
     }
     .turntable-hd{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     #t-hd:hover{
         cursor: pointer;
+    }
+    #formBtn{ 
+        font-size: 9pt;
+        color: #003399;
+        border: 1px #003399 solid;
+        color: #006699;
+        border-bottom: #93bee2 1px solid;
+        border-left: #93bee2 1px solid;
+        border-right: #93bee2 1px solid;
+        border-top: #93bee2 1px solid; 
+        background-color: #e8f4ff;
+        font-style: normal;
+        width: 60px;
+        height: 30px; 
     }
 </style>
 <script>
@@ -189,7 +203,7 @@
     });
     function rnd(n, m) {
         return Math.floor(Math.random() * (m - n + 1) + n)
-    } 
+    }
 </script>
 
 
@@ -200,26 +214,26 @@
         <div class="pointer"><img src="<?php echo v_theme_url(); ?>/image/lottery/activity-lottery-2.png" alt="pointer" width="80"/></div>
         <div class="rotate" ><img id="rotate" src="<?php echo v_theme_url(); ?>/image/lottery/turntable.png" alt="turntable" width="310"/></div>
     </div>
-    <div class="" style="color: #fff;text-align: center;height:40px;line-height:40px;"> 
+    <div class="" style="color: #fff;text-align: center;line-height: 30px"> 
         <?php
         if ($lottery['id'] != "") {
             echo "您的中奖获得：" . $lottery['lottery']['prize'];
         } else {
-            echo "您当前未中奖！<button id='tt'>112</button>";
+            echo "您当前未中奖！<button id='formBtn'>领取</button>";
         }
         ?> 
     </div>
 </div>  
-    <div class="turntable-cont" id="form-wrap" style="display:none;"> 
-        <form id="saveaddress" action="<?php echo U("Home/Lottery/saveAddress"); ?>">
-            <input type="hidden" name="id" value="<?php echo $lottery['id'] ?>" />
-            <input type="hidden" name="openid" value="<?php echo $lottery['openid'] ?>" /><br />
-            真实姓名<input type="text" name="realname" value="<?php echo $lottery['realname'] ?>" /><br />
-            手机号  <input type="text" name="mobile" value="<?php echo $lottery['mobile'] ?>" /><br />
-            地址   <input type="text" name="address" value="<?php echo $lottery['address'] ?>" /><br />
-            <input type="button" id="submitformsaveaddress" value="提交" />
-        </form> 
-    </div> 
+<div class="turntable-cont" id="form-wrap" style="display:none;"> 
+    <form id="saveaddress" action="<?php echo U("Home/Lottery/saveAddress"); ?>">
+        <input type="hidden" name="id" value="<?php echo $lottery['id'] ?>" />
+        <input type="hidden" name="openid" value="<?php echo $lottery['openid'] ?>" /><br />
+        真实姓名<input type="text" name="realname" value="<?php echo $lottery['realname'] ?>" /><br />
+        手机号  <input type="text" name="mobile" value="<?php echo $lottery['mobile'] ?>" /><br />
+        地址   <input type="text" name="address" value="<?php echo $lottery['address'] ?>" /><br />
+        <input type="button" id="submitformsaveaddress" value="提交" />
+    </form> 
+</div> 
 
 <div class="turntable-hd" id="t-hd"  data-toggle="modal" data-target="#myModal"><img src="<?php echo v_theme_url(); ?>/image/lottery/hd.png" alt="pointer" /></div>
 
@@ -276,12 +290,12 @@
         $('#mybody').modal(options);
     });
     subscribe = true;
-//    if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
-//        $('#myModal').modal('show');
-//        $(".modal-body-alert").html("需要关注才能参与哦。<br/>微信号:vynfields");
-//        subscribe = false;
-//
-//    }
+    if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
+        $('#myModal').modal('show');
+        $(".modal-body-alert").html("需要关注才能参与哦。<br/>微信号:vynfields");
+        subscribe = false;
+
+    }
     if (<?php echo $user['is_lottery'] ? "false" : "true"; ?> && subscribe) {
         $('#qustionModal').modal({backdrop: 'static', keyboard: false});
         $('#qustionModal').modal('show');
