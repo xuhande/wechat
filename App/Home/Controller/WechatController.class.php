@@ -310,10 +310,12 @@ class WechatController {
                 $oauth = new Oauth2Controller();
 
                 $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～";//.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
-            } else if (strstr($keyword, "789")) {
-                $red = new RedpackController();
-                $red->index($openid, '79679');
-            } else {
+            }
+//            else if (strstr($keyword, "789")) {
+//                $red = new RedpackController();
+//                $red->index($openid, '79679');
+//            }
+            else {
 
                 $content = $this->getYMassage();
             }
@@ -397,9 +399,13 @@ class WechatController {
 <MsgType><![CDATA[transfer_customer_service]]></MsgType>
 </xml>";
         $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
+<<<<<<< HEAD
+   return $result;
+=======
         
                 $this->logger("array->transmitService: " . $result);
         return $result;
+>>>>>>> ce589709ef4d7c66b94acdb240a15b6fb13fc1ce
     }
 
     //回复图片消息

@@ -179,8 +179,7 @@
     }
     function sends() {
         var mobileVal = document.getElementById("mobileVal").value;
-        $.post("sends", {mobile: mobileVal}, function (result) {
-            console.log(result);
+        $.post("sends", {mobile: mobileVal}, function (result) { 
             if (result == "202") {
                 alert(result.message);
             }

@@ -15,61 +15,61 @@ class IndexController extends Controller {
      */
     public function index() {
 
-        $this->theme("default")->display("Lottery/index");
+//        $this->theme("default")->display("Lottery/index");
     }
 
     /**
      * 保存中奖信息
      */
     public function savelottery() {
-        $subscribe = $_POST['subscribe'];
-        if (!$subscribe) {
-            echo "303";
-        } else {
-            $openid = I("param.openid"); //openid
-            $nickname = I("param.nickname"); //username
-            $lottery = I("param.lottery"); //中奖信息
-            $map['openid'] = $openid;
-
-            $count = 0;//M('lottery')->where($map)->count(); // 查询满足要求的总记录数 $map表示查询条件
-            if ($count <= 0) {
-                $coupon = new \Home\Controller\CouponController();
-                $map['nickname'] = $nickname;
-                $map['lotteryinfo'] = $lottery;
-                $map['created'] = time();
-//                switch ($lottery) {
-//                    case '10元':
-////                        $msg = $coupon->index($openid, "79679"); 
-//                        echo "201";
-//                        break;
-//                    case '50元': 
-//                        $msg = $coupon->index($openid, "151109");
-//                        break;
-//                    case '60元': 
-//                        $msg = $coupon->index($openid, "151110");
-//                        break;
-//                    case '70元': 
-//                        $msg = $coupon->index($openid, "156090");
-//                        break;
-//                    case '80元': 
-//                        $msg = $coupon->index($openid, "150877");
-//                        break;
-//                    case '100': 
-//                        $msg = $coupon->index($openid, "150878");
-//                        break;
-//                    default :
-//                        echo "200";
-//                        break;
-//                }
-//                $d = M('lottery')->data($map)->add();                
-//                echo "200";
-                if($lottery){
-                    echo "202";
-                }
-            } else {
-                echo "201";
-            }
-        }
+//        $subscribe = $_POST['subscribe'];
+//        if (!$subscribe) {
+//            echo "303";
+//        } else {
+//            $openid = I("param.openid"); //openid
+//            $nickname = I("param.nickname"); //username
+//            $lottery = I("param.lottery"); //中奖信息
+//            $map['openid'] = $openid;
+//
+//            $count = 0;//M('lottery')->where($map)->count(); // 查询满足要求的总记录数 $map表示查询条件
+//            if ($count <= 0) {
+//                $coupon = new \Home\Controller\CouponController();
+//                $map['nickname'] = $nickname;
+//                $map['lotteryinfo'] = $lottery;
+//                $map['created'] = time();
+////                switch ($lottery) {
+////                    case '10元':
+//////                        $msg = $coupon->index($openid, "79679"); 
+////                        echo "201";
+////                        break;
+////                    case '50元': 
+////                        $msg = $coupon->index($openid, "151109");
+////                        break;
+////                    case '60元': 
+////                        $msg = $coupon->index($openid, "151110");
+////                        break;
+////                    case '70元': 
+////                        $msg = $coupon->index($openid, "156090");
+////                        break;
+////                    case '80元': 
+////                        $msg = $coupon->index($openid, "150877");
+////                        break;
+////                    case '100': 
+////                        $msg = $coupon->index($openid, "150878");
+////                        break;
+////                    default :
+////                        echo "200";
+////                        break;
+////                }
+////                $d = M('lottery')->data($map)->add();                
+////                echo "200";
+////                if($lottery){
+////                    echo "202";
+////                }
+//            } else {
+//                echo "201";
+//            }
+//        }
     }
 
     public function getLottery() {
@@ -88,23 +88,23 @@ class IndexController extends Controller {
          * 关键是这个算法已在我们以前的项目中有应用，尤其是大数据量的项目中效率非常棒。 
          */
 
-        function get_rand($proArr) {
-            $result = '';
-            //概率数组的总概率精度   
-            $proSum = array_sum($proArr);
-            //概率数组循环   
-            foreach ($proArr as $key => $proCur) {
-                $randNum = mt_rand(1, $proSum);
-                if ($randNum <= $proCur) {
-                    $result = $key;
-                    break;
-                } else {
-                    $proSum -= $proCur;
-                }
-            }
-            unset($proArr);
-            return $result;
-        }
+//        function get_rand($proArr) {
+//            $result = '';
+//            //概率数组的总概率精度   
+//            $proSum = array_sum($proArr);
+//            //概率数组循环   
+//            foreach ($proArr as $key => $proCur) {
+//                $randNum = mt_rand(1, $proSum);
+//                if ($randNum <= $proCur) {
+//                    $result = $key;
+//                    break;
+//                } else {
+//                    $proSum -= $proCur;
+//                }
+//            }
+//            unset($proArr);
+//            return $result;
+//        }
 
         /*
          * 奖项数组 
@@ -120,14 +120,16 @@ class IndexController extends Controller {
         /**
          * [0,337,"未中奖"],[1,26,"免单4999元"],[2,88,"免单50元"],[3,137,"免单10元"],[4,185,"免单5元"],[5,235,"免分期服务费"]
          */
-        $prize_arr = array(
-            '0' => array('id' => 1, "angles" => 337, 'prize' => '80元代金券', 'v' => 5),
-            '1' => array('id' => 2, "angles" => 26, 'prize' => '50元代金券', 'v' => 40),
-            '2' => array('id' => 3, "angles" => 88, 'prize' => '10元代金券', 'v' => 0),
-            '3' => array('id' => 4, "angles" => 137, 'prize' => '60元代金券', 'v' => 25),
-            '4' => array('id' => 5, "angles" => 185, 'prize' => '70元代金券', 'v' => 25),
-            '5' => array('id' => 6, "angles" => 235, 'prize' => '100元代金券', 'v' => 5),
-        );
+        //通过数据库获取中奖项
+//        $prize_arr = M("lottery_prize")->where(array("number"=>array("egt","1")))->select();
+//        $prize_arr = array(
+//            '0' => array('id' => 1, "angles" => 337, 'prize' => '80元代金券', 'v' => 5),
+//            '1' => array('id' => 2, "angles" => 26, 'prize' => '50元代金券', 'v' => 40),
+//            '2' => array('id' => 3, "angles" => 88, 'prize' => '10元代金券', 'v' => 0),
+//            '3' => array('id' => 4, "angles" => 137, 'prize' => '60元代金券', 'v' => 25),
+//            '4' => array('id' => 5, "angles" => 185, 'prize' => '70元代金券', 'v' => 25),
+//            '5' => array('id' => 6, "angles" => 235, 'prize' => '100元代金券', 'v' => 5),
+//        );
 
         /*
          * 每次前端页面的请求，PHP循环奖项设置数组， 
@@ -136,20 +138,20 @@ class IndexController extends Controller {
          * 而剩下的未中奖的信息保存在$res['no']中， 
          * 最后输出json个数数据给前端页面。 
          */
-        foreach ($prize_arr as $key => $val) {
-            $arr[$val['id']] = $val['v'];
-        }
-        $rid = get_rand($arr); //根据概率获取奖项id   
-
-        $res['yes'] = $prize_arr[$rid - 1]; //中奖项   
-        unset($prize_arr[$rid - 1]); //将中奖项从数组中剔除，剩下未中奖项   
-        shuffle($prize_arr); //打乱数组顺序   
-        for ($i = 0; $i < count($prize_arr); $i++) {
-            $pr[] = $prize_arr[$i]['prize'];
-        }
-        $res['no'] = $pr;
-
-        echo json_encode($res["yes"]);
+//        foreach ($prize_arr as $key => $val) {
+//            $arr[$val['lid']] = $val['v'];
+//        }
+//        $rid = get_rand($arr); //根据概率获取奖项id   
+//
+//        $res['yes'] = $prize_arr[$rid - 1]; //中奖项   
+//        unset($prize_arr[$rid - 1]); //将中奖项从数组中剔除，剩下未中奖项   
+//        shuffle($prize_arr); //打乱数组顺序   
+//        for ($i = 0; $i < count($prize_arr); $i++) {
+//            $pr[] = $prize_arr[$i]['prize'];
+//        }
+//        $res['no'] = $pr;
+//
+//        echo json_encode($res["yes"]);
     }
 
 }

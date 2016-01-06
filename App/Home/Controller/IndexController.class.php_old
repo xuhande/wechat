@@ -1,0 +1,53 @@
+<?php
+
+namespace Home\Controller;
+
+use Think\Controller;
+
+class IndexController extends Controller {
+
+    public function index() {
+ $this->logger("responseMsg"."index");
+        $wechatObj = new WechatController();
+             $this->logger("responseMsg".$wechatObj);
+        if (!isset($_GET['echostr'])) {
+            //echo "responseMsg";
+             $this->logger("responseMsg".$_GET['echostr']);
+
+	    $wechatObj->responseMsg(); 
+        } else {
+     $this->logger("valid".$_GET['echostr']);
+
+            //echo "valid";
+            $wechatObj->valid();
+        }
+        
+        $Menus = new MenuController();//实例化微信类$ 
+        $creatMenu = $Menus->creatMenu();//创建菜单
+        $this->logger("index:".  time());
+    }
+      private function logger($log_content) {
+        $filename = "Public/Data/logs/wechat_index" . date("Y-m-d") . ".txt";
+        $k = fopen($filename, "a+");
+        fwrite($k, "\n" . date("Y-m-d H:i:s") . ":" . $log_content);
+        fclose($k);
+    }
+        public function getbyfilter() {
+//                 $getByfilter = new ByfilterController();
+//                 $getByfilter->index();
+
+//        ByfilterController::getUser(); 
+    }
+//     public function redTest() {
+//
+//        $red = new RedpackController();
+//        $red->index();
+//
+////        $red = new RedController();
+////        $red -> index();
+//    }
+    public function store(){
+        
+        $this->theme("default")->display("store/index");
+    }
+}

@@ -15,7 +15,7 @@ $url = v_site_url()."/Cork/index/index";
              $url = v_site_url()."/Cork/index/corklist";
         }
         else if($type == "lottery"){
-              $url = v_site_url()."/Lottery/index";
+              $url = v_site_url()."/Lottery/Lottery";
         }
         
         
