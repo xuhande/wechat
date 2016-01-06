@@ -93,7 +93,6 @@
 
 
             var ang = parseInt(obj.angles) + 1800;
-            console.log(ang);
             $('#rotate').stopRotate();
             $('#rotate').rotate({
                 angle: 0,
@@ -169,9 +168,14 @@
                     $("#errormsg").html("");
                     if (data == "200") {
                         alert("回答正确，点击关闭开始抽奖");
-                        $('#qustionModal').modal('hide');
-                    } else {
+                        $("#one").show("slow");
+                        $("#two").hide();
+                    } else if(data =="202") {
                         $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
+                    }else if(data =="403") {
+                        $("#errormsg").html("需要关注后才能参与活动哦");
+                    }else if(data =="404") {
+                        $("#errormsg").html("用户未找到。请重新打开此页面重试");
                     }
                 },
                 complete: function (XMLHttpRequest, textStatus) {
@@ -189,27 +193,27 @@
     });
     function rnd(n, m) {
         return Math.floor(Math.random() * (m - n + 1) + n)
-    } 
+    }
 </script>
 
-
-<div class="turntable-bg" id="cj">
-    <div class="turntable-cont">
-        <div class='turntable-login  text-center'><img src="<?php echo v_theme_url(); ?>/image/lottery/logo-1.png" alt="pointer" width='200'/></div>
-        <div class='turntable-tit text-center'></div> 
-        <div class="pointer"><img src="<?php echo v_theme_url(); ?>/image/lottery/activity-lottery-2.png" alt="pointer" width="80"/></div>
-        <div class="rotate" ><img id="rotate" src="<?php echo v_theme_url(); ?>/image/lottery/turntable.png" alt="turntable" width="310"/></div>
-    </div>
-    <div class="" style="color: #fff;text-align: center;height:40px;line-height:40px;"> 
-        <?php
-        if ($lottery['id'] != "") {
-            echo "您的中奖获得：" . $lottery['lottery']['prize'];
-        } else {
-            echo "您当前未中奖！<button id='tt'>112</button>";
-        }
-        ?> 
-    </div>
-</div>  
+<div id="one" style="display:none">
+    <div class="turntable-bg" id="cj">
+        <div class="turntable-cont">
+            <div class='turntable-login  text-center'><img src="<?php echo v_theme_url(); ?>/image/lottery/logo-1.png" alt="pointer" width='200'/></div>
+            <div class='turntable-tit text-center'></div> 
+            <div class="pointer"><img src="<?php echo v_theme_url(); ?>/image/lottery/activity-lottery-2.png" alt="pointer" width="80"/></div>
+            <div class="rotate" ><img id="rotate" src="<?php echo v_theme_url(); ?>/image/lottery/turntable.png" alt="turntable" width="310"/></div>
+        </div>
+        <div class="" style="color: #fff;text-align: center;height:40px;line-height:40px;"> 
+            <?php
+            if ($lottery['id'] != "") {
+                echo "您的中奖获得：" . $lottery['lottery']['prize'];
+            } else {
+                echo "您当前未中奖！<button id='tt'>112</button>";
+            }
+            ?> 
+        </div>
+    </div>  
     <div class="turntable-cont" id="form-wrap" style="display:none;"> 
         <form id="saveaddress" action="<?php echo U("Home/Lottery/saveAddress"); ?>">
             <input type="hidden" name="id" value="<?php echo $lottery['id'] ?>" />
@@ -221,7 +225,36 @@
         </form> 
     </div> 
 
-<div class="turntable-hd" id="t-hd"  data-toggle="modal" data-target="#myModal"><img src="<?php echo v_theme_url(); ?>/image/lottery/hd.png" alt="pointer" /></div>
+    <div class="turntable-hd" id="t-hd"  data-toggle="modal" data-target="#myModal"><img src="<?php echo v_theme_url(); ?>/image/lottery/hd.png" alt="pointer" /></div>
+
+</div>
+
+
+<div id="two" style="display:none;">
+    <div class="turntable-bg" id="cj">
+        <form id="checkQustion" action="<?php echo U("Lottery/Lottery/checkQustion"); ?>" >
+            <div class="modal-body" id="mybody"> 
+                请回答以下问题
+                <div id="errormsg"></div>
+                <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/><br />
+                问题一：XXXXX+XXXXX=XXX?
+                <input type="text" name="qustion1" value="马丁堡" ><br />
+                问题2：XXXXX+XXXXX=XXX?
+                <input type="text" name="qustion2" value="黑皮诺+长相思+雷司令" ><br />
+            </div>
+            <div class="modal-footer" style="text-align: center; border-top: 0px;">
+                <button type="button" class="btn btn-default  text-center" id="submitformcheckQustion" style="border: 1px rgb(205,145,105) solid">提交</button> 
+            </div>
+        </form>
+    </div>  
+
+
+    <div class="turntable-hd" id="t-hd"  data-toggle="modal" data-target="#myModal"><img src="<?php echo v_theme_url(); ?>/image/lottery/hd.png" alt="pointer" /></div>
+
+</div>
+
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" style="top:5%" tabindex="-1"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -240,51 +273,26 @@
     </div>
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="qustionModal" style="top:5%" tabindex="-1"  role="dialog" aria-labelledby="myModalLabel" >
-    <div class="modal-dialog">
-        <div class="modal-content" style="width:80%; margin: 0px auto;">
-            <div class="modal-header text-center" style="background-color: rgb(175,115,75); "> 
-                <h4 class="modal-title" id="myModalLabel" style="line-height: 1; color:#fff">温馨提示</h4>
-            </div>
-
-            <form id="checkQustion" action="<?php echo U("Lottery/Lottery/checkQustion"); ?>" >
-
-                <div class="modal-body" id="mybody"> 
-                    请回答以下问题
-                    <div id="errormsg"></div>
-                    <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/><br />
-                    问题一：XXXXX+XXXXX=XXX?
-                    <input type="text" name="qustion1" value="马丁堡" ><br />
-                    问题2：XXXXX+XXXXX=XXX?
-                    <input type="text" name="qustion2" value="黑皮诺+长相思+雷司令" ><br />
-                </div>
-                <div class="modal-footer" style="text-align: center; border-top: 0px;">
-                    <button type="button" class="btn btn-default  text-center" id="submitformcheckQustion" style="border: 1px rgb(205,145,105) solid">提交</button> 
-                    <!--<button type="button" class="btn btn-default  text-center" style="border: 1px rgb(205,145,105) solid" data-dismiss="modal">关闭</button>--> 
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-
-
 
 <script>
     $("#t-hd").click(function () {
         $(".modal-body-alert").html("<div style='font-size:16px;'><p>代金券抽奖活动规则</P><p>1. 活动时间：2015年05月09日 16:00pm - 2015年05月12日 17:00pm</p><p>2. 活动方式：通过转盘的方式得VYNFIELDS代金券，先到先得，抢完即止。</p><p>3. 每位用户仅有一次抽奖机会。</p><p>4. 请在有效期内使用Vynfields微商城代金券。</p><p>5. 代金券使用方法请查看图文消息，有问题找客服。</p><p>6. 本次活动最终解释权归本公司所有。</p></div>");
         $('#mybody').modal(options);
     });
+    $("#one").show();
+    $("#two").hide();
     subscribe = true;
-//    if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
-//        $('#myModal').modal('show');
-//        $(".modal-body-alert").html("需要关注才能参与哦。<br/>微信号:vynfields");
-//        subscribe = false;
-//
-//    }
+    if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
+        $('#myModal').modal('show'); 
+        $(".modal-body-alert").html("需要关注才能参与哦。<br/>微信号:vynfields");
+        $("#one").hide();
+        $("#two").show();
+        subscribe = false;
+
+    }
     if (<?php echo $user['is_lottery'] ? "false" : "true"; ?> && subscribe) {
-        $('#qustionModal').modal({backdrop: 'static', keyboard: false});
-        $('#qustionModal').modal('show');
+        $("#one").hide();
+        $("#two").show();
     }
     function ajax_save(lottery) {
         $.ajax({
@@ -313,7 +321,7 @@
 
                 } else if (data == "201") {
                     $('#myModal').modal('show');
-                    $(".modal-body").html("您已抽奖，不能在抽奖了");
+                    $(".modal-body-alert").html("您已抽奖，不能在抽奖了");
                 } else if (data == "202") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("感谢您的参加，活动已结束了哦！");
