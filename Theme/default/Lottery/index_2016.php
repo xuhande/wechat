@@ -123,11 +123,8 @@
                 error: function () {
                 }
             });
-
-
         });
-
-        $("#submitform").click(function () {
+        $("#submitformsaveaddress").click(function () {
             $.ajax({
                 type: "POST",
                 url: '<?php echo U("Lottery/Lottery/saveAddress") ?>',
@@ -151,6 +148,36 @@
                 }
             });
         });
+        
+        
+         $("#submitformcheckQustion").click(function () {
+            $.ajax({
+                type: "POST",
+                url: '<?php echo U("Lottery/Lottery/checkQustion") ?>',
+                data: $("#checkQustion").serialize(),
+                datatype: "json", //"xml", "html", "script", "json", "jsonp", "text". 
+                beforeSend: function () {
+
+                },
+                success: function (data) {
+                    console.log(data);
+                    if (data == "200") {
+                        alert("回答正确，点击关闭开始抽奖");
+                         $('#qustionModal').modal('hide');
+                    } else {
+                        $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
+                    }
+                },
+                complete: function (XMLHttpRequest, textStatus) {
+
+                },
+                error: function () {
+                }
+            });
+        });
+        
+        
+        
 
 
     });
@@ -180,7 +207,7 @@ if ($lottery['id'] != "") {
         真实姓名<input type="text" name="realname" value="<?php echo $lottery['realname'] ?>" /><br />
         手机号  <input type="text" name="mobile" value="<?php echo $lottery['mobile'] ?>" /><br />
         地址   <input type="text" name="address" value="<?php echo $lottery['address'] ?>" /><br />
-        <input type="button" id="submitform" value="提交" />
+        <input type="button" id="submitformsaveaddress" value="提交" />
     </form>
     <?php
 } else {
@@ -207,22 +234,49 @@ if ($lottery['id'] != "") {
     </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="qustionModal" style="top:5%" tabindex="-1"  role="dialog" aria-labelledby="myModalLabel" >
+    <div class="modal-dialog">
+        <div class="modal-content" style="width:80%; margin: 0px auto;">
+            <div class="modal-header text-center" style="background-color: rgb(175,115,75); "> 
+                <h4 class="modal-title" id="myModalLabel" style="line-height: 1; color:#fff">温馨提示</h4>
+            </div>
+            请回答以下问题
+            <form id="checkQustion" action="<?php echo U("Lottery/Lottery/checkQustion");?>" >
+                <div class="modal-body" id="mybody"> 
+                    <div id="errormsg"></div>
+                    <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/><br />
+                    问题一：XXXXX+XXXXX=XXX?
+                    <input type="text" name="qustion1" value="马丁堡" ><br />
+                    问题2：XXXXX+XXXXX=XXX?
+                    <input type="text" name="qustion2" value="黑皮诺+长相思+雷司令" ><br />
+                </div>
+                <div class="modal-footer" style="text-align: center; border-top: 0px;">
+                    <button type="button" class="btn btn-default  text-center" id="submitformcheckQustion" style="border: 1px rgb(205,145,105) solid">提交</button> 
+                    <button type="button" class="btn btn-default  text-center" style="border: 1px rgb(205,145,105) solid" data-dismiss="modal">关闭</button> 
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 
 
 
 <script>
     $("#t-hd").click(function () {
-
         $(".modal-body").html("<div style='font-size:16px;'><p>代金券抽奖活动规则</P><p>1. 活动时间：2015年05月09日 16:00pm - 2015年05月12日 17:00pm</p><p>2. 活动方式：通过转盘的方式得VYNFIELDS代金券，先到先得，抢完即止。</p><p>3. 每位用户仅有一次抽奖机会。</p><p>4. 请在有效期内使用Vynfields微商城代金券。</p><p>5. 代金券使用方法请查看图文消息，有问题找客服。</p><p>6. 本次活动最终解释权归本公司所有。</p></div>");
-
         $('#mybody').modal(options);
     });
-//    if (<?php echo $userinfo->subscribe ? "false" : "true"; ?>) {
-//        $('#myModal').modal('show');
-//       
-//        $(".modal-body").html("需要关注才能参与哦。<br/>微信号:vynfields");
-//    }
-
+    if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
+        $('#myModal').modal('show');
+        $(".modal-body").html("需要关注才能参与哦。<br/>微信号:vynfields");
+    }
+    
+    if (<?php echo $user['is_lottery'] ? "false" : "true"; ?>) {
+        $('#qustionModal').modal({backdrop: 'static', keyboard: false});
+        $('#qustionModal').modal('show');
+    }
     function ajax_save(lottery) {
         $.ajax({
             //提交数据的类型 POST GET
@@ -230,7 +284,7 @@ if ($lottery['id'] != "") {
             //提交的网址
             url: '<?php echo U("Lottery/Lottery/savelottery") ?>',
             //提交的数据
-            data: {openid: "<?php echo $userinfo->openid ?>", subscribe: "<?php echo $userinfo->subscribe ? true : false; ?>", nickname: "<?php echo $userinfo->nickname ?>", lottery: lottery.id}, //{Name: "sanmao", Password: "sanmaoword"},
+            data: {openid: "<?php echo $user['openid'] ?>", subscribe: "<?php echo $user['subscribe'] ? true : false; ?>", nickname: "<?php echo $user['nickname'] ?>", lottery: lottery.id}, //{Name: "sanmao", Password: "sanmaoword"},
 
             //返回数据的格式
             datatype: "json", //"xml", "html", "script", "json", "jsonp", "text".
@@ -238,7 +292,7 @@ if ($lottery['id'] != "") {
             beforeSend: function () {
             },
             //成功返回之后调用的函数             
-            success: function (data) { 
+            success: function (data) {
                 if (data == "200") {
                     if (lottery.id == "7") {
                         $('#myModal').modal('show');
@@ -263,6 +317,10 @@ if ($lottery['id'] != "") {
                 } else if (data == "500") {
                     $('#myModal').modal('show');
                     $(".modal-body").html("数据异常:获取用户数据失败，重新打开此页面试试？");
+                }
+                else if (data == "503") {
+                    $('#myModal').modal('show');
+                    $(".modal-body").html("您还没有回答问题呢。需要回答问题才能参与哦");
                 }
 
             },

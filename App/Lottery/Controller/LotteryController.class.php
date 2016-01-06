@@ -22,22 +22,75 @@ class LotteryController extends Controller {
 
 
         ///////////测试信息////////////
-//        $userinfo->openid = "aikangs";
-//        $userinfo->subscribe = true;
-//        $userinfo->nickname = "kangsng";
+        $userinfo->openid = "aikangs";
+        $userinfo->subscribe = true;
+        $userinfo->nickname = "kangsng";
         ///////////测试信息////////////
+        //将用户信息保存（如果不存在的话）
+        $where['openid'] = $userinfo->openid;
+        $user = M("wechat_user")->where($where)->find();
+
+        if ($user['id'] == "" && $userinfo->openid != "") {
+            $user['openid'] = $userinfo->openid;
+            $user['nickname'] = $userinfo->nickname;
+            $user['subscribe'] = $userinfo->subscribe;
+            $user['is_lottery'] = 0;
+            $user['created'] = time();
+            M("wechat_user")->data($user)->add();
+        }
+
+
+
+
         //查询用户的中奖信息
-
         $lottery = M("lottery")->where(array("openid" => $userinfo->openid, "lottery" => array("neq", "7")))->find();
-
 
         $lottery['lottery'] = M("lottery_prize")->where(array("id" => $lottery['lottery']))->find();
 
+        $this->user = $user;
         $this->lottery = $lottery;
         $this->openid = $openid;
         $this->userinfo = $userinfo;
 
         $this->theme("default")->display("Lottery/index_2016");
+    }
+
+    public function checkQustion() {
+        $openid = I("param.openid"); //openid
+        $qustion1 = I("param.qustion1");
+        $qustion2 = I("param.qustion2");
+
+        
+        
+        
+        $answe[1] = "马丁堡";
+        $answe[2] = "黑皮诺,长相思,雷司令";
+
+
+        $where['openid'] = $openid;
+        $user = M("wechat_user")->where($where)->find();
+        $ans = false;
+
+      
+        
+        
+        if ($user['id'] != "") {
+            //检查问题1
+            if (strstr($qustion1, $answe[1])) {//第一个答对s
+                if (strstr($qustion2, "黑皮诺") && strstr($qustion2, "长相思") && strstr($qustion2, "雷司令")) {
+                    $ans = true;
+                }
+            }
+            if ($ans) {//答对了
+                $user['is_lottery'] = 1;
+                M("wechat_user")->data($user)->save();
+                echo "200";
+            }else{
+                echo "202";
+            }
+        }else{
+            echo "404";
+        }
     }
 
     /**
@@ -50,8 +103,18 @@ class LotteryController extends Controller {
         $lottery_id = I("param.lottery"); //中奖信息
         //查询是否已经抽过了
 
-        if (!$subscribe) { //没有关注
+        $where['openid'] = $openid;
+        $user = M("wechat_user")->where($where)->find();
+
+
+
+
+        if (!$user['subscribe']) { //没有关注
             echo "303";
+            die;
+        }
+        if (!$user['is_lottery']) {//没有回答问题，。
+            echo "503";
             die;
         }
         if ($openid == "" || $nickname == "" || $lottery_id == "") {
