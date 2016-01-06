@@ -1,0 +1,18 @@
+[ 2015-12-17T11:55:11+08:00 ] 91.236.75.4 /reader/about/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+ERR: 无法加载模块:Reader
+
+[ 2015-12-17T13:55:47+08:00 ] 104.192.0.226 /cgi-bin/login.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Cgi-bin
+
+[ 2015-12-17T22:15:15+08:00 ] 222.186.15.149 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Manager
+

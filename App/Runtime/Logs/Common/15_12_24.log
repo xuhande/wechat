@@ -1,0 +1,12 @@
+[ 2015-12-24T18:39:28+08:00 ] 222.186.30.14 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-12-24T21:17:34+08:00 ] 61.160.213.56 /cgi-bin/chs/numreg/init?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Cgi-bin
+
