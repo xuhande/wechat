@@ -1,0 +1,819 @@
+
+2015-12-16 00:50:34: 
+2015-12-16 03:01:16: 
+2015-12-16 04:39:58: 
+2015-12-16 06:01:18: 
+2015-12-16 09:01:17: 
+2015-12-16 10:02:07: 
+2015-12-16 11:10:06:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpDCe_-IFNs2qpUXoh9od78]]></FromUserName>
+<CreateTime>1450235394</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpDCe_-IFNs2qpUXoh9od78]]></FromUserName>
+<CreateTime>1450235394</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 11:10:06:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpDCe_-IFNs2qpUXoh9od78]]></FromUserName>
+<CreateTime>1450235394</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 11:10:06:OPenid ou9X8tpDCe_-IFNs2qpUXoh9od78
+2015-12-16 11:10:06:object->order: 
+
+
+
+
+
+
+2015-12-16 11:33:56:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvaBdBsRvMPUk3mw8nZBzVw]]></FromUserName>
+<CreateTime>1450236823</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvaBdBsRvMPUk3mw8nZBzVw]]></FromUserName>
+<CreateTime>1450236823</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 11:33:56:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvaBdBsRvMPUk3mw8nZBzVw]]></FromUserName>
+<CreateTime>1450236823</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 11:33:56:OPenid ou9X8tvaBdBsRvMPUk3mw8nZBzVw
+2015-12-16 11:33:56:object->order: 
+
+
+
+
+
+
+2015-12-16 11:33:56:R <xml>
+<ToUserName><![CDATA[ou9X8tvaBdBsRvMPUk3mw8nZBzVw]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450236836</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></Content>
+</xml>
+2015-12-16 12:01:17: 
+2015-12-16 12:39:51:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1450240778</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>442276399</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>2499</TotalCount>
+<FilterCount>2499</FilterCount>
+<SentCount>2497</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1450240778</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>442276399</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>2499</TotalCount>
+<FilterCount>2499</FilterCount>
+<SentCount>2497</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml>
+2015-12-16 12:39:51:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></FromUserName>
+<CreateTime>1450240778</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>442276399</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>2499</TotalCount>
+<FilterCount>2499</FilterCount>
+<SentCount>2497</SentCount>
+<ErrorCount>0</ErrorCount>
+</xml>
+2015-12-16 12:39:51:OPenid ou9X8trkyERru6wR0VlVtblPI5sk
+2015-12-16 12:39:51:object->order: 
+
+
+
+
+
+
+
+
+
+
+
+2015-12-16 12:39:51:R <xml>
+<ToUserName><![CDATA[ou9X8trkyERru6wR0VlVtblPI5sk]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450240791</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[receive a new event: MASSSENDJOBFINISH]]></Content>
+</xml>
+2015-12-16 12:51:54:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tp3LF7R1CZXwSEcjVkiZLac]]></FromUserName>
+<CreateTime>1450241502</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tp3LF7R1CZXwSEcjVkiZLac]]></FromUserName>
+<CreateTime>1450241502</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 12:51:54:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tp3LF7R1CZXwSEcjVkiZLac]]></FromUserName>
+<CreateTime>1450241502</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 12:51:54:OPenid ou9X8tp3LF7R1CZXwSEcjVkiZLac
+2015-12-16 12:51:54:object->order: 
+
+
+
+
+
+
+2015-12-16 12:53:15:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0XbdM4eg_x4T_fBKCFqB4]]></FromUserName>
+<CreateTime>1450241582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0XbdM4eg_x4T_fBKCFqB4]]></FromUserName>
+<CreateTime>1450241582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 12:53:15:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0XbdM4eg_x4T_fBKCFqB4]]></FromUserName>
+<CreateTime>1450241582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 12:53:15:OPenid ou9X8tu0XbdM4eg_x4T_fBKCFqB4
+2015-12-16 12:53:15:object->order: 
+
+
+
+
+
+
+2015-12-16 12:53:15:R <xml>
+<ToUserName><![CDATA[ou9X8tu0XbdM4eg_x4T_fBKCFqB4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450241595</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></Content>
+</xml>
+2015-12-16 12:53:20:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0XbdM4eg_x4T_fBKCFqB4]]></FromUserName>
+<CreateTime>1450241582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0XbdM4eg_x4T_fBKCFqB4]]></FromUserName>
+<CreateTime>1450241582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 12:53:20:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0XbdM4eg_x4T_fBKCFqB4]]></FromUserName>
+<CreateTime>1450241582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 12:53:20:OPenid ou9X8tu0XbdM4eg_x4T_fBKCFqB4
+2015-12-16 12:53:20:object->order: 
+
+
+
+
+
+
+2015-12-16 12:53:20:R <xml>
+<ToUserName><![CDATA[ou9X8tu0XbdM4eg_x4T_fBKCFqB4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450241600</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></Content>
+</xml>
+2015-12-16 13:12:02:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tjAy3NfAAtKNjJkVwDCfDcc]]></FromUserName>
+<CreateTime>1450242710</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tjAy3NfAAtKNjJkVwDCfDcc]]></FromUserName>
+<CreateTime>1450242710</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 13:12:02:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tjAy3NfAAtKNjJkVwDCfDcc]]></FromUserName>
+<CreateTime>1450242710</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 13:12:02:OPenid ou9X8tjAy3NfAAtKNjJkVwDCfDcc
+2015-12-16 13:12:02:object->order: 
+
+
+
+
+
+
+2015-12-16 13:20:36:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmlW4bzH8Bj8CDU9OvtjqKY]]></FromUserName>
+<CreateTime>1450243223</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weidian.com/?userid=809310365&infoType=1]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmlW4bzH8Bj8CDU9OvtjqKY]]></FromUserName>
+<CreateTime>1450243223</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weidian.com/?userid=809310365&infoType=1]]></EventKey>
+</xml>
+2015-12-16 13:20:36:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tmlW4bzH8Bj8CDU9OvtjqKY]]></FromUserName>
+<CreateTime>1450243223</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weidian.com/?userid=809310365&infoType=1]]></EventKey>
+</xml>
+2015-12-16 13:20:36:OPenid ou9X8tmlW4bzH8Bj8CDU9OvtjqKY
+2015-12-16 13:20:36:object->order: 
+
+
+
+
+
+
+2015-12-16 13:20:36:R <xml>
+<ToUserName><![CDATA[ou9X8tmlW4bzH8Bj8CDU9OvtjqKY]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450243236</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://weidian.com/?userid=809310365&infoType=1]]></Content>
+</xml>
+2015-12-16 13:34:28:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsRaR6WlXQn9duL9CoPjX7g]]></FromUserName>
+<CreateTime>1450244056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weidian.com/?userid=809310365&infoType=1]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsRaR6WlXQn9duL9CoPjX7g]]></FromUserName>
+<CreateTime>1450244056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weidian.com/?userid=809310365&infoType=1]]></EventKey>
+</xml>
+2015-12-16 13:34:28:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsRaR6WlXQn9duL9CoPjX7g]]></FromUserName>
+<CreateTime>1450244056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weidian.com/?userid=809310365&infoType=1]]></EventKey>
+</xml>
+2015-12-16 13:34:28:OPenid ou9X8tsRaR6WlXQn9duL9CoPjX7g
+2015-12-16 13:34:28:object->order: 
+
+
+
+
+
+
+2015-12-16 13:34:28:R <xml>
+<ToUserName><![CDATA[ou9X8tsRaR6WlXQn9duL9CoPjX7g]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450244068</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://weidian.com/?userid=809310365&infoType=1]]></Content>
+</xml>
+2015-12-16 13:38:36:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tupRJNpBSE_UA_Sadt1jgv8]]></FromUserName>
+<CreateTime>1450244303</CreateTime>
+<MsgType><![CDATA[voice]]></MsgType>
+<MediaId><![CDATA[8n4zkJIQAWUNoTFuOewxKjTSk2KW5wKkrOjgp0ly_JUC10_c2vJxEw1_mYxXbo7z]]></MediaId>
+<Format><![CDATA[amr]]></Format>
+<MsgId>6228751852595314688</MsgId>
+<Recognition><![CDATA[什么样少年痴呆儿童一样！]]></Recognition>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tupRJNpBSE_UA_Sadt1jgv8]]></FromUserName>
+<CreateTime>1450244303</CreateTime>
+<MsgType><![CDATA[voice]]></MsgType>
+<MediaId><![CDATA[8n4zkJIQAWUNoTFuOewxKjTSk2KW5wKkrOjgp0ly_JUC10_c2vJxEw1_mYxXbo7z]]></MediaId>
+<Format><![CDATA[amr]]></Format>
+<MsgId>6228751852595314688</MsgId>
+<Recognition><![CDATA[什么样少年痴呆儿童一样！]]></Recognition>
+</xml>
+2015-12-16 13:38:36:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tupRJNpBSE_UA_Sadt1jgv8]]></FromUserName>
+<CreateTime>1450244303</CreateTime>
+<MsgType><![CDATA[voice]]></MsgType>
+<MediaId><![CDATA[8n4zkJIQAWUNoTFuOewxKjTSk2KW5wKkrOjgp0ly_JUC10_c2vJxEw1_mYxXbo7z]]></MediaId>
+<Format><![CDATA[amr]]></Format>
+<MsgId>6228751852595314688</MsgId>
+<Recognition><![CDATA[什么样少年痴呆儿童一样！]]></Recognition>
+</xml>
+2015-12-16 13:38:36:OPenid ou9X8tupRJNpBSE_UA_Sadt1jgv8
+2015-12-16 13:38:36:R <xml>
+<ToUserName><![CDATA[ou9X8tupRJNpBSE_UA_Sadt1jgv8]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450244316</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你刚才说的是：什么样少年痴呆儿童一样！]]></Content>
+</xml>
+2015-12-16 13:45:09:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsRaR6WlXQn9duL9CoPjX7g]]></FromUserName>
+<CreateTime>1450244696</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsRaR6WlXQn9duL9CoPjX7g]]></FromUserName>
+<CreateTime>1450244696</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 13:45:09:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsRaR6WlXQn9duL9CoPjX7g]]></FromUserName>
+<CreateTime>1450244696</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 13:45:09:OPenid ou9X8tsRaR6WlXQn9duL9CoPjX7g
+2015-12-16 13:45:09:object->order: 
+
+
+
+
+
+
+2015-12-16 13:45:09:R <xml>
+<ToUserName><![CDATA[ou9X8tsRaR6WlXQn9duL9CoPjX7g]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450244709</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></Content>
+</xml>
+2015-12-16 14:22:50:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tn4BenbY2IL98M_ZJFImzS0]]></FromUserName>
+<CreateTime>1450246957</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tn4BenbY2IL98M_ZJFImzS0]]></FromUserName>
+<CreateTime>1450246957</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 14:22:50:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tn4BenbY2IL98M_ZJFImzS0]]></FromUserName>
+<CreateTime>1450246957</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 14:22:50:OPenid ou9X8tn4BenbY2IL98M_ZJFImzS0
+2015-12-16 14:22:50:object->order: 
+
+
+
+
+
+
+2015-12-16 14:22:50:userou9X8tn4BenbY2IL98M_ZJFImzS0
+2015-12-16 14:22:50:R <xml>
+<ToUserName><![CDATA[ou9X8tn4BenbY2IL98M_ZJFImzS0]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450246970</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+请回复以下数字：
+【1】：查看维尼菲尔德酒庄介绍;
+【2】：查看维尼菲尔德葡萄酒;
+【3】：查看微商城;
+【4】：转入人工客服咨询;【5】：代理合作咨询;]]></Content>
+</xml>
+2015-12-16 14:33:14:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tokf5MzSGTsACM3vGlp7HXs]]></FromUserName>
+<CreateTime>1450247582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tokf5MzSGTsACM3vGlp7HXs]]></FromUserName>
+<CreateTime>1450247582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 14:33:14:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tokf5MzSGTsACM3vGlp7HXs]]></FromUserName>
+<CreateTime>1450247582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 14:33:14:OPenid ou9X8tokf5MzSGTsACM3vGlp7HXs
+2015-12-16 14:33:14:object->order: 
+
+
+
+
+
+
+2015-12-16 14:42:19:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvuIrRN6TVSBV4RqWf3Bo1s]]></FromUserName>
+<CreateTime>1450248126</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvuIrRN6TVSBV4RqWf3Bo1s]]></FromUserName>
+<CreateTime>1450248126</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 14:42:19:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvuIrRN6TVSBV4RqWf3Bo1s]]></FromUserName>
+<CreateTime>1450248126</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 14:42:19:OPenid ou9X8tvuIrRN6TVSBV4RqWf3Bo1s
+2015-12-16 14:42:19:object->order: 
+
+
+
+
+
+
+2015-12-16 14:42:19:userou9X8tvuIrRN6TVSBV4RqWf3Bo1s
+2015-12-16 14:42:19:R <xml>
+<ToUserName><![CDATA[ou9X8tvuIrRN6TVSBV4RqWf3Bo1s]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450248139</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+请回复以下数字：
+【1】：查看维尼菲尔德酒庄介绍;
+【2】：查看维尼菲尔德葡萄酒;
+【3】：查看微商城;
+【4】：转入人工客服咨询;【5】：代理合作咨询;]]></Content>
+</xml>
+2015-12-16 14:47:51:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0Ez40DJU0YoR4Je-yfuG4]]></FromUserName>
+<CreateTime>1450248459</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0Ez40DJU0YoR4Je-yfuG4]]></FromUserName>
+<CreateTime>1450248459</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 14:47:51:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tu0Ez40DJU0YoR4Je-yfuG4]]></FromUserName>
+<CreateTime>1450248459</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 14:47:51:OPenid ou9X8tu0Ez40DJU0YoR4Je-yfuG4
+2015-12-16 14:47:51:object->order: 
+
+
+
+
+
+
+2015-12-16 14:47:51:userou9X8tu0Ez40DJU0YoR4Je-yfuG4
+2015-12-16 14:47:51:R <xml>
+<ToUserName><![CDATA[ou9X8tu0Ez40DJU0YoR4Je-yfuG4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450248471</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+请回复以下数字：
+【1】：查看维尼菲尔德酒庄介绍;
+【2】：查看维尼菲尔德葡萄酒;
+【3】：查看微商城;
+【4】：转入人工客服咨询;【5】：代理合作咨询;]]></Content>
+</xml>
+2015-12-16 15:45:28:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl02E07cy2W-UUubv_lJycM]]></FromUserName>
+<CreateTime>1450251915</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl02E07cy2W-UUubv_lJycM]]></FromUserName>
+<CreateTime>1450251915</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 15:45:28:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tl02E07cy2W-UUubv_lJycM]]></FromUserName>
+<CreateTime>1450251915</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 15:45:28:OPenid ou9X8tl02E07cy2W-UUubv_lJycM
+2015-12-16 15:45:28:object->order: 
+
+
+
+
+
+
+2015-12-16 17:50:13:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpckkeDFBBu2srE-bxX_FOI]]></FromUserName>
+<CreateTime>1450259400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpckkeDFBBu2srE-bxX_FOI]]></FromUserName>
+<CreateTime>1450259400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 17:50:13:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpckkeDFBBu2srE-bxX_FOI]]></FromUserName>
+<CreateTime>1450259400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 17:50:13:OPenid ou9X8tpckkeDFBBu2srE-bxX_FOI
+2015-12-16 17:50:13:object->order: 
+
+
+
+
+
+
+2015-12-16 17:50:13:R <xml>
+<ToUserName><![CDATA[ou9X8tpckkeDFBBu2srE-bxX_FOI]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450259413</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></Content>
+</xml>
+2015-12-16 18:01:17: 
+2015-12-16 18:22:05: 
+2015-12-16 18:30:59: 
+2015-12-16 19:07:48:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttgXd5Hwi_yQD_Wwlh9wXz4]]></FromUserName>
+<CreateTime>1450264056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.vynfields.cn/Home/index/store]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttgXd5Hwi_yQD_Wwlh9wXz4]]></FromUserName>
+<CreateTime>1450264056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.vynfields.cn/Home/index/store]]></EventKey>
+</xml>
+2015-12-16 19:07:48:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ttgXd5Hwi_yQD_Wwlh9wXz4]]></FromUserName>
+<CreateTime>1450264056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://weixin.vynfields.cn/Home/index/store]]></EventKey>
+</xml>
+2015-12-16 19:07:48:OPenid ou9X8ttgXd5Hwi_yQD_Wwlh9wXz4
+2015-12-16 19:07:48:object->order: 
+
+
+
+
+
+
+2015-12-16 19:07:48:R <xml>
+<ToUserName><![CDATA[ou9X8ttgXd5Hwi_yQD_Wwlh9wXz4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450264068</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://weixin.vynfields.cn/Home/index/store]]></Content>
+</xml>
+2015-12-16 19:34:51:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsCQYSDDdbkI9b4gpAofA1Q]]></FromUserName>
+<CreateTime>1450265678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsCQYSDDdbkI9b4gpAofA1Q]]></FromUserName>
+<CreateTime>1450265678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 19:34:51:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tsCQYSDDdbkI9b4gpAofA1Q]]></FromUserName>
+<CreateTime>1450265678</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 19:34:51:OPenid ou9X8tsCQYSDDdbkI9b4gpAofA1Q
+2015-12-16 19:34:51:object->order: 
+
+
+
+
+
+
+2015-12-16 21:01:09:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trvxCTbI8_vNImSPaUOi3C4]]></FromUserName>
+<CreateTime>1450270856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trvxCTbI8_vNImSPaUOi3C4]]></FromUserName>
+<CreateTime>1450270856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 21:01:09:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8trvxCTbI8_vNImSPaUOi3C4]]></FromUserName>
+<CreateTime>1450270856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></EventKey>
+</xml>
+2015-12-16 21:01:09:OPenid ou9X8trvxCTbI8_vNImSPaUOi3C4
+2015-12-16 21:01:09:object->order: 
+
+
+
+
+
+
+2015-12-16 21:01:09:R <xml>
+<ToUserName><![CDATA[ou9X8trvxCTbI8_vNImSPaUOi3C4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1450270869</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[跳转链接 http://wcj.iyunkai.com/201510/562d7ce7cd58c.html]]></Content>
+</xml>
+2015-12-16 21:01:16: 
+2015-12-16 21:03:26:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tnDcyvE4O3w-dW-auZ-V4Kk]]></FromUserName>
+<CreateTime>1450270993</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tnDcyvE4O3w-dW-auZ-V4Kk]]></FromUserName>
+<CreateTime>1450270993</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 21:03:26:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tnDcyvE4O3w-dW-auZ-V4Kk]]></FromUserName>
+<CreateTime>1450270993</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 21:03:26:OPenid ou9X8tnDcyvE4O3w-dW-auZ-V4Kk
+2015-12-16 21:03:26:object->order: 
+
+
+
+
+
+
+2015-12-16 22:33:32:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tg2C9PHHNVCY6az9e-qTeio]]></FromUserName>
+<CreateTime>1450276400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tg2C9PHHNVCY6az9e-qTeio]]></FromUserName>
+<CreateTime>1450276400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 22:33:32:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tg2C9PHHNVCY6az9e-qTeio]]></FromUserName>
+<CreateTime>1450276400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 22:33:32:OPenid ou9X8tg2C9PHHNVCY6az9e-qTeio
+2015-12-16 22:33:32:object->order: 
+
+
+
+
+
+
+2015-12-16 23:26:07:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tk-mWO_MZ4qAOln5ZdS71H0]]></FromUserName>
+<CreateTime>1450279555</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tk-mWO_MZ4qAOln5ZdS71H0]]></FromUserName>
+<CreateTime>1450279555</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 23:26:07:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tk-mWO_MZ4qAOln5ZdS71H0]]></FromUserName>
+<CreateTime>1450279555</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 23:26:07:OPenid ou9X8tk-mWO_MZ4qAOln5ZdS71H0
+2015-12-16 23:26:07:object->order: 
+
+
+
+
+
+
+2015-12-16 23:47:27: 
+2015-12-16 23:51:27:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tlwo2gXp_FT93Bc4cg2a0ew]]></FromUserName>
+<CreateTime>1450281074</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tlwo2gXp_FT93Bc4cg2a0ew]]></FromUserName>
+<CreateTime>1450281074</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 23:51:27:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tlwo2gXp_FT93Bc4cg2a0ew]]></FromUserName>
+<CreateTime>1450281074</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-16 23:51:27:OPenid ou9X8tlwo2gXp_FT93Bc4cg2a0ew
+2015-12-16 23:51:27:object->order: 
+
+
+
+
+

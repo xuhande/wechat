@@ -1,0 +1,85 @@
+
+2015-12-31 00:03:46: 
+2015-12-31 08:22:51: 
+2015-12-31 10:23:20: 
+2015-12-31 12:08:22: 
+2015-12-31 15:03:09:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvLVSLNViuChwcN7nKRCH7o]]></FromUserName>
+<CreateTime>1451545389</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvLVSLNViuChwcN7nKRCH7o]]></FromUserName>
+<CreateTime>1451545389</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-31 15:03:09:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvLVSLNViuChwcN7nKRCH7o]]></FromUserName>
+<CreateTime>1451545389</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-31 15:03:09:OPenid ou9X8tvLVSLNViuChwcN7nKRCH7o
+2015-12-31 15:03:09:object->order: 
+
+
+
+
+
+
+2015-12-31 15:03:09:userou9X8tvLVSLNViuChwcN7nKRCH7o
+2015-12-31 15:03:09:R <xml>
+<ToUserName><![CDATA[ou9X8tvLVSLNViuChwcN7nKRCH7o]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1451545389</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+请回复以下数字：
+【1】：查看维尼菲尔德酒庄介绍;
+【2】：查看维尼菲尔德葡萄酒;
+【3】：查看微商城;
+【4】：转入人工客服咨询;【5】：代理合作咨询;]]></Content>
+</xml>
+2015-12-31 15:03:30:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvLVSLNViuChwcN7nKRCH7o]]></FromUserName>
+<CreateTime>1451545410</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6234340065061011039</MsgId>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvLVSLNViuChwcN7nKRCH7o]]></FromUserName>
+<CreateTime>1451545410</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6234340065061011039</MsgId>
+</xml>
+2015-12-31 15:03:30:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tvLVSLNViuChwcN7nKRCH7o]]></FromUserName>
+<CreateTime>1451545410</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[1]]></Content>
+<MsgId>6234340065061011039</MsgId>
+</xml>
+2015-12-31 15:03:30:OPenid ou9X8tvLVSLNViuChwcN7nKRCH7o
+2015-12-31 15:03:30:R <xml>
+<ToUserName><![CDATA[ou9X8tvLVSLNViuChwcN7nKRCH7o]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1451545410</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<Content><![CDATA[]]></Content>
+<ArticleCount>1</ArticleCount>
+<Articles>
+		    <item>
+        <Title><![CDATA[维尼菲尔德（VYNFIELDS）酒庄]]></Title>
+        <Description><![CDATA[维尼菲尔德酒庄坐落于马尔堡的梯田上,拥有5.3公顷有机葡萄园，园区内古老的碎石土壤表层覆盖着薄薄一层粉砂壤土，具有良好的排水性。气候适宜，降雨少，夏季炎热干燥，秋季夜间凉爽，这为黑皮诺和雷司令的生长创造了理想的条件。]]></Description>
+        <PicUrl><![CDATA[https://mmbiz.qlogo.cn/mmbiz/cNQxibw2z3wRebFKV8CObsmC4lYA9A9KEleUWicF6X4iblEMkovkOxns6bTf8mfVwvqgx64Ll9pcshbCMXTw9Cuzg/0]]></PicUrl>
+        <Url><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=203156234&idx=1&sn=0e564ec19e82cebd4b50873883fcd07d#rd]]></Url>
+    </item>
+</Articles>
+</xml>
+2015-12-31 16:00:57: 
+2015-12-31 20:11:53: 

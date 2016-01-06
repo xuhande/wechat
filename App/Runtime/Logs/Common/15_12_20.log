@@ -1,0 +1,1254 @@
+[ 2015-12-20T00:07:39+08:00 ] 222.186.50.147 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-12-20T01:26:51+08:00 ] 192.168.2.43 //server-status
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Server-status
+
+[ 2015-12-20T01:26:51+08:00 ] 192.168.2.43 //notexist_path.htaccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:Notexist_path
+
+[ 2015-12-20T01:26:52+08:00 ] 192.168.2.43 //notexist_path.404notfound
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Notexist_path
+
+[ 2015-12-20T01:26:53+08:00 ] 192.168.2.43 //path_not_exist.404notfound
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Path_not_exist
+
+[ 2015-12-20T01:26:53+08:00 ] 192.168.2.43 //web-console/ServerInfo.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Web-console
+
+[ 2015-12-20T01:26:55+08:00 ] 192.168.2.43 //wp-includes/wlwmanifest.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:Wp-includes
+
+[ 2015-12-20T01:26:56+08:00 ] 192.168.2.43 //wp-includes/images/crystal/license.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Wp-includes
+
+[ 2015-12-20T01:26:56+08:00 ] 192.168.2.43 //robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Robots
+
+[ 2015-12-20T01:26:56+08:00 ] 192.168.2.43 //notexist_path.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Notexist_path
+
+[ 2015-12-20T01:26:56+08:00 ] 192.168.2.43 //data/stat_setting.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Data
+
+[ 2015-12-20T01:26:57+08:00 ] 192.168.2.43 //ckeditor/notexist_path.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Ckeditor
+
+[ 2015-12-20T01:26:58+08:00 ] 192.168.2.43 //ckeditor/CHANGES.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Ckeditor
+
+[ 2015-12-20T01:26:58+08:00 ] 192.168.2.43 //ckeditor/notexist_path.md
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Ckeditor
+
+[ 2015-12-20T01:26:58+08:00 ] 192.168.2.43 //ckeditor/CHANGES.md
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Ckeditor
+
+[ 2015-12-20T01:26:59+08:00 ] 192.168.2.43 //licence.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Licence
+
+[ 2015-12-20T01:26:59+08:00 ] 192.168.2.43 //phpmyadmin/notexist_path
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2015-12-20T01:26:59+08:00 ] 192.168.2.43 //phpmyadmin/ChangeLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2015-12-20T01:27:00+08:00 ] 192.168.2.43 //phpMyAdmin/notexist_path
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-12-20T01:27:00+08:00 ] 192.168.2.43 //phpMyAdmin/ChangeLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-12-20T01:27:00+08:00 ] 192.168.2.43 //notexist_path
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Notexist_path
+
+[ 2015-12-20T01:27:01+08:00 ] 192.168.2.43 //ChangeLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:ChangeLog
+
+[ 2015-12-20T01:27:01+08:00 ] 192.168.2.43 //doc/notexist_path.py
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Doc
+
+[ 2015-12-20T01:27:01+08:00 ] 192.168.2.43 //doc/conf.py
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Doc
+
+[ 2015-12-20T01:27:02+08:00 ] 192.168.2.43 //phpmyadmin/doc/notexist_path.py
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2015-12-20T01:27:02+08:00 ] 192.168.2.43 //phpmyadmin/doc/conf.py
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2015-12-20T01:27:02+08:00 ] 192.168.2.43 //phpMyAdmin/doc/notexist_path.py
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-12-20T01:27:03+08:00 ] 192.168.2.43 //phpMyAdmin/doc/conf.py
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-12-20T01:27:03+08:00 ] 192.168.2.43 //phpmyadmin/README
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2015-12-20T01:27:03+08:00 ] 192.168.2.43 //phpMyAdmin/README
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2015-12-20T01:27:03+08:00 ] 192.168.2.43 //README
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:README
+
+[ 2015-12-20T01:27:04+08:00 ] 192.168.2.43 //styles/prosilver/notexist_path.cfg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Styles
+
+[ 2015-12-20T01:27:04+08:00 ] 192.168.2.43 //styles/prosilver/style.cfg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:Styles
+
+[ 2015-12-20T01:27:04+08:00 ] 192.168.2.43 //docs/CHANGELOG.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Docs
+
+[ 2015-12-20T01:27:06+08:00 ] 192.168.2.43 //statics/js/cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Statics
+
+[ 2015-12-20T01:27:06+08:00 ] 192.168.2.43 //phpcms/member/images/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Phpcms
+
+[ 2015-12-20T01:27:06+08:00 ] 192.168.2.43 //phpcms/data/js/config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Phpcms
+
+[ 2015-12-20T01:27:06+08:00 ] 192.168.2.43 //source/script_cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:Source
+
+[ 2015-12-20T01:27:07+08:00 ] 192.168.2.43 //source/script_common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:Source
+
+[ 2015-12-20T01:27:07+08:00 ] 192.168.2.43 //source/script_ajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Source
+
+[ 2015-12-20T01:27:07+08:00 ] 192.168.2.43 //template/default/image/submenu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:27:08+08:00 ] 192.168.2.43 //template/green/image/rss_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:27:08+08:00 ] 192.168.2.43 //template/default/image/hotspot.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:27:09+08:00 ] 192.168.2.43 //data/images/ecshop_slagon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Data
+
+[ 2015-12-20T01:27:09+08:00 ] 192.168.2.43 //js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:10+08:00 ] 192.168.2.43 //language/ja_JP/README.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Language
+
+[ 2015-12-20T01:27:10+08:00 ] 192.168.2.43 //doc/README_en.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Doc
+
+[ 2015-12-20T01:27:11+08:00 ] 192.168.2.43 //API
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:API
+
+[ 2015-12-20T01:27:11+08:00 ] 192.168.2.43 //BUGS
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:BUGS
+
+[ 2015-12-20T01:27:11+08:00 ] 192.168.2.43 //CREDITS
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:CREDITS
+
+[ 2015-12-20T01:27:12+08:00 ] 192.168.2.43 //INSTALL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:INSTALL
+
+[ 2015-12-20T01:27:12+08:00 ] 192.168.2.43 //wtnews.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Wtnews
+
+[ 2015-12-20T01:27:13+08:00 ] 192.168.2.43 //docs/README.TXT
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Docs
+
+[ 2015-12-20T01:27:13+08:00 ] 192.168.2.43 //INSTALL.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:INSTALL
+
+[ 2015-12-20T01:27:13+08:00 ] 192.168.2.43 //KS_Inc/ajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:KS_Inc
+
+[ 2015-12-20T01:27:14+08:00 ] 192.168.2.43 //KS_Inc/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:KS_Inc
+
+[ 2015-12-20T01:27:14+08:00 ] 192.168.2.43 //js/config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:14+08:00 ] 192.168.2.43 //js/api.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:14+08:00 ] 192.168.2.43 //js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:15+08:00 ] 192.168.2.43 //themes/mall/default/seller_order.confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Themes
+
+[ 2015-12-20T01:27:15+08:00 ] 192.168.2.43 //themes/mall/default/header.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Themes
+
+[ 2015-12-20T01:27:15+08:00 ] 192.168.2.43 //themes/store/default/footer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Themes
+
+[ 2015-12-20T01:27:16+08:00 ] 192.168.2.43 //templets/plus/rss.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Templets
+
+[ 2015-12-20T01:27:17+08:00 ] 192.168.2.43 //dede/templets/notexist_path.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Dede
+
+[ 2015-12-20T01:27:17+08:00 ] 192.168.2.43 //dede/templets/plus_bshare.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Dede
+
+[ 2015-12-20T01:27:17+08:00 ] 192.168.2.43 //templets/default/head2.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Templets
+
+[ 2015-12-20T01:27:18+08:00 ] 192.168.2.43 //include/data/audio/9.wav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Include
+
+[ 2015-12-20T01:27:18+08:00 ] 192.168.2.43 //templets/default/style/dedecms_skins_4.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Templets
+
+[ 2015-12-20T01:27:18+08:00 ] 192.168.2.43 //templets/default/article_article_test.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Templets
+
+[ 2015-12-20T01:27:19+08:00 ] 192.168.2.43 //include/dedeajax2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Include
+
+[ 2015-12-20T01:27:19+08:00 ] 192.168.2.43 //README.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:README
+
+[ 2015-12-20T01:27:19+08:00 ] 192.168.2.43 //addons/theme/stv1/_static/js/core.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Addons
+
+[ 2015-12-20T01:27:19+08:00 ] 192.168.2.43 //includes/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Includes
+
+[ 2015-12-20T01:27:20+08:00 ] 192.168.2.43 //htaccess.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Htaccess
+
+[ 2015-12-20T01:27:20+08:00 ] 192.168.2.43 //joomla.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Joomla
+
+[ 2015-12-20T01:27:20+08:00 ] 192.168.2.43 //language/en-GB/en-GB.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Language
+
+[ 2015-12-20T01:27:21+08:00 ] 192.168.2.43 //administrator/manifests/files/joomla.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Administrator
+
+[ 2015-12-20T01:27:21+08:00 ] 192.168.2.43 //misc/drupal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:Misc
+
+[ 2015-12-20T01:27:21+08:00 ] 192.168.2.43 //CHANGELOG.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:CHANGELOG
+
+[ 2015-12-20T01:27:22+08:00 ] 192.168.2.43 //license.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 无法加载模块:License
+
+[ 2015-12-20T01:27:22+08:00 ] 192.168.2.43 //template/default/wap/footer.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:27:22+08:00 ] 192.168.2.43 //readme.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Readme
+
+[ 2015-12-20T01:27:22+08:00 ] 192.168.2.43 //zb_system/script/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Zb_system
+
+[ 2015-12-20T01:27:23+08:00 ] 192.168.2.43 //celive/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Celive
+
+[ 2015-12-20T01:27:23+08:00 ] 192.168.2.43 ///core/notexist_path.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Core
+
+[ 2015-12-20T01:27:23+08:00 ] 192.168.2.43 ///core/version.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Core
+
+[ 2015-12-20T01:27:24+08:00 ] 192.168.2.43 //admin_aspcms/js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Admin_aspcms
+
+[ 2015-12-20T01:27:24+08:00 ] 192.168.2.43 //Templates/cn2014/templates/met091/images/li.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Templates
+
+[ 2015-12-20T01:27:24+08:00 ] 192.168.2.43 //data/notexist_path.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Data
+
+[ 2015-12-20T01:27:25+08:00 ] 192.168.2.43 //data/123.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Data
+
+[ 2015-12-20T01:27:25+08:00 ] 192.168.2.43 //upload/slide/month_1109/201109301842008590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Upload
+
+[ 2015-12-20T01:27:25+08:00 ] 192.168.2.43 //js/photoshow.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:25+08:00 ] 192.168.2.43 //static/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Static
+
+[ 2015-12-20T01:27:26+08:00 ] 192.168.2.43 //tttgfiles.md5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Tttgfiles
+
+[ 2015-12-20T01:27:26+08:00 ] 192.168.2.43 //static/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Static
+
+[ 2015-12-20T01:27:26+08:00 ] 192.168.2.43 //template/taoCMS/images/tao.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:27:27+08:00 ] 192.168.2.43 //max-templates/default/style/bbsmax_forum.css.fast.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:Max-templates
+
+[ 2015-12-20T01:27:27+08:00 ] 192.168.2.43 //max-assets/javascript/bbsmax3.js.fast.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Max-assets
+
+[ 2015-12-20T01:27:27+08:00 ] 192.168.2.43 //csdj/js/homeajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Csdj
+
+[ 2015-12-20T01:27:27+08:00 ] 192.168.2.43 //skins/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Skins
+
+[ 2015-12-20T01:27:28+08:00 ] 192.168.2.43 //inc/dv_wnd.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Inc
+
+[ 2015-12-20T01:27:29+08:00 ] 192.168.2.43 //api/js/jishigou.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Api
+
+[ 2015-12-20T01:27:29+08:00 ] 192.168.2.43 //js/max_history.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:29+08:00 ] 192.168.2.43 //template/default/images/content.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:27:30+08:00 ] 192.168.2.43 //template/default/images/960-90.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:27:30+08:00 ] 192.168.2.43 //template/default/images/logo01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:27:30+08:00 ] 192.168.2.43 //js/ajax_x.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:30+08:00 ] 192.168.2.43 //js/input.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:31+08:00 ] 192.168.2.43 //pmwiki/pub/skins/pmwiki/pmwiki.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Pmwiki
+
+[ 2015-12-20T01:27:31+08:00 ] 192.168.2.43 //pub/skins/pmwiki/pmwiki.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Pub
+
+[ 2015-12-20T01:27:31+08:00 ] 192.168.2.43 //e/vote/images/top_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:E
+
+[ 2015-12-20T01:27:32+08:00 ] 192.168.2.43 //master/images/gif.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Master
+
+[ 2015-12-20T01:27:32+08:00 ] 192.168.2.43 //images/default/setday.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Images
+
+[ 2015-12-20T01:27:32+08:00 ] 192.168.2.43 //javascripts/application.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:Javascripts
+
+[ 2015-12-20T01:27:33+08:00 ] 192.168.2.43 //javascripts/attachments.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Javascripts
+
+[ 2015-12-20T01:27:33+08:00 ] 192.168.2.43 //include/js/ajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Include
+
+[ 2015-12-20T01:27:33+08:00 ] 192.168.2.43 //include/js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Include
+
+[ 2015-12-20T01:27:34+08:00 ] 192.168.2.43 //include/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:Include
+
+[ 2015-12-20T01:27:34+08:00 ] 192.168.2.43 //images/edit/edit.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Images
+
+[ 2015-12-20T01:27:34+08:00 ] 192.168.2.43 //xthemes/bw1/images/title.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+ERR: 无法加载模块:Xthemes
+
+[ 2015-12-20T01:27:34+08:00 ] 192.168.2.43 //templates/default/images/ext/authcode.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Templates
+
+[ 2015-12-20T01:27:35+08:00 ] 192.168.2.43 //templates/default/images/icon_msg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Templates
+
+[ 2015-12-20T01:27:35+08:00 ] 192.168.2.43 //css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Css
+
+[ 2015-12-20T01:27:35+08:00 ] 192.168.2.43 //search?fulltext=1&search_submit=Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Search
+
+[ 2015-12-20T01:27:36+08:00 ] 192.168.2.43 //cms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Cms
+
+[ 2015-12-20T01:27:36+08:00 ] 192.168.2.43 //kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Kindeditor
+
+[ 2015-12-20T01:27:37+08:00 ] 192.168.2.43 //templates/default/js/jquery.QSdialog.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Templates
+
+[ 2015-12-20T01:27:37+08:00 ] 192.168.2.43 //public/themes/sn/img/icon/notexist_path.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Public
+
+[ 2015-12-20T01:27:37+08:00 ] 192.168.2.43 //public/themes/sn/img/icon/frogcms.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Public
+
+[ 2015-12-20T01:27:38+08:00 ] 192.168.2.43 //editor/ubb/ubbeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Editor
+
+[ 2015-12-20T01:27:38+08:00 ] 192.168.2.43 //e/data/html/postinfo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:E
+
+[ 2015-12-20T01:27:38+08:00 ] 192.168.2.43 //wlwmanifest.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Wlwmanifest
+
+[ 2015-12-20T01:27:39+08:00 ] 192.168.2.43 //themes/ajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Themes
+
+[ 2015-12-20T01:27:39+08:00 ] 192.168.2.43 //themes/base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Themes
+
+[ 2015-12-20T01:27:39+08:00 ] 192.168.2.43 //js/pinyin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:40+08:00 ] 192.168.2.43 //javascript/hotaru.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Javascript
+
+[ 2015-12-20T01:27:40+08:00 ] 192.168.2.43 //templates/admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Templates
+
+[ 2015-12-20T01:27:41+08:00 ] 192.168.2.43 //scripts/jumbotcms.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Scripts
+
+[ 2015-12-20T01:27:41+08:00 ] 192.168.2.43 //_data/global.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:_data
+
+[ 2015-12-20T01:27:41+08:00 ] 192.168.2.43 //common/js/lazycms.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Common
+
+[ 2015-12-20T01:27:41+08:00 ] 192.168.2.43 //resource/images/livcms.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Resource
+
+[ 2015-12-20T01:27:42+08:00 ] 192.168.2.43 //include/javascript/mvm.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Include
+
+[ 2015-12-20T01:27:42+08:00 ] 192.168.2.43 //include/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Include
+
+[ 2015-12-20T01:27:43+08:00 ] 192.168.2.43 //static/moinmoin/common/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Static
+
+[ 2015-12-20T01:27:43+08:00 ] 192.168.2.43 //login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Login
+
+[ 2015-12-20T01:27:43+08:00 ] 192.168.2.43 //skins/default/default_left.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Skins
+
+[ 2015-12-20T01:27:43+08:00 ] 192.168.2.43 //skins/default/jlocal.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Skins
+
+[ 2015-12-20T01:27:44+08:00 ] 192.168.2.43 //cache/js-common-chs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Cache
+
+[ 2015-12-20T01:27:44+08:00 ] 192.168.2.43 //tpl/static/js/public.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Tpl
+
+[ 2015-12-20T01:27:45+08:00 ] 192.168.2.43 //stylesheet.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Stylesheet
+
+[ 2015-12-20T01:27:45+08:00 ] 192.168.2.43 //includes/general.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:Includes
+
+[ 2015-12-20T01:27:45+08:00 ] 192.168.2.43 //osCommerce/OM/version.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:OsCommerce
+
+[ 2015-12-20T01:27:45+08:00 ] 192.168.2.43 //images/banners/CVS/Root
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Images
+
+[ 2015-12-20T01:27:46+08:00 ] 192.168.2.43 //cms/config/sql/mysql.initial.sql
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Cms
+
+[ 2015-12-20T01:27:46+08:00 ] 192.168.2.43 //JS/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:JS
+
+[ 2015-12-20T01:27:46+08:00 ] 192.168.2.43 //JS/JQueryAjax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:JS
+
+[ 2015-12-20T01:27:47+08:00 ] 192.168.2.43 //Page/page.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:Page
+
+[ 2015-12-20T01:27:47+08:00 ] 192.168.2.43 //css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Css
+
+[ 2015-12-20T01:27:47+08:00 ] 192.168.2.43 //js/base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:48+08:00 ] 192.168.2.43 //library/hoteditor/editor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Library
+
+[ 2015-12-20T01:27:48+08:00 ] 192.168.2.43 //system/templates/default12/images/js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:System
+
+[ 2015-12-20T01:27:48+08:00 ] 192.168.2.43 //system/templates/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:System
+
+[ 2015-12-20T01:27:48+08:00 ] 192.168.2.43 //templates/404.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Templates
+
+[ 2015-12-20T01:27:49+08:00 ] 192.168.2.43 //css/archiva.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Css
+
+[ 2015-12-20T01:27:49+08:00 ] 192.168.2.43 //upfile/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Upfile
+
+[ 2015-12-20T01:27:51+08:00 ] 192.168.2.43 //templates/default/info.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Templates
+
+[ 2015-12-20T01:27:51+08:00 ] 192.168.2.43 //include/apache_rewrite.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Include
+
+[ 2015-12-20T01:27:52+08:00 ] 192.168.2.43 ///readme.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Readme
+
+[ 2015-12-20T01:27:53+08:00 ] 192.168.2.43 //wp-content/plugins/all-video-gallery/readme.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Wp-content
+
+[ 2015-12-20T01:27:53+08:00 ] 192.168.2.43 //wp-content/plugins/wooframework-tweaks/readme.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Wp-content
+
+[ 2015-12-20T01:27:53+08:00 ] 192.168.2.43 //tpl/public/jquery/em_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Tpl
+
+[ 2015-12-20T01:27:54+08:00 ] 192.168.2.43 //tpl/login/user/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Tpl
+
+[ 2015-12-20T01:27:54+08:00 ] 192.168.2.43 //tpl/user/tpl1/js/lang.zh_cn.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Tpl
+
+[ 2015-12-20T01:27:54+08:00 ] 192.168.2.43 //edoas2/oa.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Edoas2
+
+[ 2015-12-20T01:27:55+08:00 ] 192.168.2.43 //js/frcms.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Js
+
+[ 2015-12-20T01:27:55+08:00 ] 192.168.2.43 //resource/css/iwbFramework/iwb.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Resource
+
+[ 2015-12-20T01:27:55+08:00 ] 192.168.2.43 //Web.sitemap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Web
+
+[ 2015-12-20T01:27:55+08:00 ] 192.168.2.43 //resource/script/ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Resource
+
+[ 2015-12-20T01:27:56+08:00 ] 192.168.2.43 //ueditor/ueditor.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2015-12-20T01:27:56+08:00 ] 192.168.2.43 //fckeditor/_whatsnew.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+ERR: 无法加载模块:Fckeditor
+
+[ 2015-12-20T01:27:57+08:00 ] 192.168.2.43 //FCKeditor/_docs/whatsnew.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:FCKeditor
+
+[ 2015-12-20T01:27:57+08:00 ] 192.168.2.43 //fckeditor/license.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Fckeditor
+
+[ 2015-12-20T01:27:58+08:00 ] 192.168.2.43 //eWebEditor.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:EWebEditor
+
+[ 2015-12-20T01:27:58+08:00 ] 192.168.2.43 //POLICY.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:POLICY
+
+[ 2015-12-20T01:27:59+08:00 ] 192.168.2.43 //phpMemcachedAdmin/Public/Scripts/notexist_path.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:PhpMemcachedAdmin
+
+[ 2015-12-20T01:27:59+08:00 ] 192.168.2.43 //phpMemcachedAdmin/Public/Scripts/Script.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:PhpMemcachedAdmin
+
+[ 2015-12-20T01:28:00+08:00 ] 192.168.2.43 //Public/Scripts/notexist_path.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Public
+
+[ 2015-12-20T01:28:00+08:00 ] 192.168.2.43 //Public/Scripts/Script.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Public
+
+[ 2015-12-20T01:28:00+08:00 ] 192.168.2.43 //lib/ufinder/ufinder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Lib
+
+[ 2015-12-20T01:28:00+08:00 ] 192.168.2.43 //ufinder/ufinder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Ufinder
+
+[ 2015-12-20T01:28:01+08:00 ] 192.168.2.43 //lib/ufinder/ufinder.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Lib
+
+[ 2015-12-20T01:28:01+08:00 ] 192.168.2.43 //ufinder/ufinder.config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Ufinder
+
+[ 2015-12-20T01:28:03+08:00 ] 192.168.2.43 //uc_center/images/admincp.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Uc_center
+
+[ 2015-12-20T01:28:03+08:00 ] 192.168.2.43 //template/knifecms/css/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Template
+
+[ 2015-12-20T01:28:04+08:00 ] 192.168.2.43 //templates/phpmps/style/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Templates
+
+[ 2015-12-20T01:28:04+08:00 ] 192.168.2.43 //style/gb/help/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Style
+
+[ 2015-12-20T01:28:04+08:00 ] 192.168.2.43 //coremail/help/index_zh_CN.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:Coremail
+
+[ 2015-12-20T01:28:05+08:00 ] 192.168.2.43 //struts/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Struts
+
+[ 2015-12-20T01:28:06+08:00 ] 192.168.2.43 //index.php/module/action/param1/${@print(md5(1))}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-12-20T01:28:06+08:00 ] 192.168.2.43 //index.php/module/action/param1/test}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Index.php
+
+[ 2015-12-20T01:28:06+08:00 ] 192.168.2.43 //img/notexist_path.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-20T01:28:07+08:00 ] 192.168.2.43 //img/cake.icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-20T01:28:07+08:00 ] 192.168.2.43 //img/notexist_path.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-20T01:28:07+08:00 ] 192.168.2.43 //img/cake.power.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-20T02:29:46+08:00 ] 175.123.98.240 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-12-20T08:46:51+08:00 ] 222.186.50.147 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-12-20T09:24:20+08:00 ] 61.160.247.202 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-12-20T11:38:01+08:00 ] 118.193.223.14 /cityjson
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:Cityjson
+
+[ 2015-12-20T22:17:37+08:00 ] 107.161.80.15 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Manager
+

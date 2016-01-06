@@ -1,0 +1,174 @@
+[ 2015-12-18T00:00:22+08:00 ] 23.251.63.45 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /web/weixin/App/Home/Controller/WechatController.class.php 第 66 行.
+
+[ 2015-12-18T00:38:34+08:00 ] 104.219.238.10 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /web/weixin/App/Home/Controller/WechatController.class.php 第 66 行.
+
+[ 2015-12-18T00:55:33+08:00 ] 192.168.2.43 /?signature=eb245962ac48ea7141af0ba5789f482720372b00&timestamp=1450371321&nonce=1545175969
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+
+[ 2015-12-18T00:59:22+08:00 ] 192.168.2.43 /?signature=40b28d1dc542a7bebdb88c286dc2872a274ac121&timestamp=1450371549&nonce=528908182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+
+[ 2015-12-18T04:54:37+08:00 ] 104.219.238.10 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /web/weixin/App/Home/Controller/WechatController.class.php 第 66 行.
+
+[ 2015-12-18T12:08:13+08:00 ] 192.168.2.43 /?signature=19427bd7a9ddb3fdeb137c63cea522f403a0586c&timestamp=1450411678&nonce=1990845728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-12-18T12:09:02+08:00 ] 192.168.2.43 /?signature=b9b63e498ef18a791de1e162fc374e4f7f6e20c3&timestamp=1450411728&nonce=1706925468
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-12-18T12:13:04+08:00 ] 192.168.2.43 /?signature=8ac08b4797d88b7b311cae0924147e11584b4756&timestamp=1450411970&nonce=683846166
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-12-18T12:53:03+08:00 ] 192.168.2.43 /?signature=0a5828e35631f8d402544865abe8989aff6fd8e7&timestamp=1450414368&nonce=797274463
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-12-18T14:05:35+08:00 ] 192.168.2.43 /?signature=585dbc94bba04b7696ecf29bb78b6d9965aa3ca6&timestamp=1450418722&nonce=697739383
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+
+[ 2015-12-18T20:44:55+08:00 ] 192.168.2.43 /?signature=cfaeedf65ff2ca2100446ba3d25ef6b1e525bda4&timestamp=1450442682&nonce=1866471765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+
+[ 2015-12-18T21:17:36+08:00 ] 192.168.2.43 /?signature=2983cb1a8a7404f7af0295f3b5075af0c863e513&timestamp=1450444643&nonce=11350855
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+
+[ 2015-12-18T21:28:03+08:00 ] 171.208.221.246 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /web/weixin/App/Home/Controller/WechatController.class.php 第 66 行.
+
+[ 2015-12-18T22:49:49+08:00 ] 192.168.2.43 /?signature=b613f7be4f74bd813cb831d9df197633c72cded4&timestamp=1450450176&nonce=32615379
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+
+[ 2015-12-18T23:06:28+08:00 ] 192.168.2.43 /?signature=326dbdd2bb6e0ce5d7c58f60c45c8ade2e80bb66&timestamp=1450451175&nonce=1034751324
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+
+[ 2015-12-18T23:36:13+08:00 ] 192.168.2.43 /?signature=3ef36e5505870458143fa250896a334ab4ab61cc&timestamp=1450452960&nonce=287649840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+
+[ 2015-12-18T23:58:45+08:00 ] 61.145.231.79 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /web/weixin/App/Home/Controller/WechatController.class.php 第 66 行.
+

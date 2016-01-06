@@ -1,0 +1,269 @@
+
+2015-12-25 00:16:18:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpIVY-tpKTMO5-5RTd25vFc]]></FromUserName>
+<CreateTime>1450973778</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpIVY-tpKTMO5-5RTd25vFc]]></FromUserName>
+<CreateTime>1450973778</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 00:16:18:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tpIVY-tpKTMO5-5RTd25vFc]]></FromUserName>
+<CreateTime>1450973778</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 00:16:18:OPenid ou9X8tpIVY-tpKTMO5-5RTd25vFc
+2015-12-25 00:16:18:object->order: 
+
+
+
+
+
+
+2015-12-25 00:47:08: 
+2015-12-25 07:38:49: 
+2015-12-25 08:27:18: 
+2015-12-25 10:31:19: 
+2015-12-25 16:16:20: 
+2015-12-25 18:41:08: 
+2015-12-25 19:26:06:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ts1xSBSXAwPxS1m4wd7yTS8]]></FromUserName>
+<CreateTime>1451042766</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ts1xSBSXAwPxS1m4wd7yTS8]]></FromUserName>
+<CreateTime>1451042766</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 19:26:06:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8ts1xSBSXAwPxS1m4wd7yTS8]]></FromUserName>
+<CreateTime>1451042766</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 19:26:06:OPenid ou9X8ts1xSBSXAwPxS1m4wd7yTS8
+2015-12-25 19:26:06:object->order: 
+
+
+
+
+
+
+2015-12-25 20:34:30:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 20:34:30:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 20:34:30:OPenid ou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:34:30:object->order: 
+
+
+
+
+
+
+2015-12-25 20:34:30:userou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:34:30:R <xml>
+<ToUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+请回复以下数字：
+【1】：查看维尼菲尔德酒庄介绍;
+【2】：查看维尼菲尔德葡萄酒;
+【3】：查看微商城;
+【4】：转入人工客服咨询;【5】：代理合作咨询;]]></Content>
+</xml>
+2015-12-25 20:34:35:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 20:34:35:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 20:34:35:OPenid ou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:34:35:object->order: 
+
+
+
+
+
+
+2015-12-25 20:34:35:userou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:34:35:R <xml>
+<ToUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1451046875</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+请回复以下数字：
+【1】：查看维尼菲尔德酒庄介绍;
+【2】：查看维尼菲尔德葡萄酒;
+【3】：查看微商城;
+【4】：转入人工客服咨询;【5】：代理合作咨询;]]></Content>
+</xml>
+2015-12-25 20:34:40:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 20:34:40:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046870</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 20:34:40:OPenid ou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:34:40:object->order: 
+
+
+
+
+
+
+2015-12-25 20:34:40:userou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:34:40:R <xml>
+<ToUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1451046880</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[您好, 欢迎关注【维尼菲尔德（VYNFIELDS）酒庄】，惟你专享的迷人价值！
+请回复以下数字：
+【1】：查看维尼菲尔德酒庄介绍;
+【2】：查看维尼菲尔德葡萄酒;
+【3】：查看微商城;
+【4】：转入人工客服咨询;【5】：代理合作咨询;]]></Content>
+</xml>
+2015-12-25 20:34:54:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046894</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[红包]]></Content>
+<MsgId>6232198955140801522</MsgId>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046894</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[红包]]></Content>
+<MsgId>6232198955140801522</MsgId>
+</xml>
+2015-12-25 20:34:54:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046894</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[红包]]></Content>
+<MsgId>6232198955140801522</MsgId>
+</xml>
+2015-12-25 20:34:54:OPenid ou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:34:54:R <xml>
+<ToUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1451046894</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[活动已结束，谢谢参与。请期待下一次活动！么么哒～]]></Content>
+</xml>
+2015-12-25 20:34:59:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046894</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[红包]]></Content>
+<MsgId>6232198955140801522</MsgId>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046894</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[红包]]></Content>
+<MsgId>6232198955140801522</MsgId>
+</xml>
+2015-12-25 20:34:59:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046894</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[红包]]></Content>
+<MsgId>6232198955140801522</MsgId>
+</xml>
+2015-12-25 20:34:59:OPenid ou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:34:59:R <xml>
+<ToUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></ToUserName>
+<FromUserName><![CDATA[gh_b259c869edd8]]></FromUserName>
+<CreateTime>1451046899</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[活动已结束，谢谢参与。请期待下一次活动！么么哒～]]></Content>
+</xml>
+2015-12-25 20:35:00:<xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046900</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046900</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 20:35:00:R <xml><ToUserName><![CDATA[gh_b259c869edd8]]></ToUserName>
+<FromUserName><![CDATA[ou9X8tiB0UlLc0ljsRZZRGFraUX4]]></FromUserName>
+<CreateTime>1451046900</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+2015-12-25 20:35:00:OPenid ou9X8tiB0UlLc0ljsRZZRGFraUX4
+2015-12-25 20:35:00:object->order: 
+
+
+
+
+

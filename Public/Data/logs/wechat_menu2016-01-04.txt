@@ -1,0 +1,649 @@
+
+2016-01-04 11:35:09:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1451878509","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wcj.iyunkai.com\/201510\/562d7ce7cd58c.html","MenuId":"452426305"}
+2016-01-04 11:35:09:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2016-01-04 11:35:09:R enG7sZPTSb4W5QQJGLLDoUsLeoDz_WP5zySd--xl8YacF1bsnze_2FVgnErmWa0N1XnfofQhh55XUQoJ6hYIWoNBxBz861sx2UOEbt8ddvoFMLhAHAAHG
+2016-01-04 11:35:09:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 11:35:14:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1451878514","MsgType":"event","Event":"CLICK","EventKey":"Contact"}
+2016-01-04 11:35:14:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2016-01-04 11:35:14:R enG7sZPTSb4W5QQJGLLDoUsLeoDz_WP5zySd--xl8Ya7KY6rziPxUPYTtUImbGLATozwUG9o1St2z26tqBWbNIKrd-ycpfXLC2vQ8Kr9YM0FMLhAHAAHG
+2016-01-04 11:35:14:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 13:22:11:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsB-9LyL1grx7-M1nR5YR5A","CreateTime":"1451884931","MsgType":"event","Event":"CLICK","EventKey":"VINEYARD"}
+2016-01-04 13:22:11:openid menuss: ou9X8tsB-9LyL1grx7-M1nR5YR5A
+2016-01-04 13:22:11:R ir7n8xNhiws_FtcWBkNGpssLGTMUXHud00wbZamqFvIugQyqk3znNQGG5XKvEFxmVaFmhTzOB7kxkAeut_ylf7kYfRVIauXTmT2KQh6rqWURJKdAEAGYZ
+2016-01-04 13:22:11:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 13:22:15:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsB-9LyL1grx7-M1nR5YR5A","CreateTime":"1451884935","MsgType":"event","Event":"CLICK","EventKey":"WINE"}
+2016-01-04 13:22:15:openid menuss: ou9X8tsB-9LyL1grx7-M1nR5YR5A
+2016-01-04 13:22:15:R ir7n8xNhiws_FtcWBkNGpssLGTMUXHud00wbZamqFvK9cmnwxhl9-C1Ld9YnvAt8PBMa9wmYBiQqnnoQ76kie1yz-QN_oISIGLFkIgnd64IRJKdAEAGYZ
+2016-01-04 13:22:15:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 15:26:03:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tl0p-rfJcmRriSrj2QP144s","CreateTime":"1451892363","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/weidian.com\/?userid=809310365&infoType=1","MenuId":"453901029"}
+2016-01-04 15:26:03:openid menuss: ou9X8tl0p-rfJcmRriSrj2QP144s
+2016-01-04 15:26:05:R LX-0UHTIy0pfPLg9hwW7z87_F_j2x5chhs3axAdfrehyGOgoG9zksQyW3MdfEmys1xs6KjpFBUrkPSemx3tmz5JZzN2PdPfirxV91ADOCHcZLPfAJAQCG
+2016-01-04 15:26:05:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 15:41:34:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1451893294","MsgType":"text","Content":"Lottery ","MsgId":"6235834215466001467"}
+2016-01-04 15:41:34:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2016-01-04 15:41:35:R XyBtzADN00xPmHwn0UL89ZVKfpjJkhqGokVKCQH6_K-3yIKppp-6EmPCDynOdZOjf-lfVHwupbRCoFYb5cMU2oKTgOHmX-1fhFcVSNXxgTkDNOhAHAUEF
+2016-01-04 15:41:35:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 15:42:41:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tpIyTF__F42bVpVw5EYUpks","CreateTime":"1451893360","MsgType":"event","Event":"subscribe","EventKey":{}}
+2016-01-04 15:42:41:openid menuss: ou9X8tpIyTF__F42bVpVw5EYUpks
+2016-01-04 15:42:41:R coZdV3l_kZQqGjUM_raNRzNMExDjwAAn_qsR5VqAEj427QYqE6TEH0Pud5TSZUjqXRGKEX3IzgGRiS9FdcYG4XeM3D_G2dZscNYJyimhZr4AXVdABAJGE
+2016-01-04 15:42:41:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 15:42:56:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tpIyTF__F42bVpVw5EYUpks","CreateTime":"1451893376","MsgType":"event","Event":"VIEW","EventKey":"http:\/\/wcj.iyunkai.com\/201510\/562d7ce7cd58c.html","MenuId":"454295571"}
+2016-01-04 15:42:56:openid menuss: ou9X8tpIyTF__F42bVpVw5EYUpks
+2016-01-04 15:42:57:R coZdV3l_kZQqGjUM_raNRzNMExDjwAAn_qsR5VqAEj7GM24QJnG6hVuzwboBtLjC55rhA7EA3tayrQbe54TmmXYpc-awY0k6ciNo-058pAQAXVdABAJGE
+2016-01-04 15:42:57:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 15:47:53:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1451893673","MsgType":"text","Content":"G","MsgId":"6235835843258642985"}
+2016-01-04 15:47:53:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2016-01-04 15:47:55:R FKv1WFq577l_41O1a3M41Iq38cYTKJh2SA7rcz7rslNPQ4G5YFG959-gDnfgxT04PNY5d5u_1VbJoeoDJ2Q2lX2l73xyQRvnpTZX75lJig0PISdAGALEO
+2016-01-04 15:47:55:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 15:49:24:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1451893764","MsgType":"text","Content":"Weixin.vynfields.cn\/home\/index\/type\/lottery ","MsgId":"6235836234100667930"}
+2016-01-04 15:49:24:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2016-01-04 15:49:25:R wsjei-yau_YH3rqWk2NGS1AG3rilcNMEttlWeBTxHk3_uFUKTGD-LXdfi4KeunPIwcJPqFpn-YNmZ6onn9XXxEfZayL9PnftrQC5_-MGTKQLIYgADABYO
+2016-01-04 15:49:25:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}
+
+2016-01-04 15:50:55:postObj: {"ToUserName":"gh_b259c869edd8","FromUserName":"ou9X8tsAIKJfcy86ynM9tXUKorbg","CreateTime":"1451893854","MsgType":"text","Content":"http:\/\/Weixin.vynfields.cn\/home\/oauth2\/type\/lottery","MsgId":"6235836620647725587"}
+2016-01-04 15:50:55:openid menuss: ou9X8tsAIKJfcy86ynM9tXUKorbg
+2016-01-04 15:50:55:R uBFQOyyUhaGZLQVboJLLyQULi228lJ7inoPbC7tBuct9fDStVDv1nQmbwTM44uwT-iGDrmLgJknLV-g52_G1p34o-XH7EWZKkKRCzkxUMKgFIEaADAZCY
+2016-01-04 15:50:55:post menu
+{
+    "button": [
+        {
+            "name": "商城", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "小店", 
+                    "url": "http://weidian.com/?userid=809310365&infoType=1"
+                },  
+                {
+                    "type": "view", 
+                    "name": "教程", 
+                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
+                }
+            ]
+        }, 
+        {
+            "name": "Vynfields", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "品牌介绍", 
+                    "key": "VINEYARD"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "产品介绍", 
+                    "key": "WINE"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "往期资讯", 
+                    "url": "http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA3MDAyMzA5OQ==#wechat_webview_type=1&wechat_redirect"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "反馈建议", 
+                    "url": "http://weixin.vynfields.cn/Home/Suggestion/index"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "合作洽谈", 
+                    "key": "Contact"
+                }
+            ]
+        }, 
+         {
+            "type": "view",
+            "name": "销售链", 
+            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+        }
+    ]
+}

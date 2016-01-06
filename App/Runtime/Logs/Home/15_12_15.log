@@ -1,0 +1,876 @@
+[ 2015-12-15T20:30:43+08:00 ] 192.168.2.43 /?signature=29c7a4969b7f09f2875df3b41edcb31dfee4d006&timestamp=1450182630&nonce=1643474070
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2015-12-15T20:30:49+08:00 ] 192.168.2.43 /?signature=eb4871c68039210bf976f5b3034d140469ccc4ba&timestamp=1450182636&nonce=789188635
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2015-12-15T20:30:56+08:00 ] 192.168.2.43 /?signature=7523bbfd277ba42a1bbb3f793aa2e176b0a1a9c6&timestamp=1450182642&nonce=1259882200
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2015-12-15T20:31:07+08:00 ] 192.168.2.43 /?signature=d2a863192f014d1af4ed22cb34200429795f2d27&timestamp=1450182649&nonce=346156513
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2015-12-15T20:31:08+08:00 ] 192.168.2.43 /?signature=d2a863192f014d1af4ed22cb34200429795f2d27&timestamp=1450182649&nonce=346156513
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-12-15T20:31:14+08:00 ] 192.168.2.43 /?signature=b132298b4c6007e301ec59e4ab9220fdd01c98eb&timestamp=1450182656&nonce=1065435412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2015-12-15T20:31:15+08:00 ] 192.168.2.43 /?signature=b132298b4c6007e301ec59e4ab9220fdd01c98eb&timestamp=1450182656&nonce=1065435412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2015-12-15T20:32:05+08:00 ] 192.168.2.43 /?signature=2a49bc693fa7d3a48db260add33a356943f33b1c&timestamp=1450182707&nonce=34010740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2015-12-15T20:32:06+08:00 ] 192.168.2.43 /?signature=2a49bc693fa7d3a48db260add33a356943f33b1c&timestamp=1450182707&nonce=34010740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-12-15T20:32:06+08:00 ] 192.168.2.43 /?signature=59987a42f5128da764221548443c0b1e0c505453&timestamp=1450182713&nonce=640903087
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-12-15T20:32:16+08:00 ] 192.168.2.43 /?signature=1c2430f506d58878ca1162019a1fc93ede4a852e&timestamp=1450182723&nonce=118619884
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-12-15T20:32:21+08:00 ] 192.168.2.43 /?signature=a9e7a5745dd558f38b3ddfc9620c40f53a9d2389&timestamp=1450182728&nonce=1028896562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-12-15T20:32:30+08:00 ] 192.168.2.43 /?signature=c4edd6cadc224398d0437992a8f8baa75674c096&timestamp=1450182737&nonce=2021656148
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 533 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 534 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2015-12-15T20:40:25+08:00 ] 192.168.2.43 /?signature=535ac397e0a449b8d22d22c78f63af62ad3de91b&timestamp=1450183212&nonce=823564454
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-12-15T20:41:03+08:00 ] 192.168.2.43 /?signature=fdaed6957ac507db2428135cef7d52d9eea3cb5b&timestamp=1450183244&nonce=848410324
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-12-15T20:41:08+08:00 ] 192.168.2.43 /?signature=fdaed6957ac507db2428135cef7d52d9eea3cb5b&timestamp=1450183244&nonce=848410324
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2015-12-15T20:41:24+08:00 ] 192.168.2.43 /?signature=fdaed6957ac507db2428135cef7d52d9eea3cb5b&timestamp=1450183244&nonce=848410324
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [2] fopen(Public/Data/logs/wechat_log2015-12-15.txt): failed to open stream: Permission denied /web/weixin/App/Home/Controller/WechatController.class.php 第 535 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 536 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /web/weixin/App/Home/Controller/WechatController.class.php 第 537 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-12-15T20:41:59+08:00 ] 192.168.2.43 /?signature=bf34d86133f411bd525fcd583c2fee5cf598ef79&timestamp=1450183306&nonce=1142936937
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-12-15T20:42:19+08:00 ] 192.168.2.43 /?signature=1d2d6816f5acbca11ed50083c25577a408c0e77b&timestamp=1450183324&nonce=711195200
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-12-15T20:42:20+08:00 ] 192.168.2.43 /?signature=9c8dee1225b1899556ca5df39eb1cfd75cce6fc7&timestamp=1450183326&nonce=729566049
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-12-15T20:42:21+08:00 ] 192.168.2.43 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /web/weixin/App/Home/Controller/WechatController.class.php 第 66 行.
+
+[ 2015-12-15T20:42:21+08:00 ] 192.168.2.43 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /web/weixin/App/Home/Controller/WechatController.class.php 第 66 行.
+
+[ 2015-12-15T20:43:16+08:00 ] 192.168.2.43 /?signature=81b531a2ffce7c07f1afd399cf97bb4e1c28ade1&timestamp=1450183382&nonce=2924605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-12-15T20:44:23+08:00 ] 192.168.2.43 /?signature=24cb8fb6471a5ae20e64fdd3c82dcfe2aa534c3d&timestamp=1450183448&nonce=390282470
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-12-15T20:44:41+08:00 ] 192.168.2.43 /?signature=d8eb8fa019c748e9a5ea9ebe540c68e2d089d09d&timestamp=1450183461&nonce=1075677798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2015-12-15T20:44:45+08:00 ] 192.168.2.43 /?signature=d8eb8fa019c748e9a5ea9ebe540c68e2d089d09d&timestamp=1450183461&nonce=1075677798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2015-12-15T20:44:45+08:00 ] 192.168.2.43 /?signature=d8eb8fa019c748e9a5ea9ebe540c68e2d089d09d&timestamp=1450183461&nonce=1075677798
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-12-15T20:48:26+08:00 ] 192.168.2.43 /?signature=483a03790b7fe0995a278f528dc65fa724d7ffbb&timestamp=1450183693&nonce=626097316
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-12-15T20:48:30+08:00 ] 192.168.2.43 /?signature=708bc6dbf34b6683dec50c3991aea05fff25200a&timestamp=1450183696&nonce=1108659855
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-12-15T20:50:57+08:00 ] 192.168.2.43 /?signature=93c29a15ff90e36eb370a195ffb11f67d38d414b&timestamp=1450183839&nonce=1136728676
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-12-15T20:50:58+08:00 ] 192.168.2.43 /?signature=93c29a15ff90e36eb370a195ffb11f67d38d414b&timestamp=1450183839&nonce=1136728676
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-12-15T20:52:30+08:00 ] 192.168.2.43 /?signature=8414657d0a2f8e7ce2190996e66c51b722cde7c6&timestamp=1450183937&nonce=1492985575
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-12-15T20:52:30+08:00 ] 192.168.2.43 /?signature=d35a6a3d0fc33f7671391104d34bfa48bb1eb1bb&timestamp=1450183937&nonce=1649663998
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-12-15T20:54:29+08:00 ] 192.168.2.43 /?signature=a29c2220d0c80209d615b1f35837222d72f29665&timestamp=1450184056&nonce=921885143
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-12-15T20:54:36+08:00 ] 192.168.2.43 /?signature=0428c318e9747a1c8f9500f3dda0337ac67a7343&timestamp=1450184063&nonce=1880131982
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-12-15T20:54:46+08:00 ] 192.168.2.43 /?signature=d89b3b4069117a7559892e1b974631c8c9b02593&timestamp=1450184068&nonce=451575406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-12-15T20:54:47+08:00 ] 192.168.2.43 /?signature=d89b3b4069117a7559892e1b974631c8c9b02593&timestamp=1450184068&nonce=451575406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-12-15T20:54:48+08:00 ] 192.168.2.43 /?signature=6adc29e687de862c9d499ac0dc72c5d623c3bdc7&timestamp=1450184075&nonce=1143834397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-12-15T20:58:07+08:00 ] 192.168.2.43 /?signature=7b428b5db318d02b2ed2560b846f7a3afa953c02&timestamp=1450184274&nonce=1572118492
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2015-12-15T20:58:20+08:00 ] 192.168.2.43 /?signature=052aa5a460677209b6d8b8951183c24a2e1c56ca&timestamp=1450184287&nonce=1803349331
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-12-15T20:58:49+08:00 ] 192.168.2.43 /?signature=ed2f5b32063d091e353aace5f2e1cdd83800eb70&timestamp=1450184316&nonce=819433925
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2015-12-15T20:58:49+08:00 ] 192.168.2.43 /?signature=a8875d9ad4dccc75cee4c6cd8c6472488783893b&timestamp=1450184316&nonce=1275688476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-12-15T21:01:16+08:00 ] 192.168.2.43 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /web/weixin/App/Home/Controller/WechatController.class.php 第 66 行.
+
+[ 2015-12-15T21:21:12+08:00 ] 192.168.2.43 /?signature=a7e0ff14acb17390e1841217897e48b2808fdbfe&timestamp=1450185659&nonce=2068070716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-12-15T21:28:03+08:00 ] 192.168.2.43 /?signature=9f2618a5da88384d9fa0f479a9d8f65dbfc0d095&timestamp=1450186065&nonce=570398747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2015-12-15T21:28:03+08:00 ] 192.168.2.43 /?signature=9f2618a5da88384d9fa0f479a9d8f65dbfc0d095&timestamp=1450186065&nonce=570398747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-12-15T22:05:28+08:00 ] 192.168.2.43 /?signature=000e8d0ad1b42ad453ce140b3ce4b54b2b2edf97&timestamp=1450188315&nonce=63420548
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-12-15T23:29:20+08:00 ] 192.168.2.43 /?signature=16c8e99d69388514227821bb7a34da22324129a4&timestamp=1450193347&nonce=264087358
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2015-12-15T23:32:07+08:00 ] 192.168.2.43 /?signature=4bd6611816dd520119194e9b5a0cc418211afeac&timestamp=1450193514&nonce=366258547
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2015-12-15T23:56:14+08:00 ] 192.168.2.43 /?signature=77ad7eebe8f8008ff106117c8e412d330f3fa8f9&timestamp=1450194961&nonce=1243249974
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-12-15T23:56:16+08:00 ] 192.168.2.43 /?signature=32e2c5a10b005116baea4166c375b43c4273188a&timestamp=1450194962&nonce=1153899815
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /web/weixin/App/Home/Controller/WechatController.class.php 第 7 行.
+NOTIC: [8] file_get_contents(): Content-type not specified assuming application/x-www-form-urlencoded /web/weixin/App/Home/Controller/MenuController.class.php 第 198 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+

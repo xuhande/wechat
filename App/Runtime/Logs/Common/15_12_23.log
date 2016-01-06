@@ -1,0 +1,24 @@
+[ 2015-12-23T01:15:37+08:00 ] 58.221.66.98 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-12-23T09:47:59+08:00 ] 104.192.0.226 /lang/en/js/feature.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Lang
+
+[ 2015-12-23T11:10:14+08:00 ] 118.193.12.194 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Manager
+
+[ 2015-12-23T22:12:15+08:00 ] 183.131.152.100 /checkvip/proxyip_verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Checkvip
+
