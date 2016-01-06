@@ -22,9 +22,9 @@ class LotteryController extends Controller {
 
 
         ///////////测试信息////////////
-//        $userinfo->openid = "aikangs";
-//        $userinfo->subscribe = true;
-//        $userinfo->nickname = "kangsng";
+        $userinfo->openid = "aikangs";
+        $userinfo->subscribe = true;
+        $userinfo->nickname = "kangsng";
         ///////////测试信息////////////
         //将用户信息保存（如果不存在的话）
         $where['openid'] = $userinfo->openid;
@@ -60,9 +60,6 @@ class LotteryController extends Controller {
         $qustion1 = I("param.qustion1");
         $qustion2 = I("param.qustion2");
 
-        
-        
-        
         $answe[1] = "马丁堡";
         $answe[2] = "黑皮诺,长相思,雷司令";
 
@@ -71,24 +68,25 @@ class LotteryController extends Controller {
         $user = M("wechat_user")->where($where)->find();
         $ans = false;
 
-      
-        
-        
         if ($user['id'] != "") {
-            //检查问题1
-            if (strstr($qustion1, $answe[1])) {//第一个答对s
-                if (strstr($qustion2, "黑皮诺") && strstr($qustion2, "长相思") && strstr($qustion2, "雷司令")) {
-                    $ans = true;
+            if ($user['subscribe'] == "1") {
+                //检查问题1
+                if (strstr($qustion1, $answe[1])) {//第一个答对s
+                    if (strstr($qustion2, "黑皮诺") && strstr($qustion2, "长相思") && strstr($qustion2, "雷司令")) {
+                        $ans = true;
+                    }
                 }
+                if ($ans) {//答对了
+                    $user['is_lottery'] = 1;
+                    M("wechat_user")->data($user)->save();
+                    echo "200";
+                } else {
+                    echo "202";
+                }
+            } else {
+                 echo "403";
             }
-            if ($ans) {//答对了
-                $user['is_lottery'] = 1;
-                M("wechat_user")->data($user)->save();
-                echo "200";
-            }else{
-                echo "202";
-            }
-        }else{
+        } else {
             echo "404";
         }
     }
