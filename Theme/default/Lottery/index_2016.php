@@ -158,7 +158,7 @@
                             var address = $("#address").val();
                             $("#address_message").html("收货信息:" + realname + " - " + mobile + " - " + address);
                         } else { 
-                            alert("收获地址保存失败，请重新打开此页面重新操作");
+                            alert("保存失败，请刷新重试。");
                             return false;
                         }
                     },
@@ -173,7 +173,7 @@
         $("#submitformcheckQustion").click(function () {
 
             if ($("#qustion1").val() == "" || $("#qustion2").val() == "") {
-                alert("请回答本活动问题正确才能进行抽奖环节");
+                alert("请正确回答问题。");
                 return false;
             } else {
                 $.ajax({
@@ -187,15 +187,15 @@
                     success: function (data) { 
                         $("#errormsg").html("");
                         if (data == "200") {
-                            alert("回答正确，点击关闭开始抽奖");
+                            alert("回答正确，点击关闭进行抽奖。");
                             $("#one").show("slow");
                             $("#two").hide();
                         } else if (data == "202") {
                             $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
                         } else if (data == "403") {
-                            $("#errormsg").html("需要关注后才能参与活动哦");
+                            $("#errormsg").html("需要关注后才能参与活动哦。");
                         } else if (data == "404") {
-                            $("#errormsg").html("用户未找到。请重新打开此页面重试");
+                            $("#errormsg").html("用户信息未获取到。");
                         }
                     },
                     complete: function (XMLHttpRequest, textStatus) {
@@ -229,7 +229,7 @@
   position: relative;"> 
             <?php
             if ($lottery['id'] != "") {
-                echo "您的中奖获得：" . $lottery['lottery']['prize']."<br />";
+                echo "恭喜你获奖" . $lottery['lottery']['prize']."<br />";
                 echo "<span id='address_message'>收货信息：" . $lottery['realname'] . " - " . $lottery['mobile'] . " - " . $lottery['address'] . "</span>";
                 echo '<script>   $(function () {$("#form-wrap").slideToggle();});</script>';
             } else {
@@ -285,7 +285,7 @@
         </div>
         <div class="form-group"> 
             <p style="font-size:14px;color: #fff;">维菲酒庄葡萄品种：</p>
-            <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请回答酒庄有几种葡萄品种,如：赤霞珠+美乐">
+            <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请说出维菲的三种主要酒款所用的葡萄品种。如：赤霞珠+美乐">
         </div>                         
         <div class="form-group">
             <!--<button type="button" class="btn btn-success" style="width: 100%;">提交</button>-->
@@ -309,7 +309,7 @@
             <div class="modal-header text-center" style="background-color: rgb(175,115,75); "> 
                 <h4 class="modal-title" id="myModalLabel" style="line-height: 1; color:#fff">温馨提示</h4>
             </div>
-            <div class="modal-body-alert" id="mybody" style="padding: 10px">
+            <div class="modal-body-alert" id="mybody" style="padding: 10px; text-align:center">
 
             </div>
             <div class="modal-footer" style="text-align: center; border-top: 0px;">
@@ -322,7 +322,7 @@
 
 <script>
     $(".t-hd").click(function () {
-        $(".modal-body-alert").html("<div style='font-size:16px;padding: 10px;'><p>代金券抽奖活动规则</P><p>1. 活动时间：2015年05月09日 16:00pm - 2015年05月12日 17:00pm</p><p>2. 活动方式：通过转盘的方式得VYNFIELDS代金券，先到先得，抢完即止。</p><p>3. 每位用户仅有一次抽奖机会。</p><p>4. 请在有效期内使用Vynfields微商城代金券。</p><p>5. 代金券使用方法请查看图文消息，有问题找客服。</p><p>6. 本次活动最终解释权归本公司所有。</p></div>");
+        $(".modal-body-alert").html("<div style='font-size:16px;padding: 10px; text-align:left'><p style='text-align:center'>答题抽奖</P><p>1. 活动时间：2016年01月08日 - 2016年01月14日 </p><p>2. 活动方式：关注公众号后回答问题进入抽奖环节。先到先得，抢完即止。</p><p>3. 每位用户仅有一次抽奖机会。</p><p>4. 如已中奖，请正确填写收货地址。</p><p>5. 如有疑问，请咨询客服。</p><p>6. 本次活动最终解释权归本公司所有。</p></div>");
         $('#mybody').modal(options);
     });
     $("#one").show();
@@ -330,7 +330,7 @@
     subscribe = true;
     if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
         $('#myModal').modal('show');
-        $(".modal-body-alert").html("需要关注才能参与哦。<br/>微信号:vynfields");
+        $(".modal-body-alert").html("请关注维菲公众号参与活动。<br/>公众号:vynfields");
         $("#one").hide();
         $("#two").show(); 
     }
@@ -360,29 +360,29 @@
                         $(".modal-body-alert").html("谢谢参与");
                     } else {
                         $('#myModal').modal('show');
-                        $(".modal-body-alert").html("恭喜您中了“" + lottery.prize + "”，请查看您的中奖信息。填写您的收获或地址");
+                        $(".modal-body-alert").html("恭喜您中奖了。请查看您的中奖信息，填写您的收货地址。");
                         $("#lottery_message").html("恭喜您中了" + lottery.prize);
                         $("#form-wrap").slideToggle();
                     }
 
                 } else if (data == "201") {
                     $('#myModal').modal('show');
-                    $(".modal-body-alert").html("您已抽奖，不能在抽奖了");
+                    $(".modal-body-alert").html("您已抽奖，不能再抽奖了。");
                 } else if (data == "202") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("感谢您的参加，活动已结束了哦！");
                 } else if (data == "203") {
                     $('#myModal').modal('show');
-                    $(".modal-body-alert").html("数据处理异常，请重新参与");
+                    $(".modal-body-alert").html("数据处理异常，请重新参与。");
                 } else if (data == "303") {
                     $('#myModal').modal('show');
-                    $(".modal-body-alert").html("需要关注才能参与哦");
+                    $(".modal-body-alert").html("需要关注才能参与哦。");
                 } else if (data == "500") {
                     $('#myModal').modal('show');
-                    $(".modal-body-alert").html("数据异常:获取用户数据失败，重新打开此页面试试？");
+                    $(".modal-body-alert").html("数据异常:获取用户数据失败，重新打开此页面试试。");
                 } else if (data == "503") {
                     $('#myModal').modal('show');
-                    $(".modal-body-alert").html("您还没有回答问题呢。需要回答问题才能参与哦");
+                    $(".modal-body-alert").html("您还没有回答问题呢，需要回答问题才能参与哦。");
                 }
 
             },
