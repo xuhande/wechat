@@ -15,7 +15,7 @@ class ActivityController extends Controller {
     public function index() {
 
         if(getip() != "116.204.86.154"){
-            $this->ajaxReturn(array("code"=>"404","message"=>"访问的路径不存在"));
+            $this->ajaxReturn(array("code"=>"404","message"=>"访问的路径不存在"));die;
         }
         $data = M("activity")->where(array("num" => array('neq', 1)))->select();
 //        foreach ($data as &$v){

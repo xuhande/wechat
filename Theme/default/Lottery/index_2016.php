@@ -225,7 +225,8 @@
             <div class="pointer"><img src="<?php echo v_theme_url(); ?>/image/lottery/activity-lottery-2.png" alt="pointer" width="80"/></div>
             <div class="rotate" ><img id="rotate" src="<?php echo v_theme_url(); ?>/image/lottery/turntable.png" alt="turntable" width="310"/></div>
         </div>
-        <div class="" id="lottery_message" style="color: #fff;text-align: center;line-height:25px; margin-bottom: 30px;
+    </div>  
+        <div class="" id="lottery_message" style="color: #fff;text-align: center; line-height: 25px;margin-bottom: 10px;
   height: 100%;
   position: relative;"> 
             <?php
@@ -239,8 +240,7 @@
             ?> 
 
         </div>
-    </div>  
-    <div class="turntable-bg" id="form-wrap"  style="display:none;background: none;height:100%;margin-top: 60px;">
+    <div class="turntable-bg" id="form-wrap"  style="display:none;background: none;height:100%; ">
         <div class="turntable-cont"> 
             <form id="saveaddress" action="<?php echo U("Home/Lottery/saveAddress"); ?>">
 <!--                <input type="hidden" name="id" value="<?php echo $lottery['id'] ?>" />
