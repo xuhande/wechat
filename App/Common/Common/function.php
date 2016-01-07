@@ -26,30 +26,29 @@ function v_check_meta($meta_key) {
 
 //网站地址
 function v_site_url() {
-	return  M('option')->where("meta_key='site_url'")->getField('meta_value');
+    return M('option')->where("meta_key='site_url'")->getField('meta_value');
 //    return  "http://localhost:8009";
 }
+
 //title
 function v_title() {
-    $title =  M('option')->where("meta_key='site_name' AND type='public'")->getField('meta_value');
+    $title = M('option')->where("meta_key='site_name' AND type='public'")->getField('meta_value');
     //MODULE_NAME get HOME
     //CONTROLLER_NAME get controler
     //ACTION_NAME get action name
-    if(MODULE_NAME == "Cork"){
-        
+    if (MODULE_NAME == "Cork") {
+
         $title = "脑洞有多大，奖品就有多大！";
-    }
-    else if(MODULE_NAME == "Admin"){
+    } else if (MODULE_NAME == "Admin") {
         $title = "admin manager";
     }
-  
-	 
-    
-    
-	return $title;
+
+
+
+
+    return $title;
     //return  "http://localhost";
 }
- 
 
 //模板目录
 function v_theme_url() {
@@ -60,9 +59,8 @@ function v_theme_url() {
  * 加载公共模板
  */
 function v_template_part($data) {
-    echo W("Common/Public/index", array("data"=>$data));
+    echo W("Common/Public/index", array("data" => $data));
 }
- 
 
 function v_islogin() {
     $value = $_SESSION['admin_user'];
@@ -71,17 +69,20 @@ function v_islogin() {
     } else {
         return false;
     }
-};
+}
+
+;
+
 function v_meta_seo() {
-    
+
     $list = M("meta")->select();
     $meta = "";
-    foreach ($list as $v){
-        $meta .= '<meta name="'.$v['meta_key'].'" content="' . $v['meta_value'] . '">'; 
+    foreach ($list as $v) {
+        $meta .= '<meta name="' . $v['meta_key'] . '" content="' . $v['meta_value'] . '">';
     }
 //    $keywords = v_meta("site_keywords"); //"java,php,WEB前端,web前端开发,javascript,HTML,css,技术随笔";//mc_option('article_keywords');
 //    $description = v_meta("site_description"); //mc_option('article_description');
-   
+
     return $meta;
 }
 
@@ -100,10 +101,6 @@ function v_user_ip() {
     };
     return $ip;
 }
-
- 
- 
-
 
 //HTML危险标签过滤
 function v_remove_html($str) {
@@ -149,36 +146,48 @@ function v_remove_html($str) {
     return $str;
 }
 
-
 /**
  * send message to openid
  * @param type $openid openid
  * @param type $content content
  * @return type
  */
-function sendMessage($openid,$content){
-    
-        \Home\Common\Common::setrep();
-        $accessToken = $_SESSION["tokens"]; //获取access_token   
-        $xjson = '
+function sendMessage($openid, $content) {
+
+    \Home\Common\Common::setrep();
+    $accessToken = $_SESSION["tokens"]; //获取access_token   
+    $xjson = '
      {
-    "touser":"'.$openid.'",
+    "touser":"' . $openid . '",
     "msgtype":"text",
     "text":
     {
-         "content":"'.$content.'"
+         "content":"' . $content . '"
     }
 }
          ';
-        $PostUrl = "https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=" . $accessToken; //POST的url  
-        $value = \Home\Common\Common::PData($PostUrl, $xjson);
-        $datas = json_decode($value, ture);
-      
+    $PostUrl = "https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=" . $accessToken; //POST的url  
+    $value = \Home\Common\Common::PData($PostUrl, $xjson);
+    $datas = json_decode($value, ture);
 
-        return $value;
+
+    return $value;
 }
 
-
-
+function getip() {
+    if (!empty($_SERVER["HTTP_CLIENT_IP"])) {
+        $cip = $_SERVER["HTTP_CLIENT_IP"];
+    } else if (!empty($_SERVER["HTTP_X_FORWARDED_FOR"])) {
+        $cip = $_SERVER["HTTP_X_FORWARDED_FOR"];
+    } else if (!empty($_SERVER["REMOTE_ADDR"])) {
+        $cip = $_SERVER["REMOTE_ADDR"];
+    } else {
+        $cip = '';
+    }
+    preg_match("/[\d\.]{7,15}/", $cip, $cips);
+    $cip = isset($cips[0]) ? $cips[0] : 'unknown';
+    unset($cips);
+    return $cip;
+}
 
 ?>

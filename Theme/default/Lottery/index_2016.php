@@ -1,6 +1,5 @@
 <?php v_template_part(array("name" => "header", "path" => "Public")); ?> 
-
-
+ 
 <link rel="stylesheet" type="text/css" href="<?php echo v_site_url() ?>/Public/css/wx.css"  >
 
 <script src="<?php echo v_theme_url(); ?>/js/awardRotate.js"></script>
@@ -103,8 +102,6 @@
         var bRotate = false;
         var rotateFn = function (angles, obj) {
             bRotate = !bRotate;
-
-
             var ang = parseInt(obj.angles) + 1800;
             $('#rotate').stopRotate();
             $('#rotate').rotate({
@@ -116,7 +113,6 @@
                     bRotate = !bRotate;
 //                      $('#saveaddress').modal('show');
                     ajax_save(obj);
-
                 }
             })
         };
@@ -176,49 +172,41 @@
                 });
             }
         });
-        $("#checkQustion").submit(function () {
+        $("#submitformcheckQustion").click(function () {
+
             if ($("#qustion1").val() == "" || $("#qustion2").val() == "") {
                 alert("请回答本活动问题正确才能进行抽奖环节");
                 return false;
-            }
+            } else {
+                $.ajax({
+                    type: "POST",
+                    url: '<?php echo U("Lottery/Lottery/checkQustion") ?>',
+                    data: $("#checkQustion").serialize(),
+                    datatype: "json", //"xml", "html", "script", "json", "jsonp", "text". 
+                    beforeSend: function () {
 
-        });
-
-        $("#submitformcheckQustion").click(function () {
-            $.ajax({
-                type: "POST",
-                url: '<?php echo U("Lottery/Lottery/checkQustion") ?>',
-                data: $("#checkQustion").serialize(),
-                datatype: "json", //"xml", "html", "script", "json", "jsonp", "text". 
-                beforeSend: function () {
-
-                },
-                success: function (data) {
-
-                    $("#errormsg").html("");
-                    if (data == "200") {
-                        alert("回答正确，点击关闭开始抽奖");
-                        $("#one").show("slow");
-                        $("#two").hide();
-                    } else if (data == "202") {
-                        alert("错了哦~答案都在原文中，祝你好运。");
-                        $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
-                    } else if (data == "403") {
-                        alert("需要关注后才能参与活动哦");
-                        $("#errormsg").html("需要关注后才能参与活动哦");
-                    } else if (data == "404") {
-                        alert("用户未找到。请重新打开此页面重试");
-                        $("#errormsg").html("用户未找到。请重新打开此页面重试");
+                    },
+                    success: function (data) { 
+                        $("#errormsg").html("");
+                        if (data == "200") {
+                            alert("回答正确，点击关闭开始抽奖");
+                            $("#one").show("slow");
+                            $("#two").hide();
+                        } else if (data == "202") {
+                            $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
+                        } else if (data == "403") {
+                            $("#errormsg").html("需要关注后才能参与活动哦");
+                        } else if (data == "404") {
+                            $("#errormsg").html("用户未找到。请重新打开此页面重试");
+                        }
+                    },
+                    complete: function (XMLHttpRequest, textStatus) {
+                    },
+                    error: function () { 
                     }
-                },
-                complete: function (XMLHttpRequest, textStatus) {
-
-                },
-                error: function () {
-                }
-            });
+                });
+            }
         });
-
 
 
 
@@ -275,9 +263,10 @@
                 <div class="form-group" style="margin-bottom: 5px;"> 
                     <p style="font-size:14px;color: #fff;">收货地址：</p>
                     <textarea class="form-control" id="address"  name="address" value="" rows="6" style="height: 10em;" placeholder="请输入您收货地址！"><?php echo $lottery['address'] ?></textarea>
-                </div>                        
+                </div>    
                 <div class="form-group">
                     <button type="button" class="btn btn-success" id="submitformsaveaddress" style="width: 100%;">提交</button>
+ 
                 </div>
             </form> 
         </div>  
@@ -291,19 +280,20 @@
     <div class="turntable-bg" id="cj" style="background: none;height:100%">
         <div class='turntable-login  text-center'><img src="<?php echo v_theme_url(); ?>/image/lottery/logo-1.png" alt="pointer" width='200'/></div>
         <form id="checkQustion" action="<?php echo U("Lottery/Lottery/checkQustion"); ?>"  method="post"  > 
-            <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/>
-            <p class="prompt" style="font-size:14px;color: #fff;">请回答以下问题</p>
-            <div class="form-group"> 
-                <p style="font-size:14px;color: #fff;">维菲酒庄产区：</p>
-                <input type="text" class="form-control"  id="qustion1" name="qustion1"placeholder="请回答维菲酒庄属于新西兰哪个产区">
-            </div>
-            <div class="form-group"> 
-                <p style="font-size:14px;color: #fff;">维菲酒庄葡萄品种：</p>
-                <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请回答酒庄有几种葡萄品种,如：赤霞珠+美乐">
-            </div>                         
-            <div class="form-group">
-                <button type="button" id="submitformcheckQustion" class="btn btn-success" style="width: 100%;">提交</button>
-            </div>
+        <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/>
+        <p class="prompt" style="font-size:14px;color: #fff;">请回答以下问题</p>
+        <div class="form-group"> 
+            <p style="font-size:14px;color: #fff;">维菲酒庄产区：</p>
+            <input type="text" class="form-control"  id="qustion1" name="qustion1"placeholder="请回答维菲酒庄属于新西兰哪个产区">
+        </div>
+        <div class="form-group"> 
+            <p style="font-size:14px;color: #fff;">维菲酒庄葡萄品种：</p>
+            <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请回答酒庄有几种葡萄品种,如：赤霞珠+美乐">
+        </div>                         
+        <div class="form-group">
+            <!--<button type="button" class="btn btn-success" style="width: 100%;">提交</button>-->
+            <button type="button" class="btn btn-success" style="width: 100%;" id="submitformcheckQustion"  >提交</button> 
+        </div>
         </form>
     </div>  
 
@@ -345,11 +335,9 @@
         $('#myModal').modal('show');
         $(".modal-body-alert").html("需要关注才能参与哦。<br/>微信号:vynfields");
         $("#one").hide();
-        $("#two").show();
-        subscribe = false;
-
+        $("#two").show(); 
     }
-    if (<?php echo $user['is_lottery'] ? "false" : "true"; ?> && subscribe) {
+    if (<?php echo $user['is_lottery'] ? "false" : "true"; ?> ) {
         $("#one").hide();
         $("#two").show();
     }
