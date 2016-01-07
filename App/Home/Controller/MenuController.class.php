@@ -103,12 +103,12 @@ class MenuController {
 //                    "key": "Contact"
 //                }
 //            ]
-//        }, 
-//         {
-//            "type": "view",
-//            "name": "实体店", 
-//            "url": "http://weixin.vynfields.cn/Home/index/store"
-//        }
+//        },  
+//                    {
+//                       "type": "view",
+//                       "name": "销售链", 
+//                       "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+//                   }
 //    ]
 //}
 //';
@@ -123,12 +123,7 @@ class MenuController {
                     "type": "view", 
                     "name": "微店", 
                     "url": "http://weidian.com/?userid=809310365&infoType=1"
-                },  
-                    {
-                       "type": "view",
-                       "name": "销售链", 
-                       "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
-                   }
+                }
             ]
         }, 
         {
@@ -164,7 +159,7 @@ class MenuController {
          {
             "type": "view",
             "name": "福利", 
-            "url": "http://weixin.vynfields.cn/home/oauth2/index//type/lottery"
+            "url": "http://weixin.vynfields.cn/home/oauth2/index/type/lottery"
         }
     ]
 }
