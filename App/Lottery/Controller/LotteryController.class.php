@@ -22,9 +22,9 @@ class LotteryController extends Controller {
 
 
         ///////////测试信息////////////
-        $userinfo->openid = "aikangs";
-        $userinfo->subscribe = true;
-        $userinfo->nickname = "kangsng";
+//        $userinfo->openid = "aikangs";
+//        $userinfo->subscribe = true;
+//        $userinfo->nickname = "kangsng";
         ///////////测试信息////////////
         //将用户信息保存（如果不存在的话）
         $where['openid'] = $userinfo->openid;
@@ -248,25 +248,24 @@ class LotteryController extends Controller {
             $mobile = I("param.mobile");
             $address = I("param.address");
 
-
-            $where['id'] = $id;
+ 
             $where['openid'] = $openid;
             $lottery = M("lottery")->where($where)->find();
             if ($lottery['id'] != "") {
-                $lottery['realname'] = $realname;
-                $lottery['mobile'] = $mobile;
-                $lottery['address'] = $address;
-                $res = M("lottery")->data($lottery)->save();
+                $data['realname'] = $realname;
+                $data['mobile'] = $mobile;
+                $data['address'] = $address;
+                $res = M("lottery")->where($where)->data($data)->save();
                 if ($res) {
                     echo "200";
                 } else {
                     echo "201";
                 }
             } else {
-                echo "201";
+                echo "202";
             }
         } else {
-            echo "201";
+            echo "203";
         }
     }
 
