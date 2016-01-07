@@ -138,7 +138,6 @@
             });
         });
         $("#submitformsaveaddress").click(function () {
-
             if ($("#realname").val() == "" || $("#mobile").val() == "" || $("#address").val() == "") {
                 alert("请填写完整收货信息！");
                 return false;
@@ -158,8 +157,7 @@
                             var mobile = $("#mobile").val();
                             var address = $("#address").val();
                             $("#address_message").html("收货信息:" + realname + " - " + mobile + " - " + address);
-
-                        } else {
+                        } else { 
                             alert("收获地址保存失败，请重新打开此页面重新操作");
                             return false;
                         }
@@ -248,9 +246,8 @@
                 真实姓名<input type="text" name="realname" value="<?php echo $lottery['realname'] ?>" /><br />
                 手机号  <input type="text" name="mobile" value="<?php echo $lottery['mobile'] ?>" /><br />
                 地址   <input type="text" name="address" value="<?php echo $lottery['address'] ?>" /><br />
-                <input type="button" id="submitformsaveaddress" value="提交" />-->
-                <input type="hidden" name="id" value="<?php echo $lottery['id'] ?>" />
-                <input type="hidden" name="openid" value="<?php echo $lottery['openid'] ?>" />
+                <input type="button" id="submitformsaveaddress" value="提交" />--> 
+                <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>" />
                 <p class="prompt" style="font-size:14px;color: #fff;margin: 0">请填入您的收货地址，我们将尽快发货给您!</p>
                 <div class="form-group" style="margin-bottom: 5px;"> 
                     <p style="font-size:14px;color: #fff;">联系人：</p> 
