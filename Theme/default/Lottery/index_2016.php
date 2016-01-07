@@ -9,7 +9,7 @@
     }
     .turntable-bg {
         width: 310px;
-        max-width: 340px;
+        max-width: 320px;
         height: 500px;
         margin: 0 auto ;
         position: relative; 
