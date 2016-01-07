@@ -191,11 +191,11 @@
                             $("#one").show("slow");
                             $("#two").hide();
                         } else if (data == "202") {
-                            $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
+                            alert("错了哦~答案都在原文中，祝你好运。");
                         } else if (data == "403") {
-                            $("#errormsg").html("需要关注后才能参与活动哦。");
+                            alert("需要关注后才能参与活动哦。");
                         } else if (data == "404") {
-                            $("#errormsg").html("用户信息未获取到。");
+                           alert("用户信息未获取到。");
                         }
                     },
                     complete: function (XMLHttpRequest, textStatus) {
