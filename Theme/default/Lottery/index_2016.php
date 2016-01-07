@@ -43,7 +43,7 @@
         max-width: 310px;
         height: 310px;  
         position:absolute;
-        top:130px; 
+        top:130px; overflow:hidden;
         /*        left: 116px;
                 top: 60px;*/
     }
