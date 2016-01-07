@@ -158,6 +158,11 @@
                     success: function (data) {
                         if (data == "200") {
                             alert("保存成功");
+                            var realname = $("#realname").val();
+                            var mobile = $("#mobile").val();
+                            var address = $("#address").val();
+                            $("#address_message").html("收货信息:" + realname + " - " + mobile + " - " + address);
+
                         } else {
                             alert("收获地址保存失败，请重新打开此页面重新操作");
                             return false;
@@ -196,10 +201,13 @@
                         $("#one").show("slow");
                         $("#two").hide();
                     } else if (data == "202") {
+                        alert("错了哦~答案都在原文中，祝你好运。");
                         $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
                     } else if (data == "403") {
+                        alert("需要关注后才能参与活动哦");
                         $("#errormsg").html("需要关注后才能参与活动哦");
                     } else if (data == "404") {
+                        alert("用户未找到。请重新打开此页面重试");
                         $("#errormsg").html("用户未找到。请重新打开此页面重试");
                     }
                 },
@@ -229,17 +237,22 @@
             <div class="pointer"><img src="<?php echo v_theme_url(); ?>/image/lottery/activity-lottery-2.png" alt="pointer" width="80"/></div>
             <div class="rotate" ><img id="rotate" src="<?php echo v_theme_url(); ?>/image/lottery/turntable.png" alt="turntable" width="310"/></div>
         </div>
-        <div class="" style="color: #fff;text-align: center;line-height:25px;"> 
+        <div class="" id="lottery_message" style="color: #fff;text-align: center;line-height:25px; margin-bottom: 30px;
+  height: 100%;
+  position: relative;"> 
             <?php
             if ($lottery['id'] != "") {
-                echo "您的中奖获得：" . $lottery['lottery']['prize'] . " <button id='formBtn'>领取</button>";
+                echo "您的中奖获得：" . $lottery['lottery']['prize']."<br />";
+                echo "<span id='address_message'>收货信息：" . $lottery['realname'] . " - " . $lottery['mobile'] . " - " . $lottery['address'] . "</span>";
+                echo '<script>   $(function () {$("#form-wrap").slideToggle();});</script>';
             } else {
-                echo "您当前未中奖！";
+                echo "您当前未中奖";
             }
             ?> 
+
         </div>
     </div>  
-    <div class="turntable-bg" id="form-wrap"  style="display:none;background: none;height:100%;margin-top: 35px;">
+    <div class="turntable-bg" id="form-wrap"  style="display:none;background: none;height:100%;margin-top: 60px;">
         <div class="turntable-cont"> 
             <form id="saveaddress" action="<?php echo U("Home/Lottery/saveAddress"); ?>">
 <!--                <input type="hidden" name="id" value="<?php echo $lottery['id'] ?>" />
@@ -261,10 +274,10 @@
                 </div>    
                 <div class="form-group" style="margin-bottom: 5px;"> 
                     <p style="font-size:14px;color: #fff;">收货地址：</p>
-                    <textarea class="form-control" id="address"  name="address" value="<?php echo $lottery['address'] ?>" rows="6" style="height: 10em;" placeholder="请输入您收货地址！"></textarea>
+                    <textarea class="form-control" id="address"  name="address" value="" rows="6" style="height: 10em;" placeholder="请输入您收货地址！"><?php echo $lottery['address'] ?></textarea>
                 </div>                        
                 <div class="form-group">
-                    <button type="submit" class="btn btn-success" id="submitformsaveaddress" style="width: 100%;">提交</button>
+                    <button type="button" class="btn btn-success" id="submitformsaveaddress" style="width: 100%;">提交</button>
                 </div>
             </form> 
         </div>  
@@ -277,20 +290,6 @@
 <div id="two" style="display:none;">
     <div class="turntable-bg" id="cj" style="background: none;height:100%">
         <div class='turntable-login  text-center'><img src="<?php echo v_theme_url(); ?>/image/lottery/logo-1.png" alt="pointer" width='200'/></div>
-<!--        <form id="checkQustion" action="<?php echo U("Lottery/Lottery/checkQustion"); ?>" >
-        <div class="modal-body" id="mybody"> 
-            请回答以下问题
-            <div id="errormsg"></div>
-            <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/><br />
-            问题一：XXXXX+XXXXX=XXX?
-            <input type="text" name="qustion1" value="马丁堡" ><br />
-            问题2：XXXXX+XXXXX=XXX?
-            <input type="text" name="qustion2" value="黑皮诺+长相思+雷司令" ><br />
-        </div>
-        <div class="modal-footer" style="text-align: center; border-top: 0px;">
-            <button type="button" class="btn btn-default  text-center" id="submitformcheckQustion" style="border: 1px rgb(205,145,105) solid">提交</button> 
-        </div>
-    </form>-->
         <form id="checkQustion" action="<?php echo U("Lottery/Lottery/checkQustion"); ?>"  method="post"  > 
             <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/>
             <p class="prompt" style="font-size:14px;color: #fff;">请回答以下问题</p>
@@ -303,7 +302,7 @@
                 <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请回答酒庄有几种葡萄品种,如：赤霞珠+美乐">
             </div>                         
             <div class="form-group">
-                <button type="submit" class="btn btn-success" style="width: 100%;">提交</button>
+                <button type="button" id="submitformcheckQustion" class="btn btn-success" style="width: 100%;">提交</button>
             </div>
         </form>
     </div>  
@@ -377,6 +376,8 @@
                     } else {
                         $('#myModal').modal('show');
                         $(".modal-body-alert").html("恭喜您中了“" + lottery.prize + "”，请查看您的中奖信息。填写您的收获或地址");
+                        $("#lottery_message").html("恭喜您中了" + lottery.prize);
+                        $("#form-wrap").slideToggle();
                     }
 
                 } else if (data == "201") {

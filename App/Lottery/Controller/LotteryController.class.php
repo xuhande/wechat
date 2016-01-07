@@ -29,7 +29,6 @@ class LotteryController extends Controller {
         //将用户信息保存（如果不存在的话）
         $where['openid'] = $userinfo->openid;
         $user = M("wechat_user")->where($where)->find();
-
         if ($user['id'] == "" && $userinfo->openid != "") {
             $user['openid'] = $userinfo->openid;
             $user['nickname'] = $userinfo->nickname;
@@ -37,6 +36,9 @@ class LotteryController extends Controller {
             $user['is_lottery'] = 0;
             $user['created'] = time();
             M("wechat_user")->data($user)->add();
+        } else {
+            $user['subscribe'] = $userinfo->subscribe;
+            M("wechat_user")->data($user)->save();
         }
 
 
@@ -84,7 +86,7 @@ class LotteryController extends Controller {
                     echo "202";
                 }
             } else {
-                 echo "403";
+                echo "403";
             }
         } else {
             echo "404";
