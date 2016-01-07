@@ -236,7 +236,7 @@ class WechatController {
         $keyword = trim($object->Content);
         //多客服人工回复模式
         if ($keyword == '4' || strstr($keyword, "客服")) {
-                $this->logger("array->contents: " . $object);
+            $this->logger("array->contents: " . $object);
             $result = $this->transmitService($object);
         }
 
@@ -292,24 +292,23 @@ class WechatController {
                         $content[] = array("Title" => "维尼菲尔德（VYNFIELDS）葡萄酒购买教程", "Description" => "号外号外！今日起，维尼菲尔德微商城完美上线啦！小伙伴们久等了，赶紧猛戳原文看看具体详情吧！", "PicUrl" => "https://mmbiz.qlogo.cn/mmbiz/cNQxibw2z3wS9FhdeFEOsHf3h2QzO719pSzgJtCDhuHwFWKOBKrlonwwEoicreFeBkbVlWEcfR8PTCykJ6zjpGQg/0", "Url" => "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd");
                     }
                 }
-            }else if (strstr($keyword, "5") || strstr($keyword, "招商") || strstr($keyword, "加盟") || strstr($keyword, "合作")) {
+            } else if (strstr($keyword, "5") || strstr($keyword, "招商") || strstr($keyword, "加盟") || strstr($keyword, "合作")) {
                 $content = "维尼菲尔德葡萄酒代理请点击：\nhttp://m.9928.tv/vip8_yzrc/";
             } else if (strstr($keyword, "1357")) {
-                 $oauth = new Oauth2Controller();
+                $oauth = new Oauth2Controller();
                 $content = $oauth->getCode(urlencode("http://weixin.vynfields.cn/Lottery/index/index.html"));
             } else if (strstr($keyword, "2468")) {
                 $oauth = new Oauth2Controller();
 
                 $content = $oauth->getCode(urlencode("http://weixin.vynfields.cn/Lottery/index/index.html"));
-            }  else if (strstr($keyword, "投票")) {
+            } else if (strstr($keyword, "投票")) {
                 $oauth = new Oauth2Controller();
 
-                $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～";//.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
-            }
-             else if (strstr($keyword, "红包")) {
+                $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～"; //.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
+            } else if (strstr($keyword, "红包")) {
                 $oauth = new Oauth2Controller();
 
-                $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～";//.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
+                $content = "活动已结束，谢谢参与。请期待下一次活动！么么哒～"; //.$oauth->getCode(urlencode("http://weixin.vynfields.cn//Cork/index/corklist.html"));
             }
 //            else if (strstr($keyword, "789")) {
 //                $red = new RedpackController();
@@ -320,7 +319,7 @@ class WechatController {
                 $content = $this->getYMassage();
             }
 
-          
+
             if (is_array($content)) {
                 if (isset($content[0]['PicUrl'])) {
                     $result = $this->transmitNews($object, $content);
@@ -399,13 +398,8 @@ class WechatController {
 <MsgType><![CDATA[transfer_customer_service]]></MsgType>
 </xml>";
         $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());
-<<<<<<< HEAD
-   return $result;
-=======
-        
-                $this->logger("array->transmitService: " . $result);
+ 
         return $result;
->>>>>>> ce589709ef4d7c66b94acdb240a15b6fb13fc1ce
     }
 
     //回复图片消息
