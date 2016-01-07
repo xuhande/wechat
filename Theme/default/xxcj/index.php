@@ -59,7 +59,7 @@
         </div>
 
         <audio src="<?php echo v_theme_url(); ?>/img/xxcj/6666.mp3" controls="controls" id="myAudio" style="display: none"></audio>
-        <audio src="<?php echo v_theme_url(); ?>/img/xxcj/7777.wav" controls="controls" id="myAudio2"  style="display: none"></audio>
+        <!--<audio src="<?php echo v_theme_url(); ?>/img/xxcj/7777.wav" controls="controls" id="myAudio2"  style="display: none"></audio>-->
     </body>
 
 </html>
@@ -97,7 +97,7 @@
             document.getElementById("result").innerHTML = "00000000000";
             document.getElementById("mobileVal").value = "";
             pause();
-            pause2();
+//            pause2();
         }
     }
     function start() {
@@ -114,7 +114,7 @@
         num = parseInt(num);
         if (num != -1) {
             play();
-            pause2();
+//            pause2();
             time = setInterval("getRandNum()", 50);
         }
     }
@@ -122,7 +122,7 @@
         noDupNum();
         clearInterval(time);
         pause();
-        play2();
+//        play2();
     }
     function noDupNum() {
         // to remove the selected mobile phone number删除选定的移动电话号码
@@ -158,15 +158,15 @@
         var myAudio = document.getElementById("myAudio");
         myAudio.load();
     }
-    function play2() {
-        var myAudio2 = document.getElementById("myAudio2");
-        myAudio2.play();
-    }
-    function pause2() {
-        var myAudio2 = document.getElementById("myAudio2");
-        myAudio2.pause();
-        myAudio2.load();
-    }
+//    function play2() {
+//        var myAudio2 = document.getElementById("myAudio2");
+//        myAudio2.play();
+//    }
+//    function pause2() {
+//        var myAudio2 = document.getElementById("myAudio2");
+//        myAudio2.pause();
+//        myAudio2.load();
+//    }
     function btn() {
         var btnVal = document.getElementById("btnVal").value;
         if (btnVal == 1) {

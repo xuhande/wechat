@@ -8,7 +8,7 @@
         background:#A77051;
     }
     .turntable-bg {
-        width: 310px;
+        width: 300px;
         max-width: 310px;
         height: 500px;
         margin: 0 auto ;
