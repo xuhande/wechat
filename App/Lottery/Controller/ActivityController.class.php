@@ -13,8 +13,11 @@ class ActivityController extends Controller {
      */
 
     public function index() {
-        $type = I("param.type");
-        $data = M("activity")->where(array("num"=>array('neq',1)))->select(); 
+
+        if(getip() != "116.204.86.154"){
+            $this->ajaxReturn(array("code"=>"404","message"=>"访问的路径不存在"));
+        }
+        $data = M("activity")->where(array("num" => array('neq', 1)))->select();
 //        foreach ($data as &$v){
 //            $v['mobile'] = substr_replace($v['mobile'],"xxxxxxx",0,7);
 //        } 
@@ -24,15 +27,14 @@ class ActivityController extends Controller {
 
     public function sends() {
         $mobile = I("param.mobile");
-        if ($mobile != "") {  
-           $data['num'] = "1";
-           $data['created'] = time();
-            $result = M("activity")->where(array("mobile"=>$mobile))->save($data);
+        if ($mobile != "") {
+            $data['num'] = "1";
+            $data['created'] = time();
+            $result = M("activity")->where(array("mobile" => $mobile))->save($data);
             $this->ajaxReturn(array("code" => "200"));
-        }else{
-            $this->ajaxReturn(array("code" => "202","message"=> "参选的手机号码已抽选完！"));
+        } else {
+            $this->ajaxReturn(array("code" => "202", "message" => "参选的手机号码已抽选完！"));
         }
-            
     }
 
 }

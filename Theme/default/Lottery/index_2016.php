@@ -1,6 +1,5 @@
 <?php v_template_part(array("name" => "header", "path" => "Public")); ?> 
-
-
+ 
 <link rel="stylesheet" type="text/css" href="<?php echo v_site_url() ?>/Public/css/wx.css"  >
 
 <script src="<?php echo v_theme_url(); ?>/js/awardRotate.js"></script>
@@ -103,8 +102,6 @@
         var bRotate = false;
         var rotateFn = function (angles, obj) {
             bRotate = !bRotate;
-
-
             var ang = parseInt(obj.angles) + 1800;
             $('#rotate').stopRotate();
             $('#rotate').rotate({
@@ -116,7 +113,6 @@
                     bRotate = !bRotate;
 //                      $('#saveaddress').modal('show');
                     ajax_save(obj);
-
                 }
             })
         };
@@ -171,46 +167,42 @@
                 });
             }
         });
-        $("#checkQustion").submit(function () {
+        $("#submitformcheckQustion").click(function () {
+
             if ($("#qustion1").val() == "" || $("#qustion2").val() == "") {
                 alert("请回答本活动问题正确才能进行抽奖环节");
                 return false;
-            }
+            } else {
+                $.ajax({
+                    type: "POST",
+                    url: '<?php echo U("Lottery/Lottery/checkQustion") ?>',
+                    data: $("#checkQustion").serialize(),
+                    datatype: "json", //"xml", "html", "script", "json", "jsonp", "text". 
+                    beforeSend: function () {
 
-        });
+                    },
+                    success: function (data) { 
+                        $("#errormsg").html("");
+                        if (data == "200") {
+                            alert("回答正确，点击关闭开始抽奖");
+                            $("#one").show("slow");
+                            $("#two").hide();
+                        } else if (data == "202") {
+                            $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
+                        } else if (data == "403") {
+                            $("#errormsg").html("需要关注后才能参与活动哦");
+                        } else if (data == "404") {
+                            $("#errormsg").html("用户未找到。请重新打开此页面重试");
+                        }
+                    },
+                    complete: function (XMLHttpRequest, textStatus) {
 
-        $("#submitformcheckQustion").click(function () {
-            $.ajax({
-                type: "POST",
-                url: '<?php echo U("Lottery/Lottery/checkQustion") ?>',
-                data: $("#checkQustion").serialize(),
-                datatype: "json", //"xml", "html", "script", "json", "jsonp", "text". 
-                beforeSend: function () {
-
-                },
-                success: function (data) {
-
-                    $("#errormsg").html("");
-                    if (data == "200") {
-                        alert("回答正确，点击关闭开始抽奖");
-                        $("#one").show("slow");
-                        $("#two").hide();
-                    } else if (data == "202") {
-                        $("#errormsg").html("错了哦~答案都在原文中，祝你好运。");
-                    } else if (data == "403") {
-                        $("#errormsg").html("需要关注后才能参与活动哦");
-                    } else if (data == "404") {
-                        $("#errormsg").html("用户未找到。请重新打开此页面重试");
+                    },
+                    error: function () {
                     }
-                },
-                complete: function (XMLHttpRequest, textStatus) {
-
-                },
-                error: function () {
-                }
-            });
+                });
+            }
         });
-
 
 
 
@@ -263,8 +255,8 @@
                     <p style="font-size:14px;color: #fff;">收货地址：</p>
                     <textarea class="form-control" id="address"  name="address" value="<?php echo $lottery['address'] ?>" rows="6" style="height: 10em;" placeholder="请输入您收货地址！"></textarea>
                 </div>                        
-                <div class="form-group">
-                    <button type="submit" class="btn btn-success" id="submitformsaveaddress" style="width: 100%;">提交</button>
+                <div class="form-group"> 
+                <input type="button"class="btn btn-success" id="submitformsaveaddress" style="width: 100%;"value="提交" /> 
                 </div>
             </form> 
         </div>  
@@ -292,19 +284,20 @@
         </div>
     </form>-->
         <form id="checkQustion" action="<?php echo U("Lottery/Lottery/checkQustion"); ?>"  method="post"  > 
-            <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/>
-            <p class="prompt" style="font-size:14px;color: #fff;">请回答以下问题</p>
-            <div class="form-group"> 
-                <p style="font-size:14px;color: #fff;">维菲酒庄产区：</p>
-                <input type="text" class="form-control"  id="qustion1" name="qustion1"placeholder="请回答维菲酒庄属于新西兰哪个产区">
-            </div>
-            <div class="form-group"> 
-                <p style="font-size:14px;color: #fff;">维菲酒庄葡萄品种：</p>
-                <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请回答酒庄有几种葡萄品种,如：赤霞珠+美乐">
-            </div>                         
-            <div class="form-group">
-                <button type="submit" class="btn btn-success" style="width: 100%;">提交</button>
-            </div>
+        <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/>
+        <p class="prompt" style="font-size:14px;color: #fff;">请回答以下问题</p>
+        <div class="form-group"> 
+            <p style="font-size:14px;color: #fff;">维菲酒庄产区：</p>
+            <input type="text" class="form-control"  id="qustion1" name="qustion1"placeholder="请回答维菲酒庄属于新西兰哪个产区">
+        </div>
+        <div class="form-group"> 
+            <p style="font-size:14px;color: #fff;">维菲酒庄葡萄品种：</p>
+            <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请回答酒庄有几种葡萄品种,如：赤霞珠+美乐">
+        </div>                         
+        <div class="form-group">
+            <!--<button type="button" class="btn btn-success" style="width: 100%;">提交</button>-->
+            <button type="button"class="btn btn-success" style="width: 100%;" id="submitformcheckQustion"  >提交</button> 
+        </div>
         </form>
     </div>  
 
@@ -339,8 +332,8 @@
         $(".modal-body-alert").html("<div style='font-size:16px;padding: 10px;'><p>代金券抽奖活动规则</P><p>1. 活动时间：2015年05月09日 16:00pm - 2015年05月12日 17:00pm</p><p>2. 活动方式：通过转盘的方式得VYNFIELDS代金券，先到先得，抢完即止。</p><p>3. 每位用户仅有一次抽奖机会。</p><p>4. 请在有效期内使用Vynfields微商城代金券。</p><p>5. 代金券使用方法请查看图文消息，有问题找客服。</p><p>6. 本次活动最终解释权归本公司所有。</p></div>");
         $('#mybody').modal(options);
     });
-    $("#one").show();
-    $("#two").hide();
+    $("#one").hide();
+    $("#two").show();
     subscribe = true;
     if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
         $('#myModal').modal('show');
@@ -348,7 +341,6 @@
         $("#one").hide();
         $("#two").show();
         subscribe = false;
-
     }
     if (<?php echo $user['is_lottery'] ? "false" : "true"; ?> && subscribe) {
         $("#one").hide();
