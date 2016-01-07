@@ -22,9 +22,9 @@ class LotteryController extends Controller {
 
 
         ///////////测试信息////////////
-//        $userinfo->openid = "aikangs";
-//        $userinfo->subscribe = true;
-//        $userinfo->nickname = "kangsng";
+        $userinfo->openid = "aikangs";
+        $userinfo->subscribe = true;
+        $userinfo->nickname = "kangsng";
         ///////////测试信息////////////
         //将用户信息保存（如果不存在的话）
         $where['openid'] = $userinfo->openid;
