@@ -121,14 +121,14 @@ class MenuController {
             "sub_button": [
                 {
                     "type": "view", 
-                    "name": "小店", 
+                    "name": "微店", 
                     "url": "http://weidian.com/?userid=809310365&infoType=1"
                 },  
-                {
-                    "type": "view", 
-                    "name": "教程", 
-                    "url": "http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=212798009&idx=1&sn=e0dea58e2dfd47b8ab2fe79fede3c91d#rd"
-                }
+                    {
+                       "type": "view",
+                       "name": "销售链", 
+                       "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+                   }
             ]
         }, 
         {
@@ -163,8 +163,8 @@ class MenuController {
         }, 
          {
             "type": "view",
-            "name": "销售链", 
-            "url": "http://wcj.iyunkai.com/201510/562d7ce7cd58c.html"
+            "name": "福利", 
+            "url": "http://weixin.vynfields.cn/home/oauth2/index//type/lottery"
         }
     ]
 }
