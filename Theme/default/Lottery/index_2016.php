@@ -1,5 +1,5 @@
 <?php v_template_part(array("name" => "header", "path" => "Public")); ?> 
- 
+
 <link rel="stylesheet" type="text/css" href="<?php echo v_site_url() ?>/Public/css/wx.css"  >
 
 <script src="<?php echo v_theme_url(); ?>/js/awardRotate.js"></script>
@@ -157,7 +157,7 @@
                             var mobile = $("#mobile").val();
                             var address = $("#address").val();
                             $("#address_message").html("收货信息:" + realname + " - " + mobile + " - " + address);
-                        } else { 
+                        } else {
                             alert("保存失败，请刷新重试。");
                             return false;
                         }
@@ -184,7 +184,7 @@
                     beforeSend: function () {
 
                     },
-                    success: function (data) { 
+                    success: function (data) {
                         $("#errormsg").html("");
                         if (data == "200") {
                             alert("回答正确，点击关闭进行抽奖。");
@@ -195,12 +195,12 @@
                         } else if (data == "403") {
                             alert("需要关注后才能参与活动哦。");
                         } else if (data == "404") {
-                           alert("用户信息未获取到。");
+                            alert("用户信息未获取到。");
                         }
                     },
                     complete: function (XMLHttpRequest, textStatus) {
                     },
-                    error: function () { 
+                    error: function () {
                     }
                 });
             }
@@ -224,20 +224,20 @@
             <div class="rotate" ><img id="rotate" src="<?php echo v_theme_url(); ?>/image/lottery/turntable.png" alt="turntable" width="310"/></div>
         </div>
     </div>  
-        <div class="" id="lottery_message" style="color: #fff;text-align: center; line-height: 25px;margin-bottom: 10px;
-  height: 100%;
-  position: relative;"> 
-            <?php
-            if ($lottery['id'] != "") {
-                echo "恭喜你获奖" . $lottery['lottery']['prize']."<br />";
-                echo "<span id='address_message'>收货信息：" . $lottery['realname'] . " - " . $lottery['mobile'] . " - " . $lottery['address'] . "</span>";
-                echo '<script>   $(function () {$("#form-wrap").slideToggle();});</script>';
-            } else {
-                echo "您当前未中奖";
-            }
-            ?> 
+    <div class="" id="lottery_message" style="color: #fff;text-align: center; line-height: 25px;margin-bottom: 10px;
+         height: 100%;
+         position: relative;"> 
+         <?php
+         if ($lottery['id'] != "") {
+             echo "恭喜你获奖" . $lottery['lottery']['prize'] . "<br />";
+             echo "<span id='address_message'>收货信息：" . $lottery['realname'] . " - " . $lottery['mobile'] . " - " . $lottery['address'] . "</span>";
+             echo '<script>   $(function () {$("#form-wrap").slideToggle();});</script>';
+         } else {
+             echo "您当前未中奖";
+         }
+         ?> 
 
-        </div>
+    </div>
     <div class="turntable-bg" id="form-wrap"  style="display:none;background: none;height:100%; ">
         <div class="turntable-cont"> 
             <form id="saveaddress" action="<?php echo U("Home/Lottery/saveAddress"); ?>">
@@ -263,7 +263,7 @@
                 </div>    
                 <div class="form-group">
                     <button type="button" class="btn btn-success" id="submitformsaveaddress" style="width: 100%;">提交</button>
- 
+
                 </div>
             </form> 
         </div>  
@@ -277,20 +277,20 @@
     <div class="turntable-bg" id="cj" style="background: none;height:100%">
         <div class='turntable-login  text-center'><img src="<?php echo v_theme_url(); ?>/image/lottery/logo-1.png" alt="pointer" width='200'/></div>
         <form id="checkQustion" action="<?php echo U("Lottery/Lottery/checkQustion"); ?>"  method="post"  > 
-        <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/>
-        <p class="prompt" style="font-size:14px;color: #fff;">请回答以下问题</p>
-        <div class="form-group"> 
-            <p style="font-size:14px;color: #fff;">维菲酒庄产区：</p>
-            <input type="text" class="form-control"  id="qustion1" name="qustion1"placeholder="请回答维菲酒庄属于新西兰哪个产区">
-        </div>
-        <div class="form-group"> 
-            <p style="font-size:14px;color: #fff;">维菲酒庄葡萄品种：</p>
-            <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请说出维菲的三种主要酒款所用的葡萄品种。如：赤霞珠+美乐">
-        </div>                         
-        <div class="form-group">
-            <!--<button type="button" class="btn btn-success" style="width: 100%;">提交</button>-->
-            <button type="button" class="btn btn-success" style="width: 100%;" id="submitformcheckQustion"  >提交</button> 
-        </div>
+            <input type="hidden" name="openid" value="<?php echo $user['openid'] ?>"/>
+            <p class="prompt" style="font-size:14px;color: #fff;">请回答以下问题</p>
+            <div class="form-group"> 
+                <p style="font-size:14px;color: #fff;">维菲酒庄产区：</p>
+                <input type="text" class="form-control"  id="qustion1" name="qustion1"placeholder="请回答维菲酒庄属于新西兰哪个产区">
+            </div>
+            <div class="form-group"> 
+                <p style="font-size:14px;color: #fff;">维菲酒庄葡萄品种：</p>
+                <input type="text" class="form-control" id="qustion2" name="qustion2" placeholder="请说出维菲的三种主要酒款所用的葡萄品种。如：赤霞珠+美乐">
+            </div>                         
+            <div class="form-group">
+                <!--<button type="button" class="btn btn-success" style="width: 100%;">提交</button>-->
+                <button type="button" class="btn btn-success" style="width: 100%;" id="submitformcheckQustion"  >提交</button> 
+            </div>
         </form>
     </div>  
 
@@ -332,9 +332,9 @@
         $('#myModal').modal('show');
         $(".modal-body-alert").html("请关注维菲公众号参与活动。<br/>公众号:vynfields");
         $("#one").hide();
-        $("#two").show(); 
+        $("#two").show();
     }
-    if (<?php echo $user['is_lottery'] ? "false" : "true"; ?> ) {
+    if (<?php echo $user['is_lottery'] ? "false" : "true"; ?>) {
         $("#one").hide();
         $("#two").show();
     }
@@ -401,21 +401,16 @@
 
 </script>  
 
-
-
 <script>
-
-
     wx.ready(function () {
-      
         /**
          * user share 
          */
         wx.onMenuShareTimeline({
             title: '维菲粉丝免费福利，新年抽抽抽！',
 //            link: '<?php echo v_site_url() . "/?s=/Home/Oauth2/index/type/lottery" ?>',
-            link:'http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=456294243&idx=1&sn=faf51100240618ada9114ec4de184e8e#rd',
-            imgUrl: '<?php echo v_theme_url()?>/image/turntable.png',
+            link: 'http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=456294243&idx=1&sn=faf51100240618ada9114ec4de184e8e#rd',
+            imgUrl: '<?php echo v_theme_url() ?>/default/image/lottery/turntable.png',
             trigger: function (res) {
                 // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
 
@@ -433,8 +428,8 @@
         wx.onMenuShareAppMessage({
             title: '维菲粉丝免费福利，新年抽抽抽！',
             desc: '', // 分享描述
-            link:'http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=456294243&idx=1&sn=faf51100240618ada9114ec4de184e8e#rd',
-            imgUrl: '<?php echo v_theme_url()?>/image/turntable.png',
+            link: 'http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=456294243&idx=1&sn=faf51100240618ada9114ec4de184e8e#rd',
+            imgUrl: '<?php echo v_theme_url() ?>/default/image/lottery/turntable.png',
             type: 'link', // 分享类型,music、video或link，不填默认为link
             dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
             success: function () {
@@ -446,7 +441,7 @@
         });
         wx.showAllNonBaseMenuItem();
     });
-
+</script>
 
 
 <?php v_template_part(array("name" => "footer", "path" => "Public")); ?>
