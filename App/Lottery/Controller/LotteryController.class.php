@@ -124,7 +124,13 @@ class LotteryController extends Controller {
         $lottery = M("lottery")->where(array("openid" => $openid))->find();
 
         if ($lottery['id'] != "") { //已经抽过了
-            echo "201";
+            $lotterys = M("lottery")->where(array("openid" => $openid, "lottery" => array("neq", "7")))->find();
+            if ($lotterys['id'] != "") {
+                echo "205";
+            } else {
+                echo "201";
+            }
+
             die;
         }
         //将奖品数量减去1
@@ -248,7 +254,7 @@ class LotteryController extends Controller {
             $mobile = I("param.mobile");
             $address = I("param.address");
 
- 
+
             $where['openid'] = $openid;
             $lottery = M("lottery")->where($where)->find();
             if ($lottery['id'] != "") {

@@ -360,7 +360,7 @@
                         $(".modal-body-alert").html("谢谢参与");
                     } else {
                         $('#myModal').modal('show');
-                        $(".modal-body-alert").html("恭喜您中奖了。请查看您的中奖信息，填写您的收货地址。");
+                        $(".modal-body-alert").html("恭喜您中奖了。请查看您的中奖信息，填写您的收货地址。<br /><span id='address_message'></span>");
                         $("#lottery_message").html("恭喜您中了" + lottery.prize);
                         $("#form-wrap").slideToggle();
                     }
@@ -383,6 +383,10 @@
                 } else if (data == "503") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("您还没有回答问题呢，需要回答问题才能参与哦。");
+                }
+                else if (data == "205") {
+                    $('#myModal').modal('show');
+                    $(".modal-body-alert").html("您已中奖，奖品已安排寄出。");
                 }
 
             },
