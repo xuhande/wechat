@@ -262,7 +262,7 @@ class LotteryController extends Controller {
                 $data['mobile'] = $mobile;
                 $data['address'] = $address;
                 $res = M("lottery")->where($where)->data($data)->save();
-                if ($res) {
+                if ($res !== flase) {
                     echo "200";
                 } else {
                     echo "201";
