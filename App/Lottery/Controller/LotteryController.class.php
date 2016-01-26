@@ -107,6 +107,8 @@ class LotteryController extends Controller {
         $user = M("wechat_user")->where($where)->find();
 
 
+        echo "206";
+        die;
 
 
         if (!$user['subscribe']) { //没有关注

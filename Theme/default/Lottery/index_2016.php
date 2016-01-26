@@ -321,12 +321,15 @@
 
 
 <script>
+       
     $(".t-hd").click(function () {
         $(".modal-body-alert").html("<div style='font-size:16px;padding: 10px; text-align:left'><p style='text-align:center'>答题抽奖</P><p>1. 活动时间：2016年01月08日 - 2016年01月14日 </p><p>2. 活动方式：关注公众号后回答问题进入抽奖环节。先到先得，抢完即止。</p><p>3. 每位用户仅有一次抽奖机会。</p><p>4. 如已中奖，请正确填写收货地址。</p><p>5. 如有疑问，请咨询客服。</p><p>6. 本次活动最终解释权归本公司所有。</p></div>");
         $('#mybody').modal(options);
     });
     $("#one").show();
     $("#two").hide();
+    
+ 
     subscribe = true;
     if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
         $('#myModal').modal('show');
@@ -338,6 +341,8 @@
         $("#one").hide();
         $("#two").show();
     }
+     $('#myModal').modal('show');
+        $(".modal-body-alert").html("该活动已结束。谢谢参与。");
     function ajax_save(lottery) {
         $.ajax({
             //提交数据的类型 POST GET
@@ -387,6 +392,9 @@
                 else if (data == "205") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("您已中奖，奖品已安排寄出。");
+                }else if(data == "206"){
+                  $('#myModal').modal('show');
+                    $(".modal-body-alert").html("获送已结束,谢谢参与。");
                 }
 
             },
