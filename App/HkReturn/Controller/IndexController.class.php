@@ -114,7 +114,7 @@ class IndexController extends Controller {
                     $created = date("Y-m-d H:i:s",$r['created']);
                     $this->sendMessage($getAccessTokens,$openid,$goods,$created);
                     $chance = 3 - $record_count;
-                    echo json_encode(array("code" => "200", "chance" => $chance));
+                    echo json_encode(array("code" => "200", "chance" => $chance,"ass"=>$getAccessTokens));
                 } else {
                     M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
                     echo json_encode(array("code" => "203"));
@@ -245,7 +245,7 @@ class IndexController extends Controller {
         }
     }
 
-    public function sendMessage($access_token, $openId, $amount, $time) {//发送信息通知到指定人员         
+    private function sendMessage($access_token, $openId, $amount, $time) {//发送信息通知到指定人员         
         $xjson = '      {
            "touser":"' . $openId . '",
            "template_id":"ZmbZpfSnKvDofxTs_dbDeETA5x7CBWWS7wPRsrC1AJQ", 
