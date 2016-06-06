@@ -108,12 +108,12 @@ class IndexController extends Controller {
                 $r = M("hkreturn_record")->data($map)->add();
                 if ($r) {
                     $record_count = M("hkreturn_record")->where($mapt)->count();
-                    $chance = 3 - $record_count;
                     $getAccessTokens = \Home\Common\Common::getAccessTokens();
                     $goods = M("hkreturn_prize")->where(array("id"=>$r['lottery']))->find();
                     $goods = urldecode($goods['prize']) . '元';
                     $created = date("Y-m-d H:i:s",$r['created']);
                     $this->sendMessage($getAccessTokens,$openid,$goods,$created);
+                    $chance = 3 - $record_count;
                     echo json_encode(array("code" => "200", "chance" => $chance));
                 } else {
                     M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
@@ -270,10 +270,7 @@ class IndexController extends Controller {
        }';
         $PostUrl = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=" . $access_token;
 //        $value = $this->vpost($PostUrl, $xjson);
-        $value = \Home\Common\Common::PData($PostUrl, $xjson);
-        $this->logger("object->value: " . $value);
-
-        return $value;
+        $value = \Home\Common\Common::PData($PostUrl, $xjson); 
     }
 
 }
