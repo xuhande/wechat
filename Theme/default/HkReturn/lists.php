@@ -201,7 +201,7 @@
         $.ajax({
             type: "GET",
             url: '<?php echo U("HkReturn/index/datalist") ?>',
-            data: {dataType: "dataJson", total: page},
+            data: {openid: "<?php echo $user['openid'] ?>",dataType: "dataJson", total: page},
             datatype: "json", //"xml", "html", "script", "json", "jsonp", "text". 
             beforeSend: function () {
                 $("#weui_cell_more").text("正在加载数据中...");
@@ -211,7 +211,7 @@
                 var obj = $.parseJSON(data);
                 var html = '';
                 if (obj == null) {
-                    html += '<a style="text-align:center;line-height:100px;" class="f14px">暂时没有安平公告！</a>';
+                    html += '<div class="weui_cell"><div class="weui_cell_bd weui_cell_primary" ><div style="line-height:50px;text-align:center;">您暂时还没有抽奖！</div></div></div>';
                 } else {
 
                     $.each(obj, function (k, v) {

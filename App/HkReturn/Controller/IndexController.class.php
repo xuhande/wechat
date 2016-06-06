@@ -21,9 +21,9 @@ class IndexController extends Controller {
 
 
         ///////////测试信息////////////
-        $userinfo->openid = "aikangs";
-        $userinfo->subscribe = true;
-        $userinfo->nickname = "kangsng";
+//        $userinfo->openid = "aikangs";
+//        $userinfo->subscribe = true;
+//        $userinfo->nickname = "kangsng";
         ///////////测试信息////////////
         //将用户信息保存（如果不存在的话）
         $where['openid'] = $userinfo->openid;
@@ -39,6 +39,7 @@ class IndexController extends Controller {
             $user['subscribe'] = $userinfo->subscribe;
             M("wechat_user")->data($user)->save();
         }
+        $this->user = $user;
 
         $this->theme("default")->display("HkReturn/index_2016");
     }
@@ -76,7 +77,7 @@ class IndexController extends Controller {
         $mapt['created'] = array(array('gt', $beginTime), array('lt', $endTime));
         $record_count = M("hkreturn_record")->where($mapt)->count();
         if ($record_count >= 3) {
-            echo json_encode(array("code" => "205"));
+//            echo json_encode(array("code" => "205"));
             die;
         }
         $where['openid'] = $openid;
@@ -203,12 +204,13 @@ class IndexController extends Controller {
     public function datalist() {
         $dataType = I("param.dataType");
         $limit = I("param.total");
+        $openids = I("param.openid");
         $oauth2 = new \Home\Controller\Oauth2Controller();
         $data = $oauth2->getOpenId($_GET['code']);
         $openid = json_decode($data);
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         //将用户信息保存（如果不存在的话）
-        $where['openid'] = $userinfo->openid;
+        $where['openid'] = $openids;
         $user = M("wechat_user")->where($where)->find();
         if ($user['id'] == "" && $userinfo->openid != "") {
             $user['openid'] = $userinfo->openid;

@@ -44,6 +44,7 @@ $url = v_site_url()."/Cork/index/index";
     public function getOpenId($code) {
 
         $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" . C("WX_CONF_APPID") . "&secret=" . C("WX_CONF_APPSECRET") . "&code=" . $code . "&grant_type=authorization_code";
+
         $value = \Home\Common\Common::PData($url);
         return $value;
     }
