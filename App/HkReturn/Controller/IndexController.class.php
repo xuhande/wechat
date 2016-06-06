@@ -20,9 +20,7 @@ class IndexController extends Controller {
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         if ($userinfo->openid) {
             $_SESSION['openid'] = $userinfo->openid;
-        }
-        $this->setrep();
-        print_r($_SESSION['token'] . "asdf");
+        } 
 
 
         ///////////测试信息////////////
@@ -72,7 +70,9 @@ class IndexController extends Controller {
         $openid = I("param.openid"); //openid
         $nickname = I("param.nickname"); //username
         $lottery_id = I("param.lottery"); //中奖信息
-        //查询是否已经抽过了
+        //查询是否已经抽过了 
+        $this->setrep();
+
 
 
         $now = time();
@@ -82,7 +82,7 @@ class IndexController extends Controller {
         $mapt['created'] = array(array('gt', $beginTime), array('lt', $endTime));
         $record_count = M("hkreturn_record")->where($mapt)->count();
         if ($record_count >= 3) {
-//            echo json_encode(array("code" => "205"));
+            echo json_encode(array("code" => "205"));
             die;
         }
         $where['openid'] = $openid;
@@ -110,14 +110,14 @@ class IndexController extends Controller {
                 $map['created'] = time();
                 $r = M("hkreturn_record")->data($map)->add();
                 if ($r) {
-                    $record_count = M("hkreturn_record")->where($mapt)->count();
-                    $getAccessTokens = \Home\Common\Common::setrep();
-                    $goods = M("hkreturn_prize")->where(array("id" => $r['lottery']))->find();
-                    $goods = urldecode($goods['prize']) . '元';
-                    $created = date("Y-m-d H:i:s", $r[0]['created']);
+                    $record_count = M("hkreturn_record")->where($mapt)->count();  
+                    $goods = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.id'=>$r,'w_hkreturn_record.openid' => $openid
+                    ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->find(); 
+                    $goods = urldecode($goods['prize']) . '元'; 
+                    $created = date("Y-m-d H:i",$goods['created']);
                     $this->sendMessage($_SESSION['token'], $openid, $goods, $created);
                     $chance = 3 - $record_count;
-                    echo json_encode(array("code" => "200", "chance" => $chance, "ass" => $getAccessTokens));
+                    echo json_encode(array("code" => "200", "chance" => $chance));
                 } else {
                     M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
                     echo json_encode(array("code" => "203"));
