@@ -21,6 +21,9 @@ class IndexController extends Controller {
         if ($userinfo->openid) {
             $_SESSION['openid'] = $userinfo->openid;
         }
+        $this->setrep();
+        print_r($_SESSION['token'] . "asdf");
+
 
         ///////////测试信息////////////
 //        $userinfo->openid = "aikangs";
@@ -109,12 +112,12 @@ class IndexController extends Controller {
                 if ($r) {
                     $record_count = M("hkreturn_record")->where($mapt)->count();
                     $getAccessTokens = \Home\Common\Common::setrep();
-                    $goods = M("hkreturn_prize")->where(array("id"=>$r['lottery']))->find();
+                    $goods = M("hkreturn_prize")->where(array("id" => $r['lottery']))->find();
                     $goods = urldecode($goods['prize']) . '元';
-                    $created = date("Y-m-d H:i:s",$r['created']);
-                    $this->sendMessage($_SESSION['token'],$openid,$goods,$created);
+                    $created = date("Y-m-d H:i:s", $r['created']);
+                    $this->sendMessage($_SESSION['token'], $openid, $goods, $created);
                     $chance = 3 - $record_count;
-                    echo json_encode(array("code" => "200", "chance" => $chance,"ass"=>$getAccessTokens));
+                    echo json_encode(array("code" => "200", "chance" => $chance, "ass" => $getAccessTokens));
                 } else {
                     M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
                     echo json_encode(array("code" => "203"));
@@ -271,16 +274,43 @@ class IndexController extends Controller {
        }';
         $PostUrl = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=" . $access_token;
 //        $value = $this->vpost($PostUrl, $xjson);
-        $value = \Home\Common\Common::PData($PostUrl, $xjson); 
-        
+        $value = \Home\Common\Common::PData($PostUrl, $xjson);
+
         $this->logger("object->value: " . $value);
     }
-     //日志记录
+
+    //日志记录
     private function logger($log_content) {
         $filename = "Public/Data/logs/Lottery" . date("Y-m-d") . ".txt";
         $k = fopen($filename, "a+");
         fwrite($k, "\n" . date("Y-m-d H:i:s") . ":" . $log_content);
         fclose($k);
+    }
+
+    //获取access_token
+    protected function getAccessToken() {
+        print_r('getAccessToken');
+        $url = 'https://api.weixin.qq.com/cgi-bin/token?';
+        $appid = C('WX_CONF_APPID');
+        $appsecret = C('WX_CONF_APPSECRET');
+        $cont = "grant_type=client_credential&appid=" . $appid . "&secret=" . $appsecret;
+        $data = file_get_contents($url . $cont);
+        $data = json_decode($data, TRUE);
+        //		$this->setaccess_token ( $data ['access_token'] );
+        //		$this->setexpires_in ( time () + $data ['expires_in'] );
+
+        $_SESSION['maxtimes'] = time() + $data ['expires_in'] - 6000;
+        $_SESSION['token'] = $data ['access_token'];
+    }
+
+    //设置access_token的更新周期
+    protected function setrep() {
+        $time = time();
+        //	$maxtime = $this->getexpires_in ();
+        if (!isset($_SESSION['maxtimes']) || (isset($_SESSION['maxtimes']) && $_SESSION['maxtimes'] <= $time)) {
+            $this->getAccessToken();
+            print_r('setrep');
+        }
     }
 
 }
