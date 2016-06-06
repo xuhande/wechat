@@ -217,7 +217,7 @@
         </div>
     </div>    
     <div class="text-center turntable-detail">
-        <a class="btn btn-default" href="<?php echo U("Home/Oauth2/index",array("type"=>"hkReturnList")) ?>">中奖详情</a>
+        <a class="btn btn-default" href="<?php echo U("Home/Oauth2/index", array("type" => "hkReturnList")) ?>">中奖详情</a>
     </div>
 </div>
 
@@ -262,7 +262,6 @@
             //成功返回之后调用的函数             
             success: function (data) {
                 var obj = eval('(' + data + ')');
-                console.log(obj);
                 if (obj.code == "200") {
                     $('#chance').html(obj.chance);
                     if (lottery.id == "7") {
@@ -287,6 +286,7 @@
                 } else if (obj.code == "500") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("用户数据错误，重新打开页面。");
+                    setTimeout("<?php echo U("Home/Oauth2/index", array("type" => "hkReturn")) ?>", 1000);
                 } else if (obj.code == "205") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("您今天的<span style='color:#e38d13'>3</span>次机会已抽完！");

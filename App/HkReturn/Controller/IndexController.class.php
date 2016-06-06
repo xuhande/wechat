@@ -82,12 +82,12 @@ class IndexController extends Controller {
         }
         $where['openid'] = $openid;
         $user = M("wechat_user")->where($where)->find();
-        if (!$user['subscribe']) { //没有关注 
-            echo json_encode(array("code" => "303"));
-            die;
-        }
         if ($openid == "" || $nickname == "" || $lottery_id == "") {
             echo json_encode(array("code" => "500"));
+            die;
+        }
+        if (!$user['subscribe']) { //没有关注 
+            echo json_encode(array("code" => "303"));
             die;
         }
         //将奖品数量减去1
@@ -226,7 +226,7 @@ class IndexController extends Controller {
         }  
 
         if ($dataType == "dataJson") {
-            $list = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.openid' => ''
+            $list = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.openid' => $openids
                     ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->limit(0, $limit)->select();
             foreach ($list as &$val) {
                 $val['created'] = date("Y-m-d H:i", $val['created']);
