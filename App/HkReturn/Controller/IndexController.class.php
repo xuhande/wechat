@@ -114,7 +114,7 @@ class IndexController extends Controller {
                     $getAccessTokens = \Home\Common\Common::setrep();
                     $goods = M("hkreturn_prize")->where(array("id" => $r['lottery']))->find();
                     $goods = urldecode($goods['prize']) . '元';
-                    $created = date("Y-m-d H:i:s", $r['created']);
+                    $created = date("Y-m-d H:i:s", $r[0]['created']);
                     $this->sendMessage($_SESSION['token'], $openid, $goods, $created);
                     $chance = 3 - $record_count;
                     echo json_encode(array("code" => "200", "chance" => $chance, "ass" => $getAccessTokens));
