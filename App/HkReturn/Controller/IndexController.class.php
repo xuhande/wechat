@@ -249,9 +249,10 @@ class IndexController extends Controller {
         $xjson = '      {
            "touser":"' . $openId . '",
            "template_id":"ZmbZpfSnKvDofxTs_dbDeETA5x7CBWWS7wPRsrC1AJQ", 
+           "url":"", 
            "data":{
                    "first": {
-                       "value":"恭喜您幸运抽中付款下述金额可购买葡萄酒！",
+                       "value":"恭喜您幸运抽中付款下述金额！",
                        "color":"#000000"
                    },
                    "keyword1":{
@@ -271,6 +272,15 @@ class IndexController extends Controller {
         $PostUrl = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=" . $access_token;
 //        $value = $this->vpost($PostUrl, $xjson);
         $value = \Home\Common\Common::PData($PostUrl, $xjson); 
+        
+        $this->logger("object->value: " . $value);
+    }
+     //日志记录
+    private function logger($log_content) {
+        $filename = "Public/Data/logs/Lottery" . date("Y-m-d") . ".txt";
+        $k = fopen($filename, "a+");
+        fwrite($k, "\n" . date("Y-m-d H:i:s") . ":" . $log_content);
+        fclose($k);
     }
 
 }
