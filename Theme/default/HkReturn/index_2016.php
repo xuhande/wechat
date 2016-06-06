@@ -215,9 +215,9 @@
             <div class="pointer"><img src="<?php echo v_theme_url(); ?>/image/lottery/activity-lottery-2.png" alt="pointer" width="80"/></div>
             <div class="rotate" ><img id="rotate" src="<?php echo v_theme_url(); ?>/image/HkReturn/turntable.png" alt="turntable" width="310"/></div>
         </div>
-    </div>   
+    </div>    
     <div class="text-center turntable-detail">
-        <a class="btn btn-default" href="<?php echo U("HkReturn/index/datalist") ?>">中奖详情</a>
+        <a class="btn btn-default" href="<?php echo U("Home/Oauth2/index",array("type"=>"hkReturnList")) ?>">中奖详情</a>
     </div>
 </div>
 

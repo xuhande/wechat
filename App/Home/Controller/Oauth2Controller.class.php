@@ -20,6 +20,9 @@ $url = v_site_url()."/Cork/index/index";
         else if($type == "hkReturn"){
               $url = v_site_url()."/HkReturn/index/index";
         }
+        else if($type == "hkReturnList"){
+              $url = v_site_url()."/HkReturn/index/datalist";
+        }
         
         
         $oauth = new Oauth2Controller();
