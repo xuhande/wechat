@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
     <head>
         <title><?php echo v_title() ?></title> 
 
-        <link rel="stylesheet" href="<?php echo v_theme_url(); ?>/css/bootstrap/css/bootstrap.min.css"> 
-        <link rel="stylesheet" href="<?php echo v_theme_url(); ?>/css/style.css">
-        <link rel="stylesheet" href="<?php echo v_theme_url(); ?>/css/hover.css">
+        <link rel="stylesheet" href="<?php echo v_theme_url(); ?>/css/bootstrap/css/bootstrap.min.css"/> 
+        <link rel="stylesheet" href="<?php echo v_theme_url(); ?>/css/style.css"/>
+        <link rel="stylesheet" href="<?php echo v_theme_url(); ?>/css/hover.css"/>
         <script src="<?php echo v_theme_url(); ?>/js/jquery.min.js"></script>
         <script src="<?php echo v_theme_url(); ?>/js/jquery.animate-colors-min.js"></script>
         <script src="<?php echo v_theme_url(); ?>/css/bootstrap/js/bootstrap.min.js"></script>
 
 
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     </head>
     <body>
 

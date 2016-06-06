@@ -17,6 +17,9 @@ $url = v_site_url()."/Cork/index/index";
         else if($type == "lottery"){
               $url = v_site_url()."/Lottery/Lottery";
         }
+        else if($type == "hkReturn"){
+              $url = v_site_url()."/HkReturn/index/index";
+        }
         
         
         $oauth = new Oauth2Controller();

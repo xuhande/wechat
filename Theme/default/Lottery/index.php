@@ -61,10 +61,7 @@ $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         height: 100%;
         position:relative;
         margin: 0 auto ;
-    }
-    .turntable-bg .turntable-cont .turntable-login{
-        margin-left:10px;
-    }
+    } 
 
     .turntable-number em{
         color: red
