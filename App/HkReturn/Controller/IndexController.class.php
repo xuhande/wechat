@@ -20,7 +20,7 @@ class IndexController extends Controller {
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         if ($userinfo->openid) {
             $_SESSION['openid'] = $userinfo->openid;
-        } 
+        }
 
 
         ///////////测试信息////////////
@@ -110,14 +110,14 @@ class IndexController extends Controller {
                 $map['created'] = time();
                 $r = M("hkreturn_record")->data($map)->add();
                 if ($r) {
-                    $record_count = M("hkreturn_record")->where($mapt)->count();  
-                    $goods = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.id'=>$r,'w_hkreturn_record.openid' => $openid
-                    ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->find(); 
-                    $goods = urldecode($goods['prize']) . '元'; 
-                    $created = date("Y-m-d H:i",$goods['created']);
-                    $this->sendMessage($_SESSION['token'], $openid, $goods, $created);
+                    $record_count = M("hkreturn_record")->where($mapt)->count();
+                    $goods = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.id' => $r, 'w_hkreturn_record.openid' => $openid
+                            ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->find();
+                    $prize = urldecode($goods['prize']) . '元';
+                    $created = date("Y-m-d H:i", $goods['created']);
                     $chance = 3 - $record_count;
                     echo json_encode(array("code" => "200", "chance" => $chance));
+                    $this->sendMessage($_SESSION['token'], $openid, $prize, $created);
                 } else {
                     M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
                     echo json_encode(array("code" => "203"));
