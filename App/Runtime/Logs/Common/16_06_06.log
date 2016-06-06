@@ -1,0 +1,12 @@
+[ 2016-06-06T18:06:35+08:00 ] 127.0.0.1 /index.php?s=/index.php/s/%2FHkReturn%2Findex%2Findex.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-06-06T18:08:56+08:00 ] 127.0.0.1 /index.php?s=/index.php/s/%2FHkReturn%2Findex%2Findex.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Index.php
+

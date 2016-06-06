@@ -205,33 +205,20 @@ class IndexController extends Controller {
         $dataType = I("param.dataType");
         $limit = I("param.total");
         $openids = I("param.openid");
-        $oauth2 = new \Home\Controller\Oauth2Controller();
-        $data = $oauth2->getOpenId($_GET['code']);
-        $openid = json_decode($data);
-        $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         //将用户信息保存（如果不存在的话）
         $where['openid'] = $openids;
-        $user = M("wechat_user")->where($where)->find();
-        if ($user['id'] == "" && $userinfo->openid != "") {
-            $user['openid'] = $userinfo->openid;
-            $user['nickname'] = $userinfo->nickname;
-            $user['subscribe'] = $userinfo->subscribe;
-            $user['is_lottery'] = 0;
-            $user['created'] = time();
-            M("wechat_user")->data($user)->add();
-        } else {
-            $user['subscribe'] = $userinfo->subscribe;
-            M("wechat_user")->data($user)->save();
-        }
+        $user = M("wechat_user")->where($where)->find(); 
 
         if ($dataType == "dataJson") {
-            $list =M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.openid' => ''
-                ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->limit(0, $limit)->select();
-            foreach ($list as &$val){
-                $val['created']=date("Y-m-d H:i",$val['created']);
+            $list = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.openid' => ''
+                    ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->limit(0, $limit)->select();
+            foreach ($list as &$val) {
+                $val['created'] = date("Y-m-d H:i", $val['created']);
             }
-            echo json_encode($list);       
+            echo json_encode($list);
         } else {
+            $this->user = $user;
+            print_r($user);
             $this->theme("default")->display("HkReturn/lists");
         }
     }
