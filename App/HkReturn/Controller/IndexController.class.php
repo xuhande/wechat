@@ -18,7 +18,9 @@ class IndexController extends Controller {
         $data = $oauth2->getOpenId($_GET['code']);
         $openid = json_decode($data);
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
-        $_SESSION['openid'] = $userinfo->openid;
+        if ($userinfo->openid) {
+            $_SESSION['openid'] = $userinfo->openid;
+        }
 
         ///////////测试信息////////////
 //        $userinfo->openid = "aikangs";
@@ -107,6 +109,11 @@ class IndexController extends Controller {
                 if ($r) {
                     $record_count = M("hkreturn_record")->where($mapt)->count();
                     $chance = 3 - $record_count;
+                    $getAccessTokens = \Home\Common\Common::getAccessTokens();
+                    $goods = M("hkreturn_prize")->where(array("id"=>$r['lottery']))->find();
+                    $goods = urldecode($goods['prize']) . '元';
+                    $created = date("Y-m-d H:i:s",$r['created']);
+                    $this->sendMessage($getAccessTokens,$openid,$goods,$created);
                     echo json_encode(array("code" => "200", "chance" => $chance));
                 } else {
                     M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
@@ -205,11 +212,11 @@ class IndexController extends Controller {
         $dataType = I("param.dataType");
         $limit = I("param.total");
         $openids = I("param.openid");
-        
+
         $oauth2 = new \Home\Controller\Oauth2Controller();
         $data = $oauth2->getOpenId($_GET['code']);
         $openid = json_decode($data);
-        $userinfo = json_decode($oauth2->getUserInfo($openid->openid)); 
+        $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         //将用户信息保存（如果不存在的话）
         $where['openid'] = $userinfo->openid;
         $user = M("wechat_user")->where($where)->find();
@@ -223,7 +230,7 @@ class IndexController extends Controller {
         } else {
             $user['subscribe'] = $userinfo->subscribe;
             M("wechat_user")->data($user)->save();
-        }  
+        }
 
         if ($dataType == "dataJson") {
             $list = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.openid' => $openids
@@ -233,9 +240,40 @@ class IndexController extends Controller {
             }
             echo json_encode($list);
         } else {
-            $this->user = $user; 
+            $this->user = $user;
             $this->theme("default")->display("HkReturn/lists");
         }
+    }
+
+    public function sendMessage($access_token, $openId, $amount, $time) {//发送信息通知到指定人员         
+        $xjson = '      {
+           "touser":"' . $openId . '",
+           "template_id":"ZmbZpfSnKvDofxTs_dbDeETA5x7CBWWS7wPRsrC1AJQ", 
+           "data":{
+                   "first": {
+                       "value":"恭喜您幸运抽中付款下述金额可购买葡萄酒！",
+                       "color":"#000000"
+                   },
+                   "keyword1":{
+                       "value":"' . $amount . '",
+                       "color":"#000000"
+                   },
+                   "keyword2": {
+                       "value":"' . $time . '",
+                       "color":"#000000"
+                   },  
+                   "remark":{
+                       "value":"感谢你的参与!",
+                       "color":"#000000"
+                   }
+           }
+       }';
+        $PostUrl = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=" . $access_token;
+//        $value = $this->vpost($PostUrl, $xjson);
+        $value = \Home\Common\Common::PData($PostUrl, $xjson);
+        $this->logger("object->value: " . $value);
+
+        return $value;
     }
 
 }

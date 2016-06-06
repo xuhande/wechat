@@ -197,7 +197,7 @@
 <script>
     function getData(id, pages, more) { //获取当前页数据 
         var length = $(id + " .weui_cell").length;
-        var page = pages ? pages + length : 2;
+        var page = pages ? pages + length : 10;
         $.ajax({
             type: "GET",
             url: '<?php echo U("HkReturn/index/datalist") ?>',
