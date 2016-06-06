@@ -286,7 +286,7 @@
                 } else if (obj.code == "500") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("用户数据错误，重新打开页面。");
-                    setTimeout("<?php echo U("Home/Oauth2/index", array("type" => "hkReturn")) ?>", 1000);
+                    setTimeout('hkReturn()', 1000);
                 } else if (obj.code == "205") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("您今天的<span style='color:#e38d13'>3</span>次机会已抽完！");
@@ -311,6 +311,9 @@
 
     function jumpurl() {
         location = 'http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=203156234&idx=1&sn=0e564ec19e82cebd4b50873883fcd07d#rd';
+    }
+    function hkReturn() {
+        location = '<?php echo U("Home/Oauth2/index", array("type" => "hkReturn")) ?>';
     }
 </script>  
 

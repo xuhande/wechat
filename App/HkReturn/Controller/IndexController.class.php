@@ -18,7 +18,7 @@ class IndexController extends Controller {
         $data = $oauth2->getOpenId($_GET['code']);
         $openid = json_decode($data);
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
-
+        $_SESSION['openid'] = $userinfo->openid;
 
         ///////////测试信息////////////
 //        $userinfo->openid = "aikangs";
@@ -26,7 +26,7 @@ class IndexController extends Controller {
 //        $userinfo->nickname = "kangsng";
         ///////////测试信息////////////
         //将用户信息保存（如果不存在的话）
-        $where['openid'] = $userinfo->openid;
+        $where['openid'] = $_SESSION['openid'];
         $user = M("wechat_user")->where($where)->find();
         if ($user['id'] == "" && $userinfo->openid != "") {
             $user['openid'] = $userinfo->openid;
