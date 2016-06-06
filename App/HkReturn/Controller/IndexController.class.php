@@ -112,7 +112,7 @@ class IndexController extends Controller {
                     $goods = M("hkreturn_prize")->where(array("id"=>$r['lottery']))->find();
                     $goods = urldecode($goods['prize']) . '元';
                     $created = date("Y-m-d H:i:s",$r['created']);
-                    $this->sendMessage($getAccessTokens,$openid,$goods,$created);
+                    $this->sendMessage($_SESSION['token'],$openid,$goods,$created);
                     $chance = 3 - $record_count;
                     echo json_encode(array("code" => "200", "chance" => $chance,"ass"=>$getAccessTokens));
                 } else {
