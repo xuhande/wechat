@@ -108,7 +108,7 @@ class IndexController extends Controller {
                 $r = M("hkreturn_record")->data($map)->add();
                 if ($r) {
                     $record_count = M("hkreturn_record")->where($mapt)->count();
-                    $getAccessTokens = \Home\Common\Common::getAccessTokens();
+                    $getAccessTokens = \Home\Common\Common::setrep();
                     $goods = M("hkreturn_prize")->where(array("id"=>$r['lottery']))->find();
                     $goods = urldecode($goods['prize']) . '元';
                     $created = date("Y-m-d H:i:s",$r['created']);
