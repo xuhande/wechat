@@ -141,6 +141,35 @@
         border:1px solid #490D0A;
         background:#62100D;
     }
+    #lodding{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    #lodding .lodding-wrap{
+        width:100px;
+        height: 50px;
+        position: absolute;
+        top:45%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999999;
+        background-color:rgb(0,0,0);
+        opacity:0.7;
+        filter:alpha(opacity=70);
+        padding:15px 15px;
+        margin: 0 auto;
+        border-radius:8px;
+        font-size: 14px;
+        color:#fff;
+        background: #000;
+    }
 </style>
 <script>
     $(function () {
@@ -258,6 +287,7 @@
             datatype: "json", //"xml", "html", "script", "json", "jsonp", "text".
             //在请求之前调用的函数
             beforeSend: function () {
+                $("body").append("<div id='lodding'><div class='lodding-wrap' style='width:145px'>正在加载数据中...</div></div>");
             },
             //成功返回之后调用的函数             
             success: function (data) {
@@ -300,9 +330,12 @@
             //调用执行后调用的函数
             complete: function (XMLHttpRequest, textStatus) {
 
+                $("#lodding").remove();
             },
             //调用出错执行的函数
             error: function () {
+
+                alert("数据异常,请检查是否json格式");
             }
         });
     }
@@ -325,9 +358,10 @@
          */
         wx.onMenuShareTimeline({
             title: '维菲迎端午庆香港回归，幸运大抽奖！',
+            desc: '庆祝香港回归19周，恭祝维菲微店2周年，为了回馈客户，专设限量长相思葡萄酒抽奖', // 分享描述
 //            link: '<?php echo v_site_url() . "/?s=/Home/Oauth2/index/type/lottery" ?>',
-            link: 'http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=456294243&idx=1&sn=faf51100240618ada9114ec4de184e8e#rd',
-            imgUrl: '<?php echo v_theme_url() ?>image/HkReturn/turntable.png',
+            link: '<?php echo v_site_url() . "/?s=/Home/Oauth2/index/type/hkReturn" ?>',
+            imgUrl: '<?php echo v_theme_url() ?>/image/HkReturn/turntable.png',
             trigger: function (res) {
                 // 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
 
@@ -344,9 +378,9 @@
         });
         wx.onMenuShareAppMessage({
             title: '维菲迎端午庆香港回归，幸运大抽奖！',
-            desc: '', // 分享描述
-            link: 'http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=456294243&idx=1&sn=faf51100240618ada9114ec4de184e8e#rd',
-            imgUrl: '<?php echo v_theme_url() ?>image/HkReturn/turntable.png',
+            desc: '庆祝香港回归19周，恭祝维菲微店2周年，为了回馈客户，专设限量长相思葡萄酒抽奖', // 分享描述
+            link: '<?php echo v_site_url() . "/?s=/Home/Oauth2/index/type/hkReturn" ?>',
+            imgUrl: '<?php echo v_theme_url() ?>/image/HkReturn/turntable.png',
             type: 'link', // 分享类型,music、video或link，不填默认为link
             dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
             success: function () {

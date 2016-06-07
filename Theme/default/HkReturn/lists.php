@@ -176,11 +176,11 @@
 <div class=''>
     <div style="position: relative;height:40px;line-height: 40px;background:#B32121">
         <div style="float:left;width:18%;text-align: center;color:#fff;font-size:22px;border-right: 1px solid #891B1B;">
-            <a href="<?php echo U("HkReturn/index/index") ?>" style="display: block;height: 100%;width:100%;color:#fff"><</a>
+            <a href="<?php echo U("Home/Oauth2/index", array("type" => "hkReturn")) ?>" style="display: block;height: 100%;width:100%;color:#fff"><</a>
         </div>
         <div style="float:left;text-align: center;font-size:18px; color:#fff;width: 64%">中奖详情</div>
         <div style="float:left;width:18%;text-align: center;color:#fff;font-size:22px;border-left: 1px solid #891B1B;">
-            <a href="<?php echo U("HkReturn/index/index") ?>" style="display: block;height: 100%;font-size: 14px;width:100%;color:#fff">活动规则</a>
+            <a href="<?php echo U("Home/Oauth2/index", array("type" => "hkReturn")) ?>" style="display: block;height: 100%;font-size: 14px;width:100%;color:#fff">活动规则</a>
         </div>
     </div>
     <div class="weui_panel">

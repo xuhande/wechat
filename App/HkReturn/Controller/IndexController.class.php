@@ -18,29 +18,28 @@ class IndexController extends Controller {
         $data = $oauth2->getOpenId($_GET['code']);
         $openid = json_decode($data);
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
+        ///////////测试信息////////////
+        $userinfo->openid = "aikangs";
+        $userinfo->subscribe = true;
+        $userinfo->nickname = "kangsng";
         if ($userinfo->openid) {
             $_SESSION['openid'] = $userinfo->openid;
         }
-
-
-        ///////////测试信息////////////
-//        $userinfo->openid = "aikangs";
-//        $userinfo->subscribe = true;
-//        $userinfo->nickname = "kangsng";
-        ///////////测试信息////////////
         //将用户信息保存（如果不存在的话）
         $where['openid'] = $_SESSION['openid'];
         $user = M("wechat_user")->where($where)->find();
         if ($user['id'] == "" && $userinfo->openid != "") {
-            $user['openid'] = $userinfo->openid;
-            $user['nickname'] = $userinfo->nickname;
-            $user['subscribe'] = $userinfo->subscribe;
-            $user['is_lottery'] = 0;
-            $user['created'] = time();
-            M("wechat_user")->data($user)->add();
+            $u['openid'] = $userinfo->openid;
+            $u['nickname'] = $userinfo->nickname;
+            $u['subscribe'] = $userinfo->subscribe;
+            $u['is_lottery'] = 0;
+            $u['created'] = time();
+            M("wechat_user")->data($u)->add();
         } else {
-            $user['subscribe'] = $userinfo->subscribe;
-            M("wechat_user")->data($user)->save();
+            if (!empty($userinfo->openid)) {
+                $user['subscribe'] = $userinfo->subscribe;
+                M("wechat_user")->data($user)->save();
+            }
         }
         $this->user = $user;
 
@@ -115,9 +114,9 @@ class IndexController extends Controller {
                             ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->find();
                     $prize = urldecode($goods['prize']) . '元';
                     $created = date("Y-m-d H:i", $goods['created']);
-                    $chance = 3 - $record_count;
-                    echo json_encode(array("code" => "200", "chance" => $chance));
                     $this->sendMessage($_SESSION['token'], $openid, $prize, $created);
+                    $chance = 3 - $record_count; 
+                    echo json_encode(array("code" => "200", "chance" => $chance));
                 } else {
                     M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
                     echo json_encode(array("code" => "203"));
@@ -221,23 +220,28 @@ class IndexController extends Controller {
         $openid = json_decode($data);
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         //将用户信息保存（如果不存在的话）
-        $where['openid'] = $userinfo->openid;
+        if (!empty($userinfo->openid)) {
+            $_SESSION['openid'] = $userinfo->openid;
+        }
+        $where['openid'] = $_SESSION['openid'];
         $user = M("wechat_user")->where($where)->find();
         if ($user['id'] == "" && $userinfo->openid != "") {
-            $user['openid'] = $userinfo->openid;
-            $user['nickname'] = $userinfo->nickname;
-            $user['subscribe'] = $userinfo->subscribe;
-            $user['is_lottery'] = 0;
-            $user['created'] = time();
-            M("wechat_user")->data($user)->add();
+            $u['openid'] = $userinfo->openid;
+            $u['nickname'] = $userinfo->nickname;
+            $u['subscribe'] = $userinfo->subscribe;
+            $u['is_lottery'] = 0;
+            $u['created'] = time();
+            M("wechat_user")->data($u)->add();
         } else {
-            $user['subscribe'] = $userinfo->subscribe;
-            M("wechat_user")->data($user)->save();
+            if (!empty($userinfo->openid)) {
+                $user['subscribe'] = $userinfo->subscribe;
+                M("wechat_user")->data($user)->save();
+            }
         }
 
         if ($dataType == "dataJson") {
             $list = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.openid' => $openids
-                    ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->limit(0, $limit)->select();
+                    ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->order(array("created" => "desc"))->limit(0, $limit)->select();
             foreach ($list as &$val) {
                 $val['created'] = date("Y-m-d H:i", $val['created']);
             }
@@ -255,7 +259,7 @@ class IndexController extends Controller {
            "url":"", 
            "data":{
                    "first": {
-                       "value":"恭喜您幸运抽中付款下述金额！",
+                       "value":"付款中奖金额购买长相思！",
                        "color":"#000000"
                    },
                    "keyword1":{
@@ -275,8 +279,7 @@ class IndexController extends Controller {
         $PostUrl = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=" . $access_token;
 //        $value = $this->vpost($PostUrl, $xjson);
         $value = \Home\Common\Common::PData($PostUrl, $xjson);
-
-        $this->logger("object->value: " . $value);
+        return $value;
     }
 
     //日志记录
