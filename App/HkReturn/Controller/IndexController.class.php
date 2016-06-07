@@ -75,7 +75,7 @@ class IndexController extends Controller {
         $nickname = I("param.nickname"); //username
         $lottery_id = I("param.lottery"); //中奖信息
         $tokens = \Home\Common\Common::setrep();
-        //查询是否已经抽过了   
+       //查询是否已经抽过了   
         $now = time();
         $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
         $endTime = strtotime(date('Y-m-d 23:59:59', $now));
@@ -88,13 +88,13 @@ class IndexController extends Controller {
             echo json_encode(array("code" => "500"));
             die;
         }
+        if (!$user['subscribe']) { //没有关注 
+            echo json_encode(array("code" => "303"));
+            die;
+        } 
          $record_count = M("hkreturn_record")->where($mapt)->count();
         if ($record_count >= 3) {
             echo json_encode(array("code" => "205"));
-            die;
-        }
-        if (!$user['subscribe']) { //没有关注 
-            echo json_encode(array("code" => "303"));
             die;
         }
         //将奖品数量减去1
