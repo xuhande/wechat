@@ -13,10 +13,7 @@ class IndexController extends Controller {
     /**
      * 
      */
-    public function index() {
-        \Home\Common\Common::setrep();
-        print_r($_SESSION['token']);
-        die;
+    public function index() { 
         $oauth2 = new \Home\Controller\Oauth2Controller();
         $data = $oauth2->getOpenId($_GET['code']);
         $openid = json_decode($data);
@@ -76,11 +73,8 @@ class IndexController extends Controller {
         $openid = I("param.openid"); //openid
         $nickname = I("param.nickname"); //username
         $lottery_id = I("param.lottery"); //中奖信息
-        //查询是否已经抽过了 
-        $this->setrep();
-
-
-
+        \Home\Common\Common::setrep();
+        //查询是否已经抽过了   
         $now = time();
         $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
         $endTime = strtotime(date('Y-m-d 23:59:59', $now));
