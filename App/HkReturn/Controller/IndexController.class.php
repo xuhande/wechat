@@ -20,7 +20,7 @@ class IndexController extends Controller {
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         ///////////测试信息////////////
         $userinfo->openid = "aikangs";
-        $userinfo->subscribe = true;
+        $userinfo->subscribe = "";
         $userinfo->nickname = "kangsng";
         if ($userinfo->openid) {
             $_SESSION['openid'] = $userinfo->openid;
@@ -41,6 +41,7 @@ class IndexController extends Controller {
                 M("wechat_user")->data($user)->save();
             }
         }
+        
         $this->user = $user;
 
         $this->theme("default")->display("HkReturn/index_2016");
@@ -70,7 +71,7 @@ class IndexController extends Controller {
      */
     public function savelottery() {
         $subscribe = I('param.subscribe');
-        $openid = I("param.openid"); //openid
+        $openid = I("param.openid"); //openid 
         $nickname = I("param.nickname"); //username
         $lottery_id = I("param.lottery"); //中奖信息
         $tokens = \Home\Common\Common::setrep();
@@ -78,17 +79,18 @@ class IndexController extends Controller {
         $now = time();
         $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
         $endTime = strtotime(date('Y-m-d 23:59:59', $now));
-        $mapt['openid'] = $openid;
+        $mapt['openid'] = $openid; 
         $mapt['created'] = array(array('gt', $beginTime), array('lt', $endTime));
-        $record_count = M("hkreturn_record")->where($mapt)->count();
-        if ($record_count >= 3) {
-            echo json_encode(array("code" => "205"));
-            die;
-        }
+       
         $where['openid'] = $openid;
         $user = M("wechat_user")->where($where)->find();
         if ($openid == "" || $nickname == "" || $lottery_id == "") {
             echo json_encode(array("code" => "500"));
+            die;
+        }
+         $record_count = M("hkreturn_record")->where($mapt)->count();
+        if ($record_count >= 3) {
+            echo json_encode(array("code" => "205"));
             die;
         }
         if (!$user['subscribe']) { //没有关注 

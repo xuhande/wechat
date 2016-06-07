@@ -7,28 +7,24 @@ use Think\Controller;
 class Oauth2Controller extends Controller {
 
     public function index($type) {
-$url = v_site_url()."/Cork/index/index";
-        if($type == "index"){
-            $url = v_site_url()."/Cork/index/index";
+        $url = v_site_url() . "/Cork/index/index";
+        if ($type == "index") {
+            $url = v_site_url() . "/Cork/index/index";
+        } else if ($type == "corklist") {
+            $url = v_site_url() . "/Cork/index/corklist";
+        } else if ($type == "lottery") {
+            $url = v_site_url() . "/Lottery/Lottery";
+        } else if ($type == "hkReturn") {
+            $url = v_site_url() . "/HkReturn/index/index";
+        } else if ($type == "hkReturnList") {
+            $url = v_site_url() . "/HkReturn/index/datalist";
         }
-        else if($type == "corklist"){
-             $url = v_site_url()."/Cork/index/corklist";
-        }
-        else if($type == "lottery"){
-              $url = v_site_url()."/Lottery/Lottery";
-        }
-        else if($type == "hkReturn"){
-              $url = v_site_url()."/HkReturn/index/index";
-        }
-        else if($type == "hkReturnList"){
-              $url = v_site_url()."/HkReturn/index/datalist";
-        }
-        
-        
+
+
         $oauth = new Oauth2Controller();
 
         $content = $oauth->getCode(urlencode($url));
-         
+
         header("location: " . $content);
         exit;
     }
