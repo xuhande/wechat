@@ -267,12 +267,12 @@
     $.get("<?php echo U("HkReturn/index/chance", array('openid' => $user['openid'], 'subscribe' => $user['subscribe'] ? true : false)) ?>", function (result) {
         $("#chance").html(result);
     });
-//    subscribe = true;
-//    if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
-//        $('#myModal').modal('show');
-//        $(".modal-body-alert").html("请您先关注<span style='color:#e38d13'>酒庄公众号</span>后进行抽奖！");
-//        setTimeout('jumpurl()', 5000);
-//    }
+    subscribe = true;
+    if (<?php echo $user['subscribe'] ? "false" : "true"; ?>) {
+        $('#myModal').modal('show');
+        $(".modal-body-alert").html("请您先关注<span style='color:#e38d13'>酒庄公众号</span>后进行抽奖！");
+        setTimeout('jumpurl()', 5000);
+    }
     function ajax_save(lottery) {
         $.ajax({
             //提交数据的类型 POST GET
