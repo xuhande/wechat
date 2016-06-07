@@ -14,6 +14,9 @@ class IndexController extends Controller {
      * 
      */
     public function index() {
+        \Home\Common\Common::setrep();
+        print_r($_SESSION['token']);
+        die;
         $oauth2 = new \Home\Controller\Oauth2Controller();
         $data = $oauth2->getOpenId($_GET['code']);
         $openid = json_decode($data);
@@ -58,7 +61,11 @@ class IndexController extends Controller {
         $map['openid'] = $openid;
         $map['created'] = array(array('gt', $beginTime), array('lt', $endTime));
         $record_count = M("hkreturn_record")->where($map)->count();
-        echo 3 - $record_count;
+        if ($openid) {
+            echo 3 - $record_count;
+        } else {
+            echo 0;
+        }
     }
 
     /**
@@ -115,7 +122,7 @@ class IndexController extends Controller {
                     $prize = urldecode($goods['prize']) . '元';
                     $created = date("Y-m-d H:i", $goods['created']);
                     $this->sendMessage($_SESSION['token'], $openid, $prize, $created);
-                    $chance = 3 - $record_count; 
+                    $chance = 3 - $record_count;
                     echo json_encode(array("code" => "200", "chance" => $chance));
                 } else {
                     M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
@@ -279,6 +286,7 @@ class IndexController extends Controller {
         $PostUrl = "https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=" . $access_token;
 //        $value = $this->vpost($PostUrl, $xjson);
         $value = \Home\Common\Common::PData($PostUrl, $xjson);
+        $this->logger($value);
         return $value;
     }
 
@@ -288,32 +296,6 @@ class IndexController extends Controller {
         $k = fopen($filename, "a+");
         fwrite($k, "\n" . date("Y-m-d H:i:s") . ":" . $log_content);
         fclose($k);
-    }
-
-    //获取access_token
-    protected function getAccessToken() {
-        print_r('getAccessToken');
-        $url = 'https://api.weixin.qq.com/cgi-bin/token?';
-        $appid = C('WX_CONF_APPID');
-        $appsecret = C('WX_CONF_APPSECRET');
-        $cont = "grant_type=client_credential&appid=" . $appid . "&secret=" . $appsecret;
-        $data = file_get_contents($url . $cont);
-        $data = json_decode($data, TRUE);
-        //		$this->setaccess_token ( $data ['access_token'] );
-        //		$this->setexpires_in ( time () + $data ['expires_in'] );
-
-        $_SESSION['maxtimes'] = time() + $data ['expires_in'] - 6000;
-        $_SESSION['token'] = $data ['access_token'];
-    }
-
-    //设置access_token的更新周期
-    protected function setrep() {
-        $time = time();
-        //	$maxtime = $this->getexpires_in ();
-        if (!isset($_SESSION['maxtimes']) || (isset($_SESSION['maxtimes']) && $_SESSION['maxtimes'] <= $time)) {
-            $this->getAccessToken();
-            print_r('setrep');
-        }
     }
 
 }

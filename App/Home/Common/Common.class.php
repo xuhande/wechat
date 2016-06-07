@@ -7,7 +7,9 @@
  */
 
 namespace Home\Common;
+
 session_start();
+
 class Common {
 
     public function encode($string = '', $skey = 'cxphp') {   //加密
@@ -48,20 +50,21 @@ class Common {
 //        $_SESSION['maxtimes'] = time() + $resultArr ['expires_in'] - 6000;
 //        $_SESSION['token'] = $resultArr["access_token"];
 ////        return $resultArr["access_token"]; //获取access_token
-        $url = 'https://api.weixin.qq.com/cgi-bin/token?'; 
+        $url = 'https://api.weixin.qq.com/cgi-bin/token?';
         $cont = "grant_type=client_credential&appid=" . $appid . "&secret=" . $appsecret;
         $data = file_get_contents($url . $cont);
-        $data = json_decode($data, TRUE); 
+        $data = json_decode($data, TRUE);
         $_SESSION['maxtime'] = time() + $data ['expires_in'] - 6000;
-        $_SESSION['tokens'] = $data ['access_token'];  
-        
+        Common::saveAccessToken($data ['access_token']);
     }
-      public function setrep() {
+
+    public function setrep() {
         $time = time();
         //	$maxtime = $this->getexpires_in ();
-        if (!isset($_SESSION['maxtimes']) || (isset($_SESSION['maxtimes']) && $_SESSION['maxtimes'] <= $time)) {
-           Common::getAccessTokens();
+        if (!isset($_SESSION['maxtimes']) || (isset($_SESSION['maxtimes']) && $_SESSION['maxtimes'] <= $time)) {            
+            Common::getAccessTokens();
         }
+         $_SESSION['token'] = Common::getAccessToken();
     }
 
     public function PData($url, $data = null) { // get and post模拟提交数据函数 
@@ -78,9 +81,8 @@ class Common {
         curl_close($curl);
         return $output;
     }
-    
-    
-        /**
+
+    /**
      * 
      * @param type $data
      */
@@ -94,6 +96,24 @@ class Common {
         } else {
             return $content = "请勿重复扫描领取，上次扫描时间：" . date('Y-m-d H:i:s', $count[0]['time']);
         }
+    }
+
+    /* logger save access
+     * 
+     */
+
+    public function saveAccessToken($content) {
+        $filename = "Public/Data/token/token.txt";
+        $k = fopen($filename, "w+");
+        fwrite($k, $content);
+        fclose($k);
+    }
+
+    public function getAccessToken() {
+        $filename = "Public/Data/token/token.txt";
+        $k = fopen($filename, "r");
+        $d = fgets($k, 10000);
+        return $d;
     }
 
 }
