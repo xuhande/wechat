@@ -291,8 +291,7 @@
             },
             //成功返回之后调用的函数             
             success: function (data) {
-                var obj = eval('(' + data + ')');
-                console.log(obj);
+                var obj = eval('(' + data + ')'); 
                 if (obj.code == "200") {
                     $('#chance').html(obj.chance);
                     if (lottery.id == "7") {
