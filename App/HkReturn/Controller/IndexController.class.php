@@ -73,7 +73,7 @@ class IndexController extends Controller {
         $openid = I("param.openid"); //openid
         $nickname = I("param.nickname"); //username
         $lottery_id = I("param.lottery"); //中奖信息
-        \Home\Common\Common::setrep();
+        $tokens = \Home\Common\Common::setrep();
         //查询是否已经抽过了   
         $now = time();
         $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
@@ -115,7 +115,7 @@ class IndexController extends Controller {
                             ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->find();
                     $prize = urldecode($goods['prize']) . '元';
                     $created = date("Y-m-d H:i", $goods['created']);
-                    $this->sendMessage($_SESSION['token'], $openid, $prize, $created);
+                    $this->sendMessage($tokens, $openid, $prize, $created);
                     $chance = 3 - $record_count;
                     echo json_encode(array("code" => "200", "chance" => $chance));
                 } else {

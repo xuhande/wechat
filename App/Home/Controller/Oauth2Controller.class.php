@@ -49,19 +49,21 @@ $url = v_site_url()."/Cork/index/index";
         $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" . C("WX_CONF_APPID") . "&secret=" . C("WX_CONF_APPSECRET") . "&code=" . $code . "&grant_type=authorization_code";
 
         $value = \Home\Common\Common::PData($url);
+        $token = json_decode($value);
+        \Home\Common\Common::saveAccessToken($token->access_token);
         return $value;
     }
 
     public function getUserInfo($openid) {
-        \Home\Common\Common::setrep();
-        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $_SESSION['tokens'] . "&openid=" . $openid . "&lang=zh_CN";
+        $tokens = \Home\Common\Common::setrep();
+        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $tokens . "&openid=" . $openid . "&lang=zh_CN";
         $value = \Home\Common\Common::PData($url);
         return $value;
     }
 
     public function checkGZ($openid) {
-        \Home\Common\Common::setrep();
-        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $_SESSION['tokens'] . "&openid=" . $openid . "&lang=zh_CN";
+        $tokens = \Home\Common\Common::setrep();
+        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $tokens . "&openid=" . $openid . "&lang=zh_CN";
         $value = \Home\Common\Common::PData($url);
         return $value;
     }

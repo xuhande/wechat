@@ -64,7 +64,7 @@ class Common {
         if (!isset($_SESSION['maxtimes']) || (isset($_SESSION['maxtimes']) && $_SESSION['maxtimes'] <= $time)) {            
             Common::getAccessTokens();
         }
-         $_SESSION['token'] = Common::getAccessToken();
+         return Common::getAccessToken();
     }
 
     public function PData($url, $data = null) { // get and post模拟提交数据函数 
@@ -89,7 +89,7 @@ class Common {
     public function savescaninfo($data) {
 
         $count = M('scaninfo')->where(array("openid" => $data['openid']))->select(); // 查询满足要求的总记录数 $map表示查询条件
-        print_r($count);
+        
         if ($count[0]['openid'] == "") {
             M('scaninfo')->data($data)->add();
             return $content = "请凭此信息领取礼品";
