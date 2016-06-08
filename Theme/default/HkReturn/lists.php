@@ -194,6 +194,18 @@
         <div class='weui_panel_bt' id="weui_cell_more">加载更多数据 <span style='font-size:18px;'> &#8595;</span></div>
     </div>
 </div>  
+<div style="margin-top:50px"> 
+    <div class="weui_panel">
+        <div class="weui_panel_hd">当天产品限购数量：</div>
+        <div class="weui_panel_bd">
+            <div class="weui_media_box weui_media_small_appmsg">
+                <div class="weui_cells weui_cells_access" id="weui_googs_data"> 
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 <script>
     function getData(id, pages, more) { //获取当前页数据 
         var length = $(id + " .weui_cell").length;
@@ -201,7 +213,7 @@
         $.ajax({
             type: "GET",
             url: '<?php echo U("HkReturn/index/datalist") ?>',
-            data: {openid: "<?php echo $user['openid'] ?>",dataType: "dataJson", total: page},
+            data: {openid: "<?php echo $user['openid'] ?>", dataType: "dataJson", total: page},
             datatype: "json", //"xml", "html", "script", "json", "jsonp", "text". 
             beforeSend: function () {
                 $("#weui_cell_more").text("正在加载数据中...");
@@ -216,7 +228,7 @@
 
                     $.each(obj, function (k, v) {
                         html += "<div class='weui_cell'><div class='weui_cell_bd weui_cell_primary'>" +
-                                "<div class='weui_cell_bd_tit' >恭喜您中了" + obj[k].prize + "</div>" +
+                                "<div class='weui_cell_bd_tit' >恭喜您中了" + obj[k].prize + "元</div>" +
                                 "<div class='weui_cell_bd_time'>" + obj[k].created + "</div>" +
                                 "<span class='weui_cell_ft'></span></div></div>";
                     });
@@ -239,7 +251,31 @@
         });
 
     });
-
+    $.ajax({
+        type: "GET",
+        url: '<?php echo U("HkReturn/index/goods") ?>',
+        datatype: "json", //"xml", "html", "script", "json", "jsonp", "text". 
+        beforeSend: function () {
+            $("#weui_googs_data").html('<div class="weui_cell" id="loadding_goods"><div class="weui_cell_bd weui_cell_primary" ><div style="line-height:50px;text-align:center;">正在加载数据中...</div></div></div>');
+        },
+        success: function (data) {
+            var obj = $.parseJSON(data); 
+            var html = ''; 
+            $.each(obj, function (k, v) {
+                html += "<div class='weui_cell'><div class='weui_cell_bd weui_cell_primary'>" +
+                        "<div class='weui_cell_bd_tit' >" + obj[k].prize + "元长相思</div>" +
+                        "<div class='weui_cell_bd_time'>剩余" + obj[k].number + "支</div>" +
+                        "<span class='weui_cell_ft'></span></div></div>";
+            });
+            $("#weui_googs_data").html(html);
+        },
+        complete: function () { 
+            $("#loadding_goods").remove();
+        },
+        error: function () {
+            alert("数据异常,请检查是否json格式");
+        }
+    });
 </script> 
 
 <script>

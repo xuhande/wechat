@@ -1,0 +1,44 @@
+[ 2016-06-08T14:44:46+08:00 ] 127.0.0.1 /index.php?s=/Home/Oauth2/index/type/hkReturnList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0004s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-06-08T15:04:45+08:00 ] 127.0.0.1 /index.php?s=/Home/Oauth2/index/type/hkReturnList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0005s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-06-08T15:13:20+08:00 ] 127.0.0.1 /index.php?s=/Home/Oauth2/index/type/hkReturnList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0004s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-06-08T15:14:41+08:00 ] 127.0.0.1 /index.php?s=/Home/Oauth2/index/type/hkReturnList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0003s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+

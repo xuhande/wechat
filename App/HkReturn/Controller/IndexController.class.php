@@ -13,14 +13,14 @@ class IndexController extends Controller {
     /**
      * 
      */
-    public function index() { 
+    public function index() {
         $oauth2 = new \Home\Controller\Oauth2Controller();
         $data = $oauth2->getOpenId($_GET['code']);
         $openid = json_decode($data);
         $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
         ///////////测试信息////////////
         $userinfo->openid = "aikangs";
-        $userinfo->subscribe = "";
+        $userinfo->subscribe = true;
         $userinfo->nickname = "kangsng";
         if ($userinfo->openid) {
             $_SESSION['openid'] = $userinfo->openid;
@@ -41,7 +41,7 @@ class IndexController extends Controller {
                 M("wechat_user")->data($user)->save();
             }
         }
-        
+
         $this->user = $user;
 
         $this->theme("default")->display("HkReturn/index_2016");
@@ -75,13 +75,13 @@ class IndexController extends Controller {
         $nickname = I("param.nickname"); //username
         $lottery_id = I("param.lottery"); //中奖信息
         $tokens = \Home\Common\Common::setrep();
-       //查询是否已经抽过了   
+        //查询是否已经抽过了   
         $now = time();
         $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
         $endTime = strtotime(date('Y-m-d 23:59:59', $now));
-        $mapt['openid'] = $openid; 
+        $mapt['openid'] = $openid;
         $mapt['created'] = array(array('gt', $beginTime), array('lt', $endTime));
-       
+
         $where['openid'] = $openid;
         $user = M("wechat_user")->where($where)->find();
         if ($openid == "" || $nickname == "" || $lottery_id == "") {
@@ -91,8 +91,8 @@ class IndexController extends Controller {
         if (!$user['subscribe']) { //没有关注 
             echo json_encode(array("code" => "303"));
             die;
-        } 
-         $record_count = M("hkreturn_record")->where($mapt)->count();
+        }
+        $record_count = M("hkreturn_record")->where($mapt)->count();
         if ($record_count >= 3) {
             echo json_encode(array("code" => "205"));
             die;
@@ -255,6 +255,53 @@ class IndexController extends Controller {
         }
     }
 
+    public function goods() {
+        $lottery_prize = M("hkreturn_prize")->field("prize,number")->order(array("lid" => "desc"))->select();
+        echo json_encode($lottery_prize);
+    }
+
+    public function goodsNumber() {
+        $ip = get_client_ip();
+        if ($ip == "220.152.193.11") { 
+            $now = time();
+            $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
+            $endTime = strtotime(date('Y-m-d 23:59:59', $now));
+            if ($now > $beginTime and $now < $endTime) {
+                $lottery_prize = M("hkreturn_prize")->field("lid,number,v")->order(array("lid" => "desc"))->select();
+                foreach ($lottery_prize as $v) {
+                    $map["lid"] = $v["lid"];
+                    $v['number'] = 80;
+                    switch ($v["lid"]) {
+                        case 6:
+                            $v["v"] = 50;
+                            break;
+                        case 5:
+                            $v["v"] = 20;
+                            break;
+                        case 4:
+                            $v["v"] = 15;
+                            break;
+                        case 3:
+                            $v["v"] = 5;
+                            break;
+                        case 2:
+                            $v["v"] = 5;
+                            break;
+                        case 1:
+                            $v["v"] = 5;
+                            break;
+                    }
+                    $d = M("hkreturn_prize")->where($map)->data($v)->save();
+                }
+                echo json_encode(array("code" => 200, "message" => "数据更新完成！"));
+            } else {
+                echo json_encode(array("code" => 500, "message" => "您访问的页面错误！"));
+            }
+        } else {
+            echo json_encode(array("code" => 500, "message" => "您访问的页面错误！"));
+        }
+    }
+
     private function sendMessage($access_token, $openId, $amount, $time) {//发送信息通知到指定人员         
         $xjson = '      {
            "touser":"' . $openId . '",
@@ -274,7 +321,7 @@ class IndexController extends Controller {
                        "color":"#000000"
                    },  
                    "remark":{
-                       "value":"感谢你的参与!",
+                       "value":"请联系客服人员咨询，感谢你的参与!",
                        "color":"#000000"
                    }
            }

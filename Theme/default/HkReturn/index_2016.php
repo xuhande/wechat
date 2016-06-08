@@ -355,8 +355,8 @@
          * user share 
          */
         wx.onMenuShareTimeline({
-            title: '维菲迎端午庆香港回归，幸运大抽奖！',
-            desc: '庆祝香港回归19周，恭祝维菲微店2周年，为了回馈客户，专设限量长相思葡萄酒抽奖', // 分享描述
+            title: '维菲庆香港回归19周年，幸运大抽奖！',
+            desc: '庆祝香港回归19周年，恭祝维菲微店2周年，为了回馈客户，专设限量长相思葡萄酒抽奖', // 分享描述
 //            link: '<?php echo v_site_url() . "/?s=/Home/Oauth2/index/type/lottery" ?>',
             link: '<?php echo v_site_url() . "/?s=/Home/Oauth2/index/type/hkReturn" ?>',
             imgUrl: '<?php echo v_theme_url() ?>/image/HkReturn/turntable.png',
@@ -375,8 +375,8 @@
             }
         });
         wx.onMenuShareAppMessage({
-            title: '维菲迎端午庆香港回归，幸运大抽奖！',
-            desc: '庆祝香港回归19周，恭祝维菲微店2周年，为了回馈客户，专设限量长相思葡萄酒抽奖', // 分享描述
+            title: '维菲庆香港回归19周年，幸运大抽奖！',
+            desc: '庆祝香港回归19周年，恭祝维菲微店2周年，为了回馈客户，专设限量长相思葡萄酒抽奖', // 分享描述
             link: '<?php echo v_site_url() . "/?s=/Home/Oauth2/index/type/hkReturn" ?>',
             imgUrl: '<?php echo v_theme_url() ?>/image/HkReturn/turntable.png',
             type: 'link', // 分享类型,music、video或link，不填默认为link
