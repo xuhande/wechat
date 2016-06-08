@@ -152,8 +152,8 @@ class IndexController extends Controller {
             //概率数组的总概率精度   
             $proSum = array_sum($proArr);
             //概率数组循环   
-            foreach ($proArr as $key => $proCur) {
-                $randNum = mt_rand(1, $proSum);
+            foreach ($proArr as $key => $proCur) { 
+                $randNum = mt_rand(1, $proSum); 
                 if ($randNum <= $proCur) {
                     $result = $key;
                     break;
@@ -180,7 +180,7 @@ class IndexController extends Controller {
          * [0,337,"未中奖"],[1,26,"免单4999元"],[2,88,"免单50元"],[3,137,"免单10元"],[4,185,"免单5元"],[5,235,"免分期服务费"]
          */
         //通过数据库获取中奖项 array("number"=>array("egt","1"))
-        $prize_arr = M("hkreturn_prize")->where()->select();
+        $prize_arr = M("hkreturn_prize")->where()->order(array("lid"=>"asc"))->select();
 //        $prize_arr = M("lottery_prize")->where(array("number"=>array("egt","1")))->select();
 //        $prize_arr = array(
 //            '0' => array('id' => 1, "angles" => 337, 'prize' => '80元代金券', 'v' => 5),
@@ -198,10 +198,13 @@ class IndexController extends Controller {
          * 而剩下的未中奖的信息保存在$res['no']中， 
          * 最后输出json个数数据给前端页面。 
          */
+        $arr = array();
         foreach ($prize_arr as $key => $val) {
-            $arr[$val['lid']] = $val['v'];
+            if ($val['number'] != 0) { 
+                $arr[$val['lid']] = $val['v']; 
+            }
         }
-        $rid = get_rand($arr); //根据概率获取奖项id    
+        $rid = get_rand($arr); //根据概率获取奖项id   
         $res['yes'] = $prize_arr[$rid - 1]; //中奖项   
 //        unset($prize_arr[$rid - 1]); //将中奖项从数组中剔除，剩下未中奖项   
 //        shuffle($prize_arr); //打乱数组顺序   
@@ -256,13 +259,14 @@ class IndexController extends Controller {
     }
 
     public function goods() {
-        $lottery_prize = M("hkreturn_prize")->field("prize,number")->order(array("lid" => "desc"))->select();
+        $lottery_prize = M("hkreturn_prize")->field("prize,number")->order(array("id" => "desc"))->select();
         echo json_encode($lottery_prize);
     }
 
     public function goodsNumber() {
-        $ip = get_client_ip();
-        if ($ip == "220.152.193.11") { 
+//        print_r(md5("vynfields"));
+        $access_token = I("param.access_token");
+        if ($access_token == "3a4068f9076c960e87f7f7f0272b13f3") {
             $now = time();
             $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
             $endTime = strtotime(date('Y-m-d 23:59:59', $now));
@@ -270,24 +274,29 @@ class IndexController extends Controller {
                 $lottery_prize = M("hkreturn_prize")->field("lid,number,v")->order(array("lid" => "desc"))->select();
                 foreach ($lottery_prize as $v) {
                     $map["lid"] = $v["lid"];
-                    $v['number'] = 80;
                     switch ($v["lid"]) {
                         case 6:
+                            $v['number'] = 80;
                             $v["v"] = 50;
                             break;
                         case 5:
-                            $v["v"] = 20;
+                            $v['number'] = 80;
+                            $v["v"] = 21;
                             break;
                         case 4:
-                            $v["v"] = 15;
+                            $v['number'] = 80;
+                            $v["v"] = 17;
                             break;
                         case 3:
+                            $v['number'] = 5;
                             $v["v"] = 5;
                             break;
                         case 2:
-                            $v["v"] = 5;
+                            $v['number'] = 80;
+                            $v["v"] = 2;
                             break;
                         case 1:
+                            $v['number'] = 80;
                             $v["v"] = 5;
                             break;
                     }
@@ -309,7 +318,7 @@ class IndexController extends Controller {
            "url":"", 
            "data":{
                    "first": {
-                       "value":"付款中奖金额购买长相思！",
+                       "value":"请用中奖金额购买维菲有机葡萄酒！",
                        "color":"#000000"
                    },
                    "keyword1":{
