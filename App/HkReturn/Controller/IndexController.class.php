@@ -288,8 +288,8 @@ class IndexController extends Controller {
                             $v["v"] = 17;
                             break;
                         case 3:
-                            $v['number'] = 2;
-                            $v["v"] = 5;
+                            $v['number'] = 5;
+                            $v["v"] = 2;
                             break;
                         case 2:
                             $v['number'] = 80;
