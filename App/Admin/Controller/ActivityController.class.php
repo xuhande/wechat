@@ -144,8 +144,7 @@ class ActivityController extends Controller {
             $this->error('请登录', U("Admin/User/Login"));
         } else {
 
-            $map['username'] = array('like', '%' . $sUsername . '%');
-            print_r($map);
+            $map['username'] = array('like', '%' . $sUsername . '%'); 
             /**
              *  初始化文章
              */
