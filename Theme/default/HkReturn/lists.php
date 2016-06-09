@@ -180,7 +180,7 @@
         </div>
         <div style="float:left;text-align: center;font-size:18px; color:#fff;width: 64%">中奖详情</div>
         <div style="float:left;width:18%;text-align: center;color:#fff;font-size:22px;border-left: 1px solid #891B1B;">
-            <a href="<?php echo U("Home/Oauth2/index", array("type" => "hkReturn")) ?>" style="display: block;height: 100%;font-size: 14px;width:100%;color:#fff">活动规则</a>
+            <a href="http://mp.weixin.qq.com/s?__biz=MzA3MDAyMzA5OQ==&mid=612564736&idx=1&sn=388a542901dc611504d6ad78d38c6f30#rd" style="display: block;height: 100%;font-size: 14px;width:100%;color:#fff">活动规则</a>
         </div>
     </div>
     <div class="weui_panel">
