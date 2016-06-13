@@ -264,7 +264,7 @@
             $.each(obj, function (k, v) {
                 html += "<div class='weui_cell'><div class='weui_cell_bd weui_cell_primary'>" +
                         "<div class='weui_cell_bd_tit' >" + obj[k].prize + "元长相思</div>" +
-                        "<div class='weui_cell_bd_time'>剩余" + obj[k].number + "支</div>" +
+                        "<div class='weui_cell_bd_time'>" + obj[k].number + "</div>" +
                         "<span class='weui_cell_ft'></span></div></div>";
             });
             $("#weui_googs_data").html(html);

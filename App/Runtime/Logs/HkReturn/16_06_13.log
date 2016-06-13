@@ -1,0 +1,1139 @@
+[ 2016-06-13T15:31:59+08:00 ] 127.0.0.1 /HkReturn/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `w_wechat_user` SET `openid`='aikangs',`nickname`='kangsng',`subscribe`='1',`is_lottery`='0',`created`='1465269024' WHERE `id` = 1 [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0004s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0084s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012803s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000002s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012142s ]
+
+[ 2016-06-13T15:31:59+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/chance/openid/aikangs/subscribe/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_hkreturn_record` WHERE `openid` = 'aikangs' AND ( `created` > 1465747200 AND `created` < 1465833599  ) LIMIT 1   [ RunTime:0.0377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-06-13T15:32:05+08:00 ] 127.0.0.1 /HkReturn/index/datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0003s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2016-06-13T15:32:05+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/datalist.html&openid=aikangs&dataType=dataJson&total=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0009s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.openid = 'aikangs' ORDER BY `created` desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2016-06-13T15:32:05+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0004s ]
+SQL: SELECT `prize`,`number` FROM `w_hkreturn_prize` ORDER BY `id` desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-06-13T15:32:11+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/getLottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php on line 183 and defined /home/songkang/www/wechat/ThinkPHP/Library/Think/Model.class.php 第 1772 行.
+NOTIC: [8] Undefined variable: where /home/songkang/www/wechat/ThinkPHP/Library/Think/Model.class.php 第 1780 行.
+NOTIC: [8] Undefined variable: where /home/songkang/www/wechat/ThinkPHP/Library/Think/Model.class.php 第 1783 行.
+NOTIC: [8] Undefined variable: where /home/songkang/www/wechat/ThinkPHP/Library/Think/Model.class.php 第 1791 行.
+SQL: SELECT * FROM `w_hkreturn_prize` ORDER BY `lid` asc  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2016-06-13T15:32:12+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/savelottery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 77 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_hkreturn_record` WHERE `openid` = 'aikangs' AND ( `created` > 1465747200 AND `created` < 1465833599  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `w_hkreturn_prize` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `w_hkreturn_prize` SET `lid`='6',`angles`='30',`prize`='88',`v`='50',`number`='75' WHERE `id` = 5 [ RunTime:0.1680s ]
+SQL: INSERT INTO `w_hkreturn_record` (`openid`,`username`,`lottery`,`created`) VALUES ('aikangs','kangsng','5','1465803132') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_hkreturn_record` WHERE `openid` = 'aikangs' AND ( `created` > 1465747200 AND `created` < 1465833599  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0003s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.id = '30' AND w_hkreturn_record.openid = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 340 行.
+NOTIC: [2] fopen(Public/Data/logs/Lottery2016-06-13.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 348 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 349 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 350 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-06-13T15:32:17+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/chance/openid/aikangs/subscribe/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_hkreturn_record` WHERE `openid` = 'aikangs' AND ( `created` > 1465747200 AND `created` < 1465833599  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-06-13T15:33:10+08:00 ] 127.0.0.1 /HkReturn/index/datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0003s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000003s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2016-06-13T15:33:11+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/datalist.html&openid=aikangs&dataType=dataJson&total=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0002s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.openid = 'aikangs' ORDER BY `created` desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2016-06-13T15:33:11+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0004s ]
+SQL: SELECT `prize`,`number` FROM `w_hkreturn_prize` ORDER BY `id` desc  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2016-06-13T15:42:06+08:00 ] 127.0.0.1 /HkReturn/index/datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0010s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-06-13T15:42:07+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/datalist.html&openid=aikangs&dataType=dataJson&total=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0008s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.openid = 'aikangs' ORDER BY `created` desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2016-06-13T15:42:07+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0006s ]
+SQL: SELECT `prize`,`number` FROM `w_hkreturn_prize` ORDER BY `id` desc  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-06-13T15:56:59+08:00 ] 127.0.0.1 /HkReturn/index/datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-06-13T15:57:00+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/datalist.html&openid=aikangs&dataType=dataJson&total=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0008s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.openid = 'aikangs' ORDER BY `created` desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2016-06-13T15:57:00+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`prize`,`number` FROM `w_hkreturn_prize` ORDER BY `id` desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-06-13T15:57:20+08:00 ] 127.0.0.1 /HkReturn/index/datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0009s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-06-13T15:57:20+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/datalist.html&openid=aikangs&dataType=dataJson&total=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0003s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.openid = 'aikangs' ORDER BY `created` desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2016-06-13T15:57:20+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`prize`,`number` FROM `w_hkreturn_prize` ORDER BY `id` desc  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-06-13T15:57:27+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/datalist.html&openid=aikangs&dataType=dataJson&total=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0009s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.openid = 'aikangs' ORDER BY `created` desc LIMIT 0,8   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000189s ]
+
+[ 2016-06-13T15:58:02+08:00 ] 127.0.0.1 /HkReturn/index/goodsNumber/access_token/3a4068f9076c960e87f7f7f0272b13f3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0004s ]
+SQL: SELECT `lid`,`number`,`v` FROM `w_hkreturn_prize` ORDER BY `lid` desc  [ RunTime:0.0001s ]
+SQL: UPDATE `w_hkreturn_prize` SET `lid`='6',`number`='38',`v`='50' WHERE `lid` = 6 [ RunTime:0.0232s ]
+SQL: UPDATE `w_hkreturn_prize` SET `lid`='5',`number`='72',`v`='21' WHERE `lid` = 5 [ RunTime:0.0278s ]
+SQL: UPDATE `w_hkreturn_prize` SET `lid`='4',`number`='500',`v`='17' WHERE `lid` = 4 [ RunTime:0.2125s ]
+SQL: UPDATE `w_hkreturn_prize` SET `lid`='3',`number`='5',`v`='2' WHERE `lid` = 3 [ RunTime:0.0216s ]
+SQL: UPDATE `w_hkreturn_prize` SET `lid`='2',`number`='500',`v`='5' WHERE `lid` = 2 [ RunTime:0.0168s ]
+SQL: UPDATE `w_hkreturn_prize` SET `lid`='1',`number`='500',`v`='5' WHERE `lid` = 1 [ RunTime:0.0169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2016-06-13T15:58:11+08:00 ] 127.0.0.1 /HkReturn/index/datalist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000184s ]
+
+[ 2016-06-13T15:58:12+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/datalist.html&openid=aikangs&dataType=dataJson&total=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0011s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.openid = 'aikangs' ORDER BY `created` desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000176s ]
+
+[ 2016-06-13T15:58:12+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_prize` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`prize`,`number` FROM `w_hkreturn_prize` ORDER BY `id` desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-06-13T15:58:16+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/datalist.html&openid=aikangs&dataType=dataJson&total=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 225 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 227 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0010s ]
+SQL: SELECT w_hkreturn_prize.prize,w_hkreturn_record.created FROM `w_hkreturn_record` INNER JOIN w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id  WHERE w_hkreturn_record.openid = 'aikangs' ORDER BY `created` desc LIMIT 0,8   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000184s ]
+
+[ 2016-06-13T15:58:28+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/chance/openid/aikangs/subscribe/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_hkreturn_record` WHERE `openid` = 'aikangs' AND ( `created` > 1465747200 AND `created` < 1465833599  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-06-13T15:58:30+08:00 ] 127.0.0.1 /HkReturn/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `w_wechat_user` SET `openid`='aikangs',`nickname`='kangsng',`subscribe`='1',`is_lottery`='0',`created`='1465269024' WHERE `id` = 1 [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0010s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2016-06-13T15:58:30+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/chance/openid/aikangs/subscribe/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_hkreturn_record` WHERE `openid` = 'aikangs' AND ( `created` > 1465747200 AND `created` < 1465833599  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-06-13T15:58:31+08:00 ] 127.0.0.1 /HkReturn/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: code /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 18 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 11 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 47 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [8] Undefined property: stdClass::$access_token /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 49 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [8] Undefined property: stdClass::$openid /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 20 行.
+NOTIC: [2048] Non-static method Home\Common\Common::setrep() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 54 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessTokens() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 65 行.
+NOTIC: [2048] Non-static method Home\Common\Common::saveAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 58 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: Permission denied /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 107 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 108 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 109 行.
+NOTIC: [2048] Non-static method Home\Common\Common::getAccessToken() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 67 行.
+NOTIC: [2] fopen(Public/Data/token/token.txt): failed to open stream: No such file or directory /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 114 行.
+NOTIC: [2] fgets() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/Home/Common/Common.class.php 第 115 行.
+NOTIC: [2048] Non-static method Home\Common\Common::PData() should not be called statically, assuming $this from incompatible context /home/songkang/www/wechat/App/Home/Controller/Oauth2Controller.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `w_wechat_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `w_wechat_user` WHERE `openid` = 'aikangs' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `w_wechat_user` SET `openid`='aikangs',`nickname`='kangsng',`subscribe`='1',`is_lottery`='0',`created`='1465269024' WHERE `id` = 1 [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `w_option` [ RunTime:0.0007s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_name' AND type='public' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] fopen(access_token.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 90 行.
+NOTIC: [2] fopen(jsapi_ticket.json): failed to open stream: Permission denied /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /home/songkang/www/wechat/App/JSSDK/Controller/IndexController.class.php 第 67 行.
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `meta_value` FROM `w_option` WHERE ( meta_key='site_url' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-06-13T15:58:31+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/chance/openid/aikangs/subscribe/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_hkreturn_record` WHERE `openid` = 'aikangs' AND ( `created` > 1465747200 AND `created` < 1465833599  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-06-13T16:00:09+08:00 ] 127.0.0.1 /index.php?s=/HkReturn/index/chance/openid/aikangs/subscribe/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [2] include_once(App/Home/pay/WxHongBaoHelper.php): failed to open stream: No such file or directory /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening 'App/Home/pay/WxHongBaoHelper.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') /home/songkang/www/wechat/App/HkReturn/Controller/IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `w_hkreturn_record` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_hkreturn_record` WHERE `openid` = 'aikangs' AND ( `created` > 1465747200 AND `created` < 1465833599  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+

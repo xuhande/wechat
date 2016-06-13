@@ -152,8 +152,8 @@ class IndexController extends Controller {
             //概率数组的总概率精度   
             $proSum = array_sum($proArr);
             //概率数组循环   
-            foreach ($proArr as $key => $proCur) { 
-                $randNum = mt_rand(1, $proSum); 
+            foreach ($proArr as $key => $proCur) {
+                $randNum = mt_rand(1, $proSum);
                 if ($randNum <= $proCur) {
                     $result = $key;
                     break;
@@ -180,7 +180,7 @@ class IndexController extends Controller {
          * [0,337,"未中奖"],[1,26,"免单4999元"],[2,88,"免单50元"],[3,137,"免单10元"],[4,185,"免单5元"],[5,235,"免分期服务费"]
          */
         //通过数据库获取中奖项 array("number"=>array("egt","1"))
-        $prize_arr = M("hkreturn_prize")->where()->order(array("lid"=>"asc"))->select();
+        $prize_arr = M("hkreturn_prize")->where()->order(array("lid" => "asc"))->select();
 //        $prize_arr = M("lottery_prize")->where(array("number"=>array("egt","1")))->select();
 //        $prize_arr = array(
 //            '0' => array('id' => 1, "angles" => 337, 'prize' => '80元代金券', 'v' => 5),
@@ -200,8 +200,8 @@ class IndexController extends Controller {
          */
         $arr = array();
         foreach ($prize_arr as $key => $val) {
-            if ($val['number'] != 0) { 
-                $arr[$val['lid']] = $val['v']; 
+            if ($val['number'] != 0) {
+                $arr[$val['lid']] = $val['v'];
             }
         }
         $rid = get_rand($arr); //根据概率获取奖项id   
@@ -259,7 +259,18 @@ class IndexController extends Controller {
     }
 
     public function goods() {
-        $lottery_prize = M("hkreturn_prize")->field("prize,number")->order(array("id" => "desc"))->select();
+        $lottery_prize = M("hkreturn_prize")->field("id,prize,number")->order(array("id" => "desc"))->select();
+        foreach ($lottery_prize as &$val) {
+            if ($val["id"] == 3) {
+                $val['number'] = "......";
+            } else if ($val["id"] == 2) {
+                $val['number'] = "......";
+            } else if ($val["id"] == 1) {
+                $val['number'] = "......";
+            } else {
+                $val['number'] = "剩余".$val['number']."支";
+            }
+        }
         echo json_encode($lottery_prize);
     }
 
@@ -276,15 +287,15 @@ class IndexController extends Controller {
                     $map["lid"] = $v["lid"];
                     switch ($v["lid"]) {
                         case 6:
-                            $v['number'] = 80;
+                            $v['number'] = 38;
                             $v["v"] = 50;
                             break;
                         case 5:
-                            $v['number'] = 80;
+                            $v['number'] = 72;
                             $v["v"] = 21;
                             break;
                         case 4:
-                            $v['number'] = 80;
+                            $v['number'] = 500;
                             $v["v"] = 17;
                             break;
                         case 3:
@@ -292,11 +303,11 @@ class IndexController extends Controller {
                             $v["v"] = 2;
                             break;
                         case 2:
-                            $v['number'] = 80;
+                            $v['number'] = 500;
                             $v["v"] = 5;
                             break;
                         case 1:
-                            $v['number'] = 80;
+                            $v['number'] = 500;
                             $v["v"] = 5;
                             break;
                     }
