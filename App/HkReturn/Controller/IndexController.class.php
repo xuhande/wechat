@@ -332,8 +332,7 @@ class IndexController extends Controller {
            "url":"", 
            "data":{
                    "first": {
-                       "value":"请用中奖金额购买维菲有机葡萄酒！\n
-                                幸运号:'.$order_no.'",
+                       "value":"幸运号:'.$order_no.'",
                        "color":"#000000"
                    },
                    "keyword1":{
@@ -345,7 +344,7 @@ class IndexController extends Controller {
                        "color":"#000000"
                    },  
                    "remark":{
-                       "value":"请联系客服人员咨询，感谢你的参与!",
+                       "value":"请用中奖金额购买维菲有机葡萄酒！\n请联系客服人员咨询，感谢你的参与!",
                        "color":"#000000"
                    }
            }
