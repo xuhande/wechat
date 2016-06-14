@@ -29,15 +29,15 @@ class IndexController extends Controller {
         $where['openid'] = $_SESSION['openid'];
         $user = M("wechat_user")->where($where)->find();
         if ($user['id'] == "" && $userinfo->openid != "") {
-//            $pullUserInfo = json_decode($oauth2->pullUserInfo($openid->openid));
             $u['openid'] = $userinfo->openid;
-            $u['nickname'] = $pullUserInfo->nickname;
+            $u['nickname'] = $userinfo->nickname;
             $u['subscribe'] = $userinfo->subscribe;
             $u['is_lottery'] = 0;
             $u['created'] = time();
             M("wechat_user")->data($u)->add();
         } else {
             if (!empty($userinfo->openid)) {
+                $user['nickname'] = $userinfo->nickname;
                 $user['subscribe'] = $userinfo->subscribe;
                 M("wechat_user")->data($user)->save();
             }
