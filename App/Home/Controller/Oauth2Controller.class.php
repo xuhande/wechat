@@ -64,4 +64,11 @@ class Oauth2Controller extends Controller {
         return $value;
     }
 
+    public function pullUserInfo($openid) {
+        $tokens = \Home\Common\Common::setrep();
+        $url = "https://api.weixin.qq.com/sns/userinfo?access_token=" . $tokens . "&openid=" . $openid . "&lang=zh_CN ";
+        $value = \Home\Common\Common::PData($url);
+        return $value;
+    }
+
 }

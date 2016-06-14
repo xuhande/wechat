@@ -14,10 +14,8 @@ class IndexController extends Controller {
      * 
      */
     public function index() {
-        $oauth2 = new \Home\Controller\Oauth2Controller();
-        $data = $oauth2->getOpenId($_GET['code']);
-        $openid = json_decode($data);
-        $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
+        $userinfo = $this->pullUserInfo();
+        print_r($userinfo);
         ///////////测试信息////////////
         $userinfo->openid = "aikangs";
         $userinfo->subscribe = true;
@@ -45,6 +43,16 @@ class IndexController extends Controller {
         $this->user = $user;
 
         $this->theme("default")->display("HkReturn/index_2016");
+    }
+
+    private function pullUserInfo() {
+        $oauth2 = new \Home\Controller\Oauth2Controller();
+        $data = $oauth2->getOpenId($_GET['code']);
+        $openid = json_decode($data);
+        $userinfo = json_decode($oauth2->getUserInfo($openid->openid));
+        $pullUserInfo = json_decode($oauth2->pullUserInfo($openid->openid));
+        $userinfo['nickname'] = $pullUserInfo->nickname;
+        return $userinfo;
     }
 
     /**
@@ -268,7 +276,7 @@ class IndexController extends Controller {
             } else if ($val["id"] == 1) {
                 $val['number'] = "......";
             } else {
-                $val['number'] = "剩余".$val['number']."支";
+                $val['number'] = "剩余" . $val['number'] . "支";
             }
         }
         echo json_encode($lottery_prize);
