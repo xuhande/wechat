@@ -61,10 +61,10 @@ class Common {
     public function setrep() {
         $time = time();
         //	$maxtime = $this->getexpires_in ();
-        if (!isset($_SESSION['maxtimes']) || (isset($_SESSION['maxtimes']) && $_SESSION['maxtimes'] <= $time)) {            
+        if (!isset($_SESSION['maxtimes']) || (isset($_SESSION['maxtimes']) && $_SESSION['maxtimes'] <= $time)) {
             Common::getAccessTokens();
         }
-         return Common::getAccessToken();
+        return Common::getAccessToken();
     }
 
     public function PData($url, $data = null) { // get and post模拟提交数据函数 
@@ -89,7 +89,7 @@ class Common {
     public function savescaninfo($data) {
 
         $count = M('scaninfo')->where(array("openid" => $data['openid']))->select(); // 查询满足要求的总记录数 $map表示查询条件
-        
+
         if ($count[0]['openid'] == "") {
             M('scaninfo')->data($data)->add();
             return $content = "请凭此信息领取礼品";
@@ -114,6 +114,14 @@ class Common {
         $k = fopen($filename, "r");
         $d = fgets($k, 10000);
         return $d;
+    }
+
+    /*
+     * generate order number
+     */
+
+    function build_order_no() {
+        return date('Ymd') . substr(implode(NULL, array_map('ord', str_split(substr(uniqid(), 7, 13), 1))), 0, 8);
     }
 
 }

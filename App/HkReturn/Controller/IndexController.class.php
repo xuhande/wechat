@@ -107,18 +107,20 @@ class IndexController extends Controller {
             }
             $res = M("hkreturn_prize")->data($lottery_prize)->save();
             if ($res) {
+                $order_no = \Home\Common\Common::build_order_no();
+                $map['order_no'] = $order_no;
                 $map['openid'] = $openid;
                 $map['username'] = $nickname;
                 $map['lottery'] = $lottery_id;
-                $map['created'] = time();
-                $r = M("hkreturn_record")->data($map)->add();
+                $map['created'] = time();  
+                $r = M("hkreturn_record")->data($map)->add(); 
                 if ($r) {
                     $record_count = M("hkreturn_record")->where($mapt)->count();
                     $goods = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.id' => $r, 'w_hkreturn_record.openid' => $openid
-                            ))->field("w_hkreturn_prize.prize,w_hkreturn_record.created")->find();
+                            ))->field("w_hkreturn_record.order_no,w_hkreturn_prize.prize,w_hkreturn_record.created")->find();
                     $prize = urldecode($goods['prize']) . '元';
                     $created = date("Y-m-d H:i", $goods['created']);
-                    $this->sendMessage($tokens, $openid, $prize, $created);
+                    $this->sendMessage($tokens, $openid, $goods['order_no'], $prize, $created);
                     $chance = 3 - $record_count;
                     echo json_encode(array("code" => "200", "chance" => $chance));
                 } else {
@@ -323,14 +325,15 @@ class IndexController extends Controller {
         }
     }
 
-    private function sendMessage($access_token, $openId, $amount, $time) {//发送信息通知到指定人员         
+    private function sendMessage($access_token, $openId, $order_no, $amount, $time) {//发送信息通知到指定人员         
         $xjson = '      {
            "touser":"' . $openId . '",
            "template_id":"ZmbZpfSnKvDofxTs_dbDeETA5x7CBWWS7wPRsrC1AJQ", 
            "url":"", 
            "data":{
                    "first": {
-                       "value":"请用中奖金额购买维菲有机葡萄酒！",
+                       "value":"请用中奖金额购买维菲有机葡萄酒！\n
+                                幸运号:'.$order_no.'",
                        "color":"#000000"
                    },
                    "keyword1":{

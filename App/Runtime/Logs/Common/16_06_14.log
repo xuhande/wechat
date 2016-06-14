@@ -1,0 +1,12 @@
+[ 2016-06-14T11:10:40+08:00 ] 127.0.0.1 /Theme/default/js/jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+ERR: 无法加载模块:Theme
+
+[ 2016-06-14T11:12:59+08:00 ] 127.0.0.1 /Theme/default/js/jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载模块:Theme
+
