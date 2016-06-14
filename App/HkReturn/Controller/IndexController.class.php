@@ -112,8 +112,8 @@ class IndexController extends Controller {
                 $map['openid'] = $openid;
                 $map['username'] = $nickname;
                 $map['lottery'] = $lottery_id;
-                $map['created'] = time();  
-                $r = M("hkreturn_record")->data($map)->add(); 
+                $map['created'] = time();
+                $r = M("hkreturn_record")->data($map)->add();
                 if ($r) {
                     $record_count = M("hkreturn_record")->where($mapt)->count();
                     $goods = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.id' => $r, 'w_hkreturn_record.openid' => $openid
@@ -256,7 +256,8 @@ class IndexController extends Controller {
             }
             echo json_encode($list);
         } else {
-            $this->user = $user;
+            $data = M("wechat_user")->where(array("openid"=>$where['openid']))->find();
+            $this->user = $data;
             $this->theme("default")->display("HkReturn/lists");
         }
     }
@@ -332,7 +333,7 @@ class IndexController extends Controller {
            "url":"", 
            "data":{
                    "first": {
-                       "value":"幸运号:'.$order_no.'",
+                       "value":"幸运号:' . $order_no . '",
                        "color":"#000000"
                    },
                    "keyword1":{
