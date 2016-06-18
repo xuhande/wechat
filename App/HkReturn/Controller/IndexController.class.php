@@ -74,64 +74,69 @@ class IndexController extends Controller {
         $subscribe = I('param.subscribe');
         $openid = I("param.openid"); //openid 
         $nickname = I("param.nickname"); //username
-        $lottery_id = I("param.lottery"); //中奖信息
-        $tokens = \Home\Common\Common::setrep();
-        //查询是否已经抽过了   
-        $now = time();
-        $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
-        $endTime = strtotime(date('Y-m-d 23:59:59', $now));
-        $mapt['openid'] = $openid;
-        $mapt['created'] = array(array('gt', $beginTime), array('lt', $endTime));
+        $lottery_id = I("param.lottery"); //中奖信息 
+        $stat = strtotime(date("2016/06/19 00:00:00"));
+        if (time() > $stat) {
+            $tokens = \Home\Common\Common::setrep();
+            //查询是否已经抽过了   
+            $now = time();
+            $beginTime = strtotime(date('Y-m-d 00:00:00', $now));
+            $endTime = strtotime(date('Y-m-d 23:59:59', $now));
+            $mapt['openid'] = $openid;
+            $mapt['created'] = array(array('gt', $beginTime), array('lt', $endTime));
 
-        $where['openid'] = $openid;
-        $user = M("wechat_user")->where($where)->find();
-        if ($openid == "" || $nickname == "" || $lottery_id == "") {
-            echo json_encode(array("code" => "500"));
-            die;
-        }
-        if (!$user['subscribe']) { //没有关注 
-            echo json_encode(array("code" => "303"));
-            die;
-        }
-        $record_count = M("hkreturn_record")->where($mapt)->count();
-        if ($record_count >= 3) {
-            echo json_encode(array("code" => "205"));
-            die;
-        }
-        //将奖品数量减去1
-        $lottery_prize = M("hkreturn_prize")->where(array("id" => $lottery_id))->find();
-        if ($lottery_prize['id'] != "") {
-            $lottery_prize['number'] = $lottery_prize['number'] - 1;
-            if ($lottery_prize['number'] <= 0) {
-                $lottery_prize['v'] = 0;
+            $where['openid'] = $openid;
+            $user = M("wechat_user")->where($where)->find();
+            if ($openid == "" || $nickname == "" || $lottery_id == "") {
+                echo json_encode(array("code" => "500"));
+                die;
             }
-            $res = M("hkreturn_prize")->data($lottery_prize)->save();
-            if ($res) {
-                $order_no = \Home\Common\Common::build_order_no();
-                $map['order_no'] = $order_no;
-                $map['openid'] = $openid;
-                $map['username'] = $nickname;
-                $map['lottery'] = $lottery_id;
-                $map['created'] = time();
-                $r = M("hkreturn_record")->data($map)->add();
-                if ($r) {
-                    $record_count = M("hkreturn_record")->where($mapt)->count();
-                    $goods = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.id' => $r, 'w_hkreturn_record.openid' => $openid
-                            ))->field("w_hkreturn_record.order_no,w_hkreturn_prize.prize,w_hkreturn_record.created")->find();
-                    $prize = urldecode($goods['prize']) . '元';
-                    $created = date("Y-m-d H:i", $goods['created']);
-                    $this->sendMessage($tokens, $openid, $goods['order_no'], $prize, $created);
-                    $chance = 3 - $record_count;
-                    echo json_encode(array("code" => "200", "chance" => $chance));
+            if (!$user['subscribe']) { //没有关注 
+                echo json_encode(array("code" => "303"));
+                die;
+            }
+            $record_count = M("hkreturn_record")->where($mapt)->count();
+            if ($record_count >= 3) {
+                echo json_encode(array("code" => "205"));
+                die;
+            }
+            //将奖品数量减去1
+            $lottery_prize = M("hkreturn_prize")->where(array("id" => $lottery_id))->find();
+            if ($lottery_prize['id'] != "") {
+                $lottery_prize['number'] = $lottery_prize['number'] - 1;
+                if ($lottery_prize['number'] <= 0) {
+                    $lottery_prize['v'] = 0;
+                }
+                $res = M("hkreturn_prize")->data($lottery_prize)->save();
+                if ($res) {
+                    $order_no = \Home\Common\Common::build_order_no();
+                    $map['order_no'] = $order_no;
+                    $map['openid'] = $openid;
+                    $map['username'] = $nickname;
+                    $map['lottery'] = $lottery_id;
+                    $map['created'] = time();
+                    $r = M("hkreturn_record")->data($map)->add();
+                    if ($r) {
+                        $record_count = M("hkreturn_record")->where($mapt)->count();
+                        $goods = M("hkreturn_record")->table('w_hkreturn_record')->join('w_hkreturn_prize on w_hkreturn_record.lottery = w_hkreturn_prize.id')->where(array('w_hkreturn_record.id' => $r, 'w_hkreturn_record.openid' => $openid
+                                ))->field("w_hkreturn_record.order_no,w_hkreturn_prize.prize,w_hkreturn_record.created")->find();
+                        $prize = urldecode($goods['prize']) . '元';
+                        $created = date("Y-m-d H:i", $goods['created']);
+                        $this->sendMessage($tokens, $openid, $goods['order_no'], $prize, $created);
+                        $chance = 3 - $record_count;
+                        echo json_encode(array("code" => "200", "chance" => $chance));
+                    } else {
+                        M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
+                        echo json_encode(array("code" => "203"));
+                    }
                 } else {
-                    M("hkreturn_record")->where(array("id" => $lottery_id))->setInc('number');
                     echo json_encode(array("code" => "203"));
                 }
             } else {
                 echo json_encode(array("code" => "203"));
             }
-        } else {
-            echo json_encode(array("code" => "203"));
+        }else{
+             echo json_encode(array("code" => "505"));
         }
     }
 
@@ -256,7 +261,7 @@ class IndexController extends Controller {
             }
             echo json_encode($list);
         } else {
-            $data = M("wechat_user")->where(array("openid"=>$where['openid']))->find();
+            $data = M("wechat_user")->where(array("openid" => $where['openid']))->find();
             $this->user = $data;
             $this->theme("default")->display("HkReturn/lists");
         }

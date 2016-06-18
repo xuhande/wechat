@@ -322,6 +322,9 @@
                 } else if (obj.code == "206") {
                     $('#myModal').modal('show');
                     $(".modal-body-alert").html("本次活动已结束,谢谢您的参与!");
+                } else if (obj.code == "505") {
+                    $('#myModal').modal('show');
+                    $(".modal-body-alert").html("活动时间：<span style='color:#e38d13'>2016-06-19至2016-07-03</span>");
                 }
 
             },
